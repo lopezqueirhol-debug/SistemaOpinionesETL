@@ -75,7 +75,7 @@ public sealed class FieldValidator
 
         if (value.Length > maxLength)
             throw new RowValidationException(RejectionReason.Formato,
-                $"'{field}' excede el máximo de {maxLength} caracteres (tiene {value.Length}).");
+                $"'{field}' excede el maximo de {maxLength} caracteres (tiene {value.Length}).");
 
         return value;
     }
@@ -86,7 +86,7 @@ public sealed class FieldValidator
 
         if (!EmailRegex.IsMatch(value))
             throw new RowValidationException(RejectionReason.Formato,
-                $"'{field}': el correo '{value}' no tiene un formato válido.");
+                $"'{field}': el correo '{value}' no tiene un formato valido.");
 
         return value;
     }
@@ -120,7 +120,7 @@ public sealed class FieldValidator
         else
         {
             throw new RowValidationException(RejectionReason.Formato,
-                $"'{field}': formato de identificador inválido '{value}' (se esperaba {upperPrefix}### o un número).");
+                $"'{field}': formato de identificador inválido '{value}' (se esperaba {upperPrefix}### o un numero).");
         }
 
         digits = digits.TrimStart('0');
@@ -155,7 +155,7 @@ public sealed class FieldValidator
 
         if (!int.TryParse(value, NumberStyles.Integer, CultureInfo.InvariantCulture, out var number))
             throw new RowValidationException(RejectionReason.TipoDato,
-                $"'{field}': se esperaba un número entero y se recibió '{value}'.");
+                $"'{field}': se esperaba un numero entero y se recibio '{value}'.");
 
         return number;
     }
@@ -165,7 +165,7 @@ public sealed class FieldValidator
         var number = Integer(raw, field);
         if (number <= 0)
             throw new RowValidationException(RejectionReason.ReglaNegocio,
-                $"'{field}': debe ser un entero positivo (se recibió {number}).");
+                $"'{field}': debe ser un entero positivo (se recibio {number}).");
 
         return number;
     }
@@ -175,7 +175,7 @@ public sealed class FieldValidator
         var number = Integer(raw, field);
         if (number < min || number > max)
             throw new RowValidationException(RejectionReason.ReglaNegocio,
-                $"'{field}': el valor {number} está fuera del rango permitido ({min}-{max}).");
+                $"'{field}': el valor {number} esta fuera del rango permitido ({min}-{max}).");
 
         return number;
     }
@@ -193,14 +193,14 @@ public sealed class FieldValidator
                                     DateTimeStyles.None, out var parsed))
         {
             throw new RowValidationException(RejectionReason.Formato,
-                $"'{field}': la fecha '{value}' no tiene un formato válido (se esperaba yyyy-MM-dd).");
+                $"'{field}': la fecha '{value}' no tiene un formato valido (se esperaba yyyy-MM-dd).");
         }
 
         var date = DateOnly.FromDateTime(parsed);
 
         if (date < _minDate)
             throw new RowValidationException(RejectionReason.ReglaNegocio,
-                $"'{field}': la fecha {date:yyyy-MM-dd} es anterior al mínimo permitido ({_minDate:yyyy-MM-dd}).");
+                $"'{field}': la fecha {date:yyyy-MM-dd} es anterior al minimo permitido ({_minDate:yyyy-MM-dd}).");
 
         if (_rejectFutureDates && date > DateOnly.FromDateTime(DateTime.Today))
             throw new RowValidationException(RejectionReason.ReglaNegocio,
@@ -221,7 +221,7 @@ public sealed class FieldValidator
 
         if (!Classifications.TryGetValue(TextNormalizer.NormalizeKey(value), out var canonical))
             throw new RowValidationException(RejectionReason.ReglaNegocio,
-                $"'{field}': el valor '{value}' no es válido (use Positiva, Neutra o Negativa).");
+                $"'{field}': el valor '{value}' no es valido (use Positiva, Neutra o Negativa).");
 
         return canonical;
     }
@@ -238,6 +238,6 @@ public sealed class FieldValidator
 
         if (!string.Equals(classification, expected, StringComparison.Ordinal))
             throw new RowValidationException(RejectionReason.ReglaNegocio,
-                $"La clasificación '{classification}' es incoherente con el puntaje {score} (corresponde '{expected}').");
+                $"La clasificacion '{classification}' es incoherente con el puntaje {score} (corresponde '{expected}').");
     }
 }
