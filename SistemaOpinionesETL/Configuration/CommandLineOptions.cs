@@ -9,7 +9,7 @@ public sealed class CommandLineOptions
     /// <summary>--limpiar-todo: vacia tambien LogCarga y RegistroRechazado.</summary>
     public bool ClearAll { get; private set; }
 
-    /// <summary>--ruta &lt;carpeta&gt;: carpeta con los CSV (reemplaza a Etl:CsvDirectory).</summary>
+    /// <summary>--carpeta con los CSV (reemplaza a Etl:CsvDirectory).</summary>
     public string? CsvDirectory { get; private set; }
 
     /// <summary>--sin-pausa: no espera una tecla al terminar.</summary>
@@ -41,11 +41,11 @@ public sealed class CommandLineOptions
                     break;
                 case "--ruta":
                     if (i + 1 >= args.Length)
-                        throw new ArgumentException("La opción --ruta requiere una carpeta.");
+                        throw new ArgumentException("La opcion --ruta requiere una carpeta.");
                     options.CsvDirectory = args[++i];
                     break;
                 default:
-                    throw new ArgumentException($"Opción desconocida: '{args[i]}'.");
+                    throw new ArgumentException($"Opcion desconocida: '{args[i]}'.");
             }
         }
 
@@ -56,8 +56,8 @@ public sealed class CommandLineOptions
     {
         Console.WriteLine("Uso: SistemaOpiniones.Etl [opciones]");
         Console.WriteLine();
-        Console.WriteLine("  --limpiar        Vacía las tablas de datos antes de cargar (conserva el historial de cargas).");
-        Console.WriteLine("  --limpiar-todo   Vacía también LogCarga y RegistroRechazado.");
+        Console.WriteLine("  --limpiar        Vacia las tablas de datos antes de cargar (conserva el historial de cargas).");
+        Console.WriteLine("  --limpiar-todo   Vacia también LogCarga y RegistroRechazado.");
         Console.WriteLine("  --ruta <carpeta> Carpeta con los CSV (por defecto: Etl:CsvDirectory de appsettings.json).");
         Console.WriteLine("  --sin-pausa      No espera una tecla al finalizar.");
         Console.WriteLine("  --ayuda          Muestra esta ayuda.");
