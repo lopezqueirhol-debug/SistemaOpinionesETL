@@ -173,7 +173,7 @@ public static class LoaderCatalog
         $"{idCliente}|{idProducto}|{fecha:yyyy-MM-dd}|{comentario}";
 
     private static string RequireFuente(string? idFuente) =>
-        idFuente ?? throw new EtlException("No se resolvió el IdFuente para el archivo.");
+        idFuente ?? throw new EtlException("No se resolvio el IdFuente para el archivo.");
 
     private static string RequireTipoFuente(EtlOptions options, string fileName)
     {
