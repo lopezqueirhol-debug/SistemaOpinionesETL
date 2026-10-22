@@ -30,19 +30,16 @@ public sealed class FileLoadResult
 
     /// <summary>IdFuente resuelto para el archivo (solo tablas transaccionales).</summary>
     public string? IdFuente { get; set; }
-
     public int Procesados { get; set; }
     public int Insertados { get; set; }
     public int Rechazados { get; set; }
-
     public LoadStatus Status { get; set; } = LoadStatus.Error;
     public string? ErrorMessage { get; set; }
     public string? LogWarning { get; set; }
     public TimeSpan Duration { get; set; }
-
     public Dictionary<RejectionReason, int> RejectionsByReason { get; } = new();
     public List<RejectedRow> Rejections { get; } = new();
-
+    
     public void Fail(string message)
     {
         Status = LoadStatus.Error;
@@ -56,20 +53,16 @@ public sealed class EtlRunResult
     public Guid RunId { get; init; }
     public DateTime StartedAt { get; init; }
     public DateTime FinishedAt { get; set; }
-
     public List<FileLoadResult> Files { get; } = new();
     public Dictionary<string, long> TableCounts { get; set; } = new();
 
     /// <summary>Archivos que no se ejecutaron porque el proceso se detuvo antes.</summary>
     public List<string> SkippedFiles { get; } = new();
-
     public bool Aborted { get; set; }
     public string? AbortReason { get; set; }
     public string? RejectedCsvPath { get; set; }
-
     public int TotalProcesados => Files.Sum(f => f.Procesados);
     public int TotalInsertados => Files.Sum(f => f.Insertados);
     public int TotalRechazados => Files.Sum(f => f.Rechazados);
-
     public bool HasErrors => Aborted || Files.Any(f => f.Status == LoadStatus.Error);
 }
