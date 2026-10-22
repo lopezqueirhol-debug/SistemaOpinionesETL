@@ -105,7 +105,7 @@ public sealed class CsvTable : IDisposable
             parser = new CsvParser(reader, config);
 
             if (!parser.Read() || parser.Record is null)
-                throw new CsvStructureException($"El archivo '{fileName}' está vacío.");
+                throw new CsvStructureException($"El archivo '{fileName}' esta vacio.");
 
             var headers = parser.Record.Select(h => h.Trim()).ToList();
             var index = new Dictionary<string, int>();
@@ -127,7 +127,7 @@ public sealed class CsvTable : IDisposable
 
             if (missing.Count > 0)
                 throw new CsvStructureException(
-                    $"Estructura inválida en '{fileName}': faltan las columnas [{string.Join(", ", missing)}]. " +
+                    $"Estructura invalida en '{fileName}': faltan las columnas [{string.Join(", ", missing)}]. " +
                     $"Encabezado encontrado: [{string.Join(", ", headers)}].");
 
             var expectedKeys = expected.Select(TextNormalizer.NormalizeKey).ToHashSet();
