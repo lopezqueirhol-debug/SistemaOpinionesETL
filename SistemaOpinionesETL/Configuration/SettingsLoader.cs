@@ -29,11 +29,11 @@ public static class SettingsLoader
         {
             var json = File.ReadAllText(path);
             root = JsonSerializer.Deserialize<RootSettings>(json, JsonOptions)
-                   ?? throw new ConfigurationException($"El archivo '{path}' está vacío.");
+                   ?? throw new ConfigurationException($"El archivo '{path}' esta vacío.");
         }
         catch (JsonException ex)
         {
-            throw new ConfigurationException($"El archivo '{path}' no es un JSON válido: {ex.Message}", ex);
+            throw new ConfigurationException($"El archivo '{path}' no es un JSON valido: {ex.Message}", ex);
         }
 
         var connectionString = Environment.GetEnvironmentVariable(ConnectionEnvVar);
@@ -45,7 +45,7 @@ public static class SettingsLoader
         if (string.IsNullOrWhiteSpace(connectionString))
         {
             throw new ConfigurationException(
-                $"No hay cadena de conexión. Defina ConnectionStrings:{ConnectionName} en {SettingsFileName} " +
+                $"No hay cadena de conexion. Defina ConnectionStrings:{ConnectionName} en {SettingsFileName} " +
                 $"o la variable de entorno {ConnectionEnvVar}.");
         }
 
@@ -85,6 +85,6 @@ public static class SettingsLoader
         }
 
         throw new ConfigurationException(
-            $"No se encontró {SettingsFileName}. Se buscó en: {string.Join(" | ", candidates)}");
+            $"No se encontro {SettingsFileName}. Se busco en: {string.Join(" | ", candidates)}");
     }
 }
