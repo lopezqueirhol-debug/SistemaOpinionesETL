@@ -1,6 +1,5 @@
 -- =====================================================================
 --  SISTEMA DE ANALISIS DE OPINIONES DE CLIENTES
---  Script de base de datos  |  Motor: MySQL 8.4.x (probado para 8.4.11)
 --
 --  Contenido:
 --    1. Creacion de la base de datos
@@ -11,12 +10,6 @@
 --    6. Claves foraneas, reglas de dominio e indices
 --    7. Procedimientos almacenados
 --    8. Vistas
---
---  IMPORTANTE:
---    * Ejecutar con el cliente "mysql" o MySQL Workbench (usa DELIMITER).
---    * Es re-ejecutable: elimina y vuelve a crear todos los objetos.
---      ATENCION: borra los datos existentes de la base SistemaOpiniones.
---    * Los CHECK se aplican de forma efectiva desde MySQL 8.0.16.
 -- =====================================================================
 
 
@@ -29,7 +22,7 @@ CREATE DATABASE IF NOT EXISTS SistemaOpiniones
     CHARACTER SET utf8mb4
     COLLATE utf8mb4_unicode_ci;
 
--- Si la base ya existia con otra collation, CREATE ... IF NOT EXISTS no la cambia.
+-- Si la base ya existia con otra collation
 -- Este ALTER la fuerza para que todas las tablas hereden utf8mb4_unicode_ci.
 ALTER DATABASE SistemaOpiniones
     CHARACTER SET utf8mb4
@@ -77,7 +70,7 @@ DROP TABLE IF EXISTS Cliente;
 -- 3. TABLAS MAESTRAS
 -- =====================================================================
 
--- Cliente <- clients.csv  (el ETL transforma 1 -> 'C001')
+-- Cliente <- clients.csv
 CREATE TABLE Cliente (
     IdCliente  VARCHAR(10)  NOT NULL,
     Nombre     VARCHAR(100) NOT NULL,
@@ -85,7 +78,7 @@ CREATE TABLE Cliente (
     PRIMARY KEY (IdCliente)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Producto <- products.csv  (el ETL transforma 1 -> 'P001')
+-- Producto <- products.csv
 CREATE TABLE Producto (
     IdProducto VARCHAR(10)  NOT NULL,
     Nombre     VARCHAR(100) NOT NULL,
