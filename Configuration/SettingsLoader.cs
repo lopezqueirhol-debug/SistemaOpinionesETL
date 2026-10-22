@@ -29,7 +29,7 @@ public static class SettingsLoader
         {
             var json = File.ReadAllText(path);
             root = JsonSerializer.Deserialize<RootSettings>(json, JsonOptions)
-                   ?? throw new ConfigurationException($"El archivo '{path}' esta vacío.");
+                   ?? throw new ConfigurationException($"El archivo '{path}' esta vacio.");
         }
         catch (JsonException ex)
         {

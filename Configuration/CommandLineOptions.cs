@@ -57,7 +57,7 @@ public sealed class CommandLineOptions
         Console.WriteLine("Uso: SistemaOpiniones.Etl [opciones]");
         Console.WriteLine();
         Console.WriteLine("  --limpiar        Vacia las tablas de datos antes de cargar (conserva el historial de cargas).");
-        Console.WriteLine("  --limpiar-todo   Vacia también LogCarga y RegistroRechazado.");
+        Console.WriteLine("  --limpiar-todo   Vacia tambien LogCarga y RegistroRechazado.");
         Console.WriteLine("  --ruta <carpeta> Carpeta con los CSV (por defecto: Etl:CsvDirectory de appsettings.json).");
         Console.WriteLine("  --sin-pausa      No espera una tecla al finalizar.");
         Console.WriteLine("  --ayuda          Muestra esta ayuda.");
