@@ -41,15 +41,13 @@ public sealed class FieldValidator
                                     DateTimeStyles.None, out _minDate))
         {
             throw new ConfigurationException(
-                $"Etl:MinDate inválida ('{options.MinDate}'). Use el formato yyyy-MM-dd.");
+                $"Etl:MinDate invalida ('{options.MinDate}'). Use el formato yyyy-MM-dd.");
         }
 
         _rejectFutureDates = options.RejectFutureDates;
     }
 
-    // ------------------------------------------------------------------
     // Limpieza
-    // ------------------------------------------------------------------
 
     /// <summary>Quita espacios al inicio/fin y colapsa espacios internos repetidos.</summary>
     public static string CleanText(string? raw)
@@ -62,11 +60,9 @@ public sealed class FieldValidator
         cleanValue.Length == 0 || MissingTokens.Contains(cleanValue);
 
     private static RowValidationException Missing(string field) =>
-        new(RejectionReason.CampoObligatorio, $"El campo '{field}' es obligatorio y viene vacío.");
+        new(RejectionReason.CampoObligatorio, $"El campo '{field}' es obligatorio y viene vacio.");
 
-    // ------------------------------------------------------------------
     // Texto
-    // ------------------------------------------------------------------
 
     public string RequiredText(string? raw, string field, int maxLength)
     {
@@ -91,9 +87,7 @@ public sealed class FieldValidator
         return value;
     }
 
-    // ------------------------------------------------------------------
     // Identificadores (transformacion a formato de la base de datos)
-    // ------------------------------------------------------------------
 
     /// <summary>
     /// Normaliza un identificador al formato de la base de datos: prefijo + digitos con ceros a la izquierda.
@@ -120,7 +114,7 @@ public sealed class FieldValidator
         else
         {
             throw new RowValidationException(RejectionReason.Formato,
-                $"'{field}': formato de identificador inválido '{value}' (se esperaba {upperPrefix}### o un numero).");
+                $"'{field}': formato de identificador invalido '{value}' (se esperaba {upperPrefix}### o un numero).");
         }
 
         digits = digits.TrimStart('0');
@@ -144,9 +138,7 @@ public sealed class FieldValidator
         return IsMissing(value) ? null : Code(value, prefix, padWidth, field, maxLength);
     }
 
-    // ------------------------------------------------------------------
     // Numeros
-    // ------------------------------------------------------------------
 
     public int Integer(string? raw, string field)
     {
@@ -180,9 +172,7 @@ public sealed class FieldValidator
         return number;
     }
 
-    // ------------------------------------------------------------------
     // Fechas
-    // ------------------------------------------------------------------
 
     public DateOnly Date(string? raw, string field)
     {
@@ -209,9 +199,7 @@ public sealed class FieldValidator
         return date;
     }
 
-    // ------------------------------------------------------------------
     // Reglas de dominio de las encuestas
-    // ------------------------------------------------------------------
 
     /// <summary>Normaliza la clasificacion a Positiva | Neutra | Negativa.</summary>
     public string Classification(string? raw, string field)
