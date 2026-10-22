@@ -27,7 +27,7 @@ internal static class Program
         }
         catch (ArgumentException ex)
         {
-            PrintError(null, $"Argumento inválido: {ex.Message}");
+            PrintError(null, $"Argumento invalido: {ex.Message}");
             Console.WriteLine();
             CommandLineOptions.PrintHelp();
             return ExitConfiguration;
@@ -52,7 +52,7 @@ internal static class Program
         }
         catch (ConfigurationException ex)
         {
-            PrintError(reporter, $"Error de configuración: {ex.Message}");
+            PrintError(reporter, $"Error de configuracion: {ex.Message}");
             exitCode = ExitConfiguration;
         }
         catch (EtlException ex)
