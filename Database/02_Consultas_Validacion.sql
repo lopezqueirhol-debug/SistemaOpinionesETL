@@ -1,7 +1,6 @@
 -- =====================================================================
---  CONSULTAS DE VALIDACION DE LA CARGA  |  MySQL 8.4.x
+--  CONSULTAS DE VALIDACION DE LA CARGA
 --  Ejecutar DESPUES de correr el ETL.
---  Cada consulta indica el resultado esperado.
 -- =====================================================================
 SET NAMES utf8mb4 COLLATE utf8mb4_unicode_ci;
 USE SistemaOpiniones;
@@ -9,10 +8,6 @@ USE SistemaOpiniones;
 
 -- ---------------------------------------------------------------------
 -- 1. CONTEO DE REGISTROS POR TABLA
---    Esperado (segun el analisis de los CSV):
---      Cliente 500 | Producto 200 | FuenteDatos 100
---      ComentarioSocial 200 | ResenaWeb 200
---      Encuesta 6 (494 de 500 se rechazan por cliente/producto inexistente)
 -- ---------------------------------------------------------------------
 SELECT 'Cliente'          AS Tabla, COUNT(*) AS Registros FROM Cliente
 UNION ALL SELECT 'Producto',         COUNT(*) FROM Producto
@@ -24,7 +19,6 @@ UNION ALL SELECT 'ResenaWeb',        COUNT(*) FROM ResenaWeb;
 
 -- ---------------------------------------------------------------------
 -- 2. INTEGRIDAD REFERENCIAL: REGISTROS HUERFANOS EN CADA FK
---    Esperado: Huerfanos = 0 en las nueve filas.
 -- ---------------------------------------------------------------------
 SELECT 'ComentarioSocial -> Cliente' AS Relacion, COUNT(*) AS Huerfanos
   FROM ComentarioSocial cs
@@ -74,9 +68,6 @@ SELECT 'ResenaWeb -> FuenteDatos', COUNT(*)
 
 -- ---------------------------------------------------------------------
 -- 3. DUPLICADOS
---    3a. Emails repetidos en Cliente.          Esperado: 0 filas.
---    3b. Opiniones identicas repetidas
---        (mismo cliente, producto, fecha y comentario).  Esperado: 0 filas.
 -- ---------------------------------------------------------------------
 SELECT Email, COUNT(*) AS Repeticiones
   FROM Cliente
@@ -92,7 +83,6 @@ HAVING COUNT(*) > 1;
 
 -- ---------------------------------------------------------------------
 -- 4. RANGOS Y COHERENCIA DE DATOS
---    Esperado: Violaciones = 0 en todas las filas.
 -- ---------------------------------------------------------------------
 SELECT 'Encuesta: puntaje fuera de 1-5' AS Regla, COUNT(*) AS Violaciones
   FROM Encuesta
@@ -115,7 +105,6 @@ SELECT 'Cliente: email sin formato valido', COUNT(*)
 
 -- ---------------------------------------------------------------------
 -- 5. COMENTARIOS SOCIALES CON CLIENTE NULO
---    Esperado: Anonimos = 88 de 200 (permitido por el modelo).
 -- ---------------------------------------------------------------------
 SELECT COUNT(*)                   AS TotalComentarios,
        SUM(IdCliente IS NULL)     AS Anonimos,
@@ -145,9 +134,6 @@ SELECT 'Encuesta', e.IdFuente, f.TipoFuente, COUNT(*)
 
 -- ---------------------------------------------------------------------
 -- 7. CONCILIACION ENTRE EL LOG DEL ETL Y LAS TABLAS
---    Para la ultima ejecucion:
---      * Procesados = Insertados + Rechazados  (CuadraConteo = 'SI')
---      * Insertados del log = filas reales en la tabla (CuadraConTabla = 'SI')
 -- ---------------------------------------------------------------------
 SELECT l.Archivo,
        l.TablaDestino,
@@ -169,14 +155,12 @@ SELECT l.Archivo,
 
 -- ---------------------------------------------------------------------
 -- 8. REGISTROS RECHAZADOS POR ARCHIVO Y MOTIVO
---    Esperado: Encuesta con ~494 rechazos por INTEGRIDAD_REFERENCIAL.
 -- ---------------------------------------------------------------------
 SELECT * FROM vw_RechazosPorMotivo ORDER BY Archivo, Cantidad DESC;
 
 
 -- ---------------------------------------------------------------------
 -- 9. CONSULTA ENTRE TABLAS (JOIN completo):
---    opiniones por categoria de producto, usando las vistas.
 -- ---------------------------------------------------------------------
 SELECT * FROM vw_SatisfaccionPorCategoria ORDER BY PuntajePromedio DESC;
 

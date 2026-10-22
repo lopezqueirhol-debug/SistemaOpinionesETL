@@ -12,7 +12,6 @@
 --    8. Vistas
 -- =====================================================================
 
-
 -- =====================================================================
 -- 1. CREACION DE LA BASE DE DATOS
 -- =====================================================================
@@ -65,35 +64,33 @@ DROP TABLE IF EXISTS FuenteDatos;
 DROP TABLE IF EXISTS Producto;
 DROP TABLE IF EXISTS Cliente;
 
-
 -- =====================================================================
 -- 3. TABLAS MAESTRAS
 -- =====================================================================
 
 -- Cliente <- clients.csv
 CREATE TABLE Cliente (
-    IdCliente  VARCHAR(10)  NOT NULL,
-    Nombre     VARCHAR(100) NOT NULL,
-    Email      VARCHAR(150) NOT NULL,
+    IdCliente VARCHAR(10)  NOT NULL,
+    Nombre VARCHAR(100) NOT NULL,
+    Email VARCHAR(150) NOT NULL,
     PRIMARY KEY (IdCliente)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- Producto <- products.csv
 CREATE TABLE Producto (
     IdProducto VARCHAR(10)  NOT NULL,
-    Nombre     VARCHAR(100) NOT NULL,
-    Categoria  VARCHAR(50)  NOT NULL,
+    Nombre VARCHAR(100) NOT NULL,
+    Categoria VARCHAR(50) NOT NULL,
     PRIMARY KEY (IdProducto)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- FuenteDatos <- fuente_datos.csv
 CREATE TABLE FuenteDatos (
-    IdFuente    VARCHAR(10) NOT NULL,
-    TipoFuente  VARCHAR(50) NOT NULL,
-    FechaCarga  DATE        NOT NULL,
+    IdFuente VARCHAR(10) NOT NULL,
+    TipoFuente VARCHAR(50) NOT NULL,
+    FechaCarga DATE NOT NULL,
     PRIMARY KEY (IdFuente)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
 
 -- =====================================================================
 -- 4. TABLAS TRANSACCIONALES
@@ -101,46 +98,45 @@ CREATE TABLE FuenteDatos (
 
 -- ComentarioSocial <- social_comments.csv
 -- IdCliente admite NULL (comentarios de usuarios no identificados).
--- IdFuente se resuelve por TipoFuente = 'Red Social' (ver sp_ResolverFuentePorTipo).
+-- IdFuente se resuelve por TipoFuente = 'Red Social'.
 -- Plataforma conserva el valor original del CSV (Instagram, Facebook, Twitter).
 CREATE TABLE ComentarioSocial (
-    IdComment   VARCHAR(10) NOT NULL,
-    IdCliente   VARCHAR(10) NULL,
-    IdProducto  VARCHAR(10) NOT NULL,
-    IdFuente    VARCHAR(10) NOT NULL,
-    Fecha       DATE        NOT NULL,
-    Plataforma  VARCHAR(50) NOT NULL,
-    Comentario  TEXT        NOT NULL,
+    IdComment VARCHAR(10) NOT NULL,
+    IdCliente VARCHAR(10) NULL,
+    IdProducto VARCHAR(10) NOT NULL,
+    IdFuente VARCHAR(10) NOT NULL,
+    Fecha DATE        NOT NULL,
+    Plataforma VARCHAR(50) NOT NULL,
+    Comentario TEXT        NOT NULL,
     PRIMARY KEY (IdComment)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- Encuesta <- surveys_part1.csv
 -- IdFuente se resuelve por TipoFuente = 'CSV'.
 CREATE TABLE Encuesta (
-    IdOpinion            INT         NOT NULL,
-    IdCliente            VARCHAR(10) NOT NULL,
-    IdProducto           VARCHAR(10) NOT NULL,
-    IdFuente             VARCHAR(10) NOT NULL,
-    Fecha                DATE        NOT NULL,
-    Comentario           TEXT        NOT NULL,
-    Clasificacion        ENUM('Positiva','Neutra','Negativa') NOT NULL,
-    PuntajeSatisfaccion  INT         NOT NULL,
+    IdOpinion INT NOT NULL,
+    IdCliente VARCHAR(10) NOT NULL,
+    IdProducto VARCHAR(10) NOT NULL,
+    IdFuente VARCHAR(10) NOT NULL,
+    Fecha DATE NOT NULL,
+    Comentario TEXT NOT NULL,
+    Clasificacion ENUM('Positiva','Neutra','Negativa') NOT NULL,
+    PuntajeSatisfaccion  INT NOT NULL,
     PRIMARY KEY (IdOpinion)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- ResenaWeb <- web_reviews.csv
 -- IdFuente se resuelve por TipoFuente = 'Web'.
 CREATE TABLE ResenaWeb (
-    IdReview    VARCHAR(10) NOT NULL,
-    IdCliente   VARCHAR(10) NOT NULL,
-    IdProducto  VARCHAR(10) NOT NULL,
-    IdFuente    VARCHAR(10) NOT NULL,
-    Fecha       DATE        NOT NULL,
-    Comentario  TEXT        NOT NULL,
-    Rating      TINYINT     NOT NULL,
+    IdReview VARCHAR(10) NOT NULL,
+    IdCliente VARCHAR(10) NOT NULL,
+    IdProducto VARCHAR(10) NOT NULL,
+    IdFuente VARCHAR(10) NOT NULL,
+    Fecha DATE NOT NULL,
+    Comentario TEXT NOT NULL,
+    Rating TINYINT NOT NULL,
     PRIMARY KEY (IdReview)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
 
 -- =====================================================================
 -- 5. TABLAS DE CONTROL DEL ETL
@@ -148,36 +144,35 @@ CREATE TABLE ResenaWeb (
 
 -- Una fila por archivo procesado en cada ejecucion del ETL.
 CREATE TABLE LogCarga (
-    IdLog             BIGINT       NOT NULL AUTO_INCREMENT,
-    IdEjecucion       CHAR(36)     NOT NULL,          -- GUID de la corrida
-    Archivo           VARCHAR(100) NOT NULL,
-    TablaDestino      VARCHAR(50)  NOT NULL,
-    IdFuenteAsignada  VARCHAR(10)  NULL,              -- fuente resuelta por tipo
-    FechaInicio       DATETIME     NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    FechaFin          DATETIME     NULL,
-    Procesados        INT          NOT NULL DEFAULT 0,
-    Insertados        INT          NOT NULL DEFAULT 0,
-    Rechazados        INT          NOT NULL DEFAULT 0,
-    Estado            ENUM('EnProceso','Completado','CompletadoConRechazos','Error')
-                                   NOT NULL DEFAULT 'EnProceso',
-    Mensaje           TEXT         NULL,
+    IdLog BIGINT NOT NULL AUTO_INCREMENT,
+    IdEjecucion CHAR(36) NOT NULL,          -- GUID de la corrida
+    Archivo VARCHAR(100) NOT NULL,
+    TablaDestino VARCHAR(50) NOT NULL,
+    IdFuenteAsignada VARCHAR(10) NULL,              -- fuente resuelta por tipo
+    FechaInicio DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    FechaFin DATETIME NULL,
+    Procesados INT NOT NULL DEFAULT 0,
+    Insertados INT NOT NULL DEFAULT 0,
+    Rechazados INT NOT NULL DEFAULT 0,
+    Estado ENUM('EnProceso','Completado','CompletadoConRechazos','Error')
+        NOT NULL DEFAULT 'EnProceso',
+    Mensaje TEXT NULL,
     PRIMARY KEY (IdLog)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- Detalle de cada registro rechazado y su motivo.
 CREATE TABLE RegistroRechazado (
-    IdRechazo        BIGINT       NOT NULL AUTO_INCREMENT,
-    IdLog            BIGINT       NOT NULL,
-    Archivo          VARCHAR(100) NOT NULL,
-    NumeroFila       INT          NOT NULL,            -- fila en el CSV (sin contar encabezado)
-    Motivo           ENUM('CAMPO_OBLIGATORIO','FORMATO','TIPO_DATO','DUPLICADO',
-                          'INTEGRIDAD_REFERENCIAL','REGLA_NEGOCIO','ERROR_BD') NOT NULL,
-    Detalle          VARCHAR(500) NULL,
-    DatosOriginales  TEXT         NULL,
-    FechaRegistro    DATETIME     NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    IdRechazo BIGINT NOT NULL AUTO_INCREMENT,
+    IdLog BIGINT NOT NULL,
+    Archivo VARCHAR(100) NOT NULL,
+    NumeroFila INT NOT NULL, -- fila en el CSV (sin contar encabezado)
+    Motivo ENUM('CAMPO_OBLIGATORIO','FORMATO','TIPO_DATO','DUPLICADO',
+               'INTEGRIDAD_REFERENCIAL','REGLA_NEGOCIO','ERROR_BD') NOT NULL,
+    Detalle VARCHAR(500) NULL,
+    DatosOriginales TEXT NULL,
+    FechaRegistro DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
     PRIMARY KEY (IdRechazo)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
 
 -- =====================================================================
 -- 6. CLAVES FORANEAS, REGLAS DE DOMINIO E INDICES
@@ -186,25 +181,25 @@ CREATE TABLE RegistroRechazado (
 -- ---------- Claves foraneas: ComentarioSocial ----------
 ALTER TABLE ComentarioSocial
     ADD CONSTRAINT fk_comentariosocial_cliente
-        FOREIGN KEY (IdCliente)  REFERENCES Cliente(IdCliente)
+        FOREIGN KEY (IdCliente) REFERENCES Cliente(IdCliente)
         ON UPDATE CASCADE ON DELETE RESTRICT,
     ADD CONSTRAINT fk_comentariosocial_producto
         FOREIGN KEY (IdProducto) REFERENCES Producto(IdProducto)
         ON UPDATE CASCADE ON DELETE RESTRICT,
     ADD CONSTRAINT fk_comentariosocial_fuente
-        FOREIGN KEY (IdFuente)   REFERENCES FuenteDatos(IdFuente)
+        FOREIGN KEY (IdFuente) REFERENCES FuenteDatos(IdFuente)
         ON UPDATE CASCADE ON DELETE RESTRICT;
 
 -- ---------- Claves foraneas: Encuesta ----------
 ALTER TABLE Encuesta
     ADD CONSTRAINT fk_encuesta_cliente
-        FOREIGN KEY (IdCliente)  REFERENCES Cliente(IdCliente)
+        FOREIGN KEY (IdCliente) REFERENCES Cliente(IdCliente)
         ON UPDATE CASCADE ON DELETE RESTRICT,
     ADD CONSTRAINT fk_encuesta_producto
         FOREIGN KEY (IdProducto) REFERENCES Producto(IdProducto)
         ON UPDATE CASCADE ON DELETE RESTRICT,
     ADD CONSTRAINT fk_encuesta_fuente
-        FOREIGN KEY (IdFuente)   REFERENCES FuenteDatos(IdFuente)
+        FOREIGN KEY (IdFuente) REFERENCES FuenteDatos(IdFuente)
         ON UPDATE CASCADE ON DELETE RESTRICT;
 
 -- ---------- Claves foraneas: ResenaWeb ----------
@@ -241,7 +236,7 @@ ALTER TABLE Cliente
     ADD CONSTRAINT chk_cliente_email  CHECK (Email LIKE '_%@_%._%' AND Email NOT LIKE '% %');
 
 ALTER TABLE Producto
-    ADD CONSTRAINT chk_producto_nombre    CHECK (CHAR_LENGTH(TRIM(Nombre)) > 0),
+    ADD CONSTRAINT chk_producto_nombre CHECK (CHAR_LENGTH(TRIM(Nombre)) > 0),
     ADD CONSTRAINT chk_producto_categoria CHECK (CHAR_LENGTH(TRIM(Categoria)) > 0);
 
 ALTER TABLE FuenteDatos
@@ -252,7 +247,7 @@ ALTER TABLE ComentarioSocial
     ADD CONSTRAINT chk_comentariosocial_plat  CHECK (CHAR_LENGTH(TRIM(Plataforma)) > 0);
 
 ALTER TABLE Encuesta
-    ADD CONSTRAINT chk_encuesta_texto   CHECK (CHAR_LENGTH(TRIM(Comentario)) > 0),
+    ADD CONSTRAINT chk_encuesta_texto CHECK (CHAR_LENGTH(TRIM(Comentario)) > 0),
     ADD CONSTRAINT chk_encuesta_puntaje CHECK (PuntajeSatisfaccion BETWEEN 1 AND 5),
     -- Consistencia: 1-2 Negativa | 3 Neutra | 4-5 Positiva
     ADD CONSTRAINT chk_encuesta_coherencia CHECK (
@@ -270,20 +265,18 @@ ALTER TABLE LogCarga
        AND Insertados + Rechazados <= Procesados);
 
 -- ---------- Indices de apoyo (las FK ya generan los suyos) ----------
-CREATE INDEX idx_fuente_tipo       ON FuenteDatos (TipoFuente, IdFuente);
+CREATE INDEX idx_fuente_tipo ON FuenteDatos (TipoFuente, IdFuente);
 CREATE INDEX idx_producto_categoria ON Producto (Categoria);
-CREATE INDEX idx_comentario_fecha  ON ComentarioSocial (Fecha);
-CREATE INDEX idx_encuesta_fecha    ON Encuesta (Fecha);
-CREATE INDEX idx_resena_fecha      ON ResenaWeb (Fecha);
-CREATE INDEX idx_log_ejecucion     ON LogCarga (IdEjecucion);
-
+CREATE INDEX idx_comentario_fecha ON ComentarioSocial (Fecha);
+CREATE INDEX idx_encuesta_fecha ON Encuesta (Fecha);
+CREATE INDEX idx_resena_fecha ON ResenaWeb (Fecha);
+CREATE INDEX idx_log_ejecucion ON LogCarga (IdEjecucion);
 
 -- =====================================================================
 -- 7. PROCEDIMIENTOS ALMACENADOS
 -- =====================================================================
 -- Convencion de los procedimientos sp_Insertar*:
---   p_Resultado: 'OK' | 'DUPLICADO' | 'INTEGRIDAD_REFERENCIAL' |
---                'REGLA_NEGOCIO' | 'ERROR_BD'
+--   p_Resultado: 'OK' | 'DUPLICADO' | 'INTEGRIDAD_REFERENCIAL' | 'REGLA_NEGOCIO' | 'ERROR_BD'
 --   (coinciden con los valores del ENUM RegistroRechazado.Motivo)
 --   p_Detalle  : descripcion del rechazo (NULL si OK)
 -- =====================================================================
@@ -296,7 +289,7 @@ DELIMITER $$
 -- ---------------------------------------------------------------------
 CREATE PROCEDURE sp_ResolverFuentePorTipo(
     IN  p_TipoFuente VARCHAR(50),
-    OUT p_IdFuente   VARCHAR(10)
+    OUT p_IdFuente VARCHAR(10)
 )
 BEGIN
     SET p_IdFuente = NULL;
@@ -317,11 +310,11 @@ END$$
 -- Control de carga: inicio y cierre de un archivo
 -- ---------------------------------------------------------------------
 CREATE PROCEDURE sp_IniciarLog(
-    IN  p_IdEjecucion      CHAR(36),
-    IN  p_Archivo          VARCHAR(100),
-    IN  p_TablaDestino     VARCHAR(50),
+    IN  p_IdEjecucion CHAR(36),
+    IN  p_Archivo VARCHAR(100),
+    IN  p_TablaDestino VARCHAR(50),
     IN  p_IdFuenteAsignada VARCHAR(10),
-    OUT p_IdLog            BIGINT
+    OUT p_IdLog BIGINT
 )
 BEGIN
     INSERT INTO LogCarga (IdEjecucion, Archivo, TablaDestino, IdFuenteAsignada)
@@ -331,30 +324,30 @@ BEGIN
 END$$
 
 CREATE PROCEDURE sp_FinalizarLog(
-    IN p_IdLog       BIGINT,
-    IN p_Procesados  INT,
-    IN p_Insertados  INT,
-    IN p_Rechazados  INT,
-    IN p_Estado      VARCHAR(25),
-    IN p_Mensaje     TEXT
+    IN p_IdLog BIGINT,
+    IN p_Procesados INT,
+    IN p_Insertados INT,
+    IN p_Rechazados INT,
+    IN p_Estado VARCHAR(25),
+    IN p_Mensaje TEXT
 )
 BEGIN
     UPDATE LogCarga
-       SET FechaFin   = CURRENT_TIMESTAMP,
+       SET FechaFin = CURRENT_TIMESTAMP,
            Procesados = p_Procesados,
            Insertados = p_Insertados,
            Rechazados = p_Rechazados,
-           Estado     = p_Estado,
-           Mensaje    = p_Mensaje
+           Estado = p_Estado,
+           Mensaje = p_Mensaje
      WHERE IdLog = p_IdLog;
 END$$
 
 CREATE PROCEDURE sp_RegistrarRechazo(
-    IN p_IdLog           BIGINT,
-    IN p_Archivo         VARCHAR(100),
-    IN p_NumeroFila      INT,
-    IN p_Motivo          VARCHAR(30),
-    IN p_Detalle         VARCHAR(500),
+    IN p_IdLog BIGINT,
+    IN p_Archivo VARCHAR(100),
+    IN p_NumeroFila INT,
+    IN p_Motivo VARCHAR(30),
+    IN p_Detalle VARCHAR(500),
     IN p_DatosOriginales TEXT
 )
 BEGIN
@@ -366,11 +359,11 @@ END$$
 -- INSERTAR CLIENTE
 -- ---------------------------------------------------------------------
 CREATE PROCEDURE sp_InsertarCliente(
-    IN  p_IdCliente VARCHAR(10),
-    IN  p_Nombre    VARCHAR(100),
-    IN  p_Email     VARCHAR(150),
+    IN p_IdCliente VARCHAR(10),
+    IN p_Nombre VARCHAR(100),
+    IN p_Email VARCHAR(150),
     OUT p_Resultado VARCHAR(30),
-    OUT p_Detalle   VARCHAR(255)
+    OUT p_Detalle VARCHAR(255)
 )
 BEGIN
     DECLARE v_msg TEXT DEFAULT NULL;
@@ -378,18 +371,18 @@ BEGIN
     BEGIN
         GET DIAGNOSTICS CONDITION 1 v_msg = MESSAGE_TEXT;
         SET p_Resultado = 'ERROR_BD';
-        SET p_Detalle   = LEFT(v_msg, 255);
+        SET p_Detalle = LEFT(v_msg, 255);
     END;
 
     SET p_Resultado = 'OK';
-    SET p_Detalle   = NULL;
+    SET p_Detalle = NULL;
 
     IF EXISTS (SELECT 1 FROM Cliente WHERE IdCliente = p_IdCliente) THEN
         SET p_Resultado = 'DUPLICADO';
-        SET p_Detalle   = CONCAT('IdCliente ya existe: ', p_IdCliente);
+        SET p_Detalle = CONCAT('IdCliente ya existe: ', p_IdCliente);
     ELSEIF EXISTS (SELECT 1 FROM Cliente WHERE Email = p_Email) THEN
         SET p_Resultado = 'DUPLICADO';
-        SET p_Detalle   = CONCAT('Email ya registrado: ', p_Email);
+        SET p_Detalle = CONCAT('Email ya registrado: ', p_Email);
     ELSE
         INSERT INTO Cliente (IdCliente, Nombre, Email)
         VALUES (p_IdCliente, p_Nombre, p_Email);
@@ -401,10 +394,10 @@ END$$
 -- ---------------------------------------------------------------------
 CREATE PROCEDURE sp_InsertarProducto(
     IN  p_IdProducto VARCHAR(10),
-    IN  p_Nombre     VARCHAR(100),
-    IN  p_Categoria  VARCHAR(50),
-    OUT p_Resultado  VARCHAR(30),
-    OUT p_Detalle    VARCHAR(255)
+    IN  p_Nombre VARCHAR(100),
+    IN  p_Categoria VARCHAR(50),
+    OUT p_Resultado VARCHAR(30),
+    OUT p_Detalle VARCHAR(255)
 )
 BEGIN
     DECLARE v_msg TEXT DEFAULT NULL;
@@ -412,15 +405,15 @@ BEGIN
     BEGIN
         GET DIAGNOSTICS CONDITION 1 v_msg = MESSAGE_TEXT;
         SET p_Resultado = 'ERROR_BD';
-        SET p_Detalle   = LEFT(v_msg, 255);
+        SET p_Detalle = LEFT(v_msg, 255);
     END;
 
     SET p_Resultado = 'OK';
-    SET p_Detalle   = NULL;
+    SET p_Detalle = NULL;
 
     IF EXISTS (SELECT 1 FROM Producto WHERE IdProducto = p_IdProducto) THEN
         SET p_Resultado = 'DUPLICADO';
-        SET p_Detalle   = CONCAT('IdProducto ya existe: ', p_IdProducto);
+        SET p_Detalle = CONCAT('IdProducto ya existe: ', p_IdProducto);
     ELSE
         INSERT INTO Producto (IdProducto, Nombre, Categoria)
         VALUES (p_IdProducto, p_Nombre, p_Categoria);
@@ -431,11 +424,11 @@ END$$
 -- INSERTAR FUENTE DE DATOS
 -- ---------------------------------------------------------------------
 CREATE PROCEDURE sp_InsertarFuenteDatos(
-    IN  p_IdFuente   VARCHAR(10),
+    IN  p_IdFuente VARCHAR(10),
     IN  p_TipoFuente VARCHAR(50),
     IN  p_FechaCarga DATE,
-    OUT p_Resultado  VARCHAR(30),
-    OUT p_Detalle    VARCHAR(255)
+    OUT p_Resultado VARCHAR(30),
+    OUT p_Detalle VARCHAR(255)
 )
 BEGIN
     DECLARE v_msg TEXT DEFAULT NULL;
@@ -443,15 +436,15 @@ BEGIN
     BEGIN
         GET DIAGNOSTICS CONDITION 1 v_msg = MESSAGE_TEXT;
         SET p_Resultado = 'ERROR_BD';
-        SET p_Detalle   = LEFT(v_msg, 255);
+        SET p_Detalle = LEFT(v_msg, 255);
     END;
 
     SET p_Resultado = 'OK';
-    SET p_Detalle   = NULL;
+    SET p_Detalle = NULL;
 
     IF EXISTS (SELECT 1 FROM FuenteDatos WHERE IdFuente = p_IdFuente) THEN
         SET p_Resultado = 'DUPLICADO';
-        SET p_Detalle   = CONCAT('IdFuente ya existe: ', p_IdFuente);
+        SET p_Detalle = CONCAT('IdFuente ya existe: ', p_IdFuente);
     ELSE
         INSERT INTO FuenteDatos (IdFuente, TipoFuente, FechaCarga)
         VALUES (p_IdFuente, p_TipoFuente, p_FechaCarga);
@@ -462,15 +455,15 @@ END$$
 -- INSERTAR COMENTARIO SOCIAL (IdCliente puede ser NULL)
 -- ---------------------------------------------------------------------
 CREATE PROCEDURE sp_InsertarComentarioSocial(
-    IN  p_IdComment  VARCHAR(10),
-    IN  p_IdCliente  VARCHAR(10),
+    IN  p_IdComment VARCHAR(10),
+    IN  p_IdCliente VARCHAR(10),
     IN  p_IdProducto VARCHAR(10),
-    IN  p_IdFuente   VARCHAR(10),
-    IN  p_Fecha      DATE,
+    IN  p_IdFuente VARCHAR(10),
+    IN  p_Fecha DATE,
     IN  p_Plataforma VARCHAR(50),
     IN  p_Comentario TEXT,
-    OUT p_Resultado  VARCHAR(30),
-    OUT p_Detalle    VARCHAR(255)
+    OUT p_Resultado VARCHAR(30),
+    OUT p_Detalle VARCHAR(255)
 )
 BEGIN
     DECLARE v_msg TEXT DEFAULT NULL;
@@ -478,25 +471,25 @@ BEGIN
     BEGIN
         GET DIAGNOSTICS CONDITION 1 v_msg = MESSAGE_TEXT;
         SET p_Resultado = 'ERROR_BD';
-        SET p_Detalle   = LEFT(v_msg, 255);
+        SET p_Detalle = LEFT(v_msg, 255);
     END;
 
     SET p_Resultado = 'OK';
-    SET p_Detalle   = NULL;
+    SET p_Detalle = NULL;
 
     IF EXISTS (SELECT 1 FROM ComentarioSocial WHERE IdComment = p_IdComment) THEN
         SET p_Resultado = 'DUPLICADO';
-        SET p_Detalle   = CONCAT('IdComment ya existe: ', p_IdComment);
+        SET p_Detalle = CONCAT('IdComment ya existe: ', p_IdComment);
     ELSEIF p_IdCliente IS NOT NULL
        AND NOT EXISTS (SELECT 1 FROM Cliente WHERE IdCliente = p_IdCliente) THEN
         SET p_Resultado = 'INTEGRIDAD_REFERENCIAL';
-        SET p_Detalle   = CONCAT('Cliente inexistente: ', p_IdCliente);
+        SET p_Detalle = CONCAT('Cliente inexistente: ', p_IdCliente);
     ELSEIF NOT EXISTS (SELECT 1 FROM Producto WHERE IdProducto = p_IdProducto) THEN
         SET p_Resultado = 'INTEGRIDAD_REFERENCIAL';
-        SET p_Detalle   = CONCAT('Producto inexistente: ', p_IdProducto);
+        SET p_Detalle = CONCAT('Producto inexistente: ', p_IdProducto);
     ELSEIF NOT EXISTS (SELECT 1 FROM FuenteDatos WHERE IdFuente = p_IdFuente) THEN
         SET p_Resultado = 'INTEGRIDAD_REFERENCIAL';
-        SET p_Detalle   = CONCAT('Fuente inexistente: ', p_IdFuente);
+        SET p_Detalle = CONCAT('Fuente inexistente: ', p_IdFuente);
     ELSE
         INSERT INTO ComentarioSocial
                (IdComment, IdCliente, IdProducto, IdFuente, Fecha, Plataforma, Comentario)
@@ -508,16 +501,16 @@ END$$
 -- INSERTAR ENCUESTA
 -- ---------------------------------------------------------------------
 CREATE PROCEDURE sp_InsertarEncuesta(
-    IN  p_IdOpinion     INT,
-    IN  p_IdCliente     VARCHAR(10),
-    IN  p_IdProducto    VARCHAR(10),
-    IN  p_IdFuente      VARCHAR(10),
-    IN  p_Fecha         DATE,
-    IN  p_Comentario    TEXT,
+    IN  p_IdOpinion INT,
+    IN  p_IdCliente VARCHAR(10),
+    IN  p_IdProducto VARCHAR(10),
+    IN  p_IdFuente VARCHAR(10),
+    IN  p_Fecha DATE,
+    IN  p_Comentario TEXT,
     IN  p_Clasificacion VARCHAR(10),
-    IN  p_Puntaje       INT,
-    OUT p_Resultado     VARCHAR(30),
-    OUT p_Detalle       VARCHAR(255)
+    IN  p_Puntaje INT,
+    OUT p_Resultado VARCHAR(30),
+    OUT p_Detalle VARCHAR(255)
 )
 BEGIN
     DECLARE v_msg TEXT DEFAULT NULL;
@@ -525,32 +518,32 @@ BEGIN
     BEGIN
         GET DIAGNOSTICS CONDITION 1 v_msg = MESSAGE_TEXT;
         SET p_Resultado = 'ERROR_BD';
-        SET p_Detalle   = LEFT(v_msg, 255);
+        SET p_Detalle = LEFT(v_msg, 255);
     END;
 
     SET p_Resultado = 'OK';
-    SET p_Detalle   = NULL;
+    SET p_Detalle = NULL;
 
     IF EXISTS (SELECT 1 FROM Encuesta WHERE IdOpinion = p_IdOpinion) THEN
         SET p_Resultado = 'DUPLICADO';
-        SET p_Detalle   = CONCAT('IdOpinion ya existe: ', p_IdOpinion);
+        SET p_Detalle = CONCAT('IdOpinion ya existe: ', p_IdOpinion);
     ELSEIF p_Puntaje NOT BETWEEN 1 AND 5 THEN
         SET p_Resultado = 'REGLA_NEGOCIO';
-        SET p_Detalle   = CONCAT('Puntaje fuera de rango 1-5: ', p_Puntaje);
+        SET p_Detalle = CONCAT('Puntaje fuera de rango 1-5: ', p_Puntaje);
     ELSEIF NOT ((p_Clasificacion = 'Negativa' AND p_Puntaje <= 2)
-             OR (p_Clasificacion = 'Neutra'   AND p_Puntaje = 3)
+             OR (p_Clasificacion = 'Neutra' AND p_Puntaje = 3)
              OR (p_Clasificacion = 'Positiva' AND p_Puntaje >= 4)) THEN
         SET p_Resultado = 'REGLA_NEGOCIO';
-        SET p_Detalle   = CONCAT('Clasificacion ', p_Clasificacion, ' incoherente con puntaje ', p_Puntaje);
+        SET p_Detalle = CONCAT('Clasificacion ', p_Clasificacion, ' incoherente con puntaje ', p_Puntaje);
     ELSEIF NOT EXISTS (SELECT 1 FROM Cliente WHERE IdCliente = p_IdCliente) THEN
         SET p_Resultado = 'INTEGRIDAD_REFERENCIAL';
-        SET p_Detalle   = CONCAT('Cliente inexistente: ', p_IdCliente);
+        SET p_Detalle = CONCAT('Cliente inexistente: ', p_IdCliente);
     ELSEIF NOT EXISTS (SELECT 1 FROM Producto WHERE IdProducto = p_IdProducto) THEN
         SET p_Resultado = 'INTEGRIDAD_REFERENCIAL';
-        SET p_Detalle   = CONCAT('Producto inexistente: ', p_IdProducto);
+        SET p_Detalle = CONCAT('Producto inexistente: ', p_IdProducto);
     ELSEIF NOT EXISTS (SELECT 1 FROM FuenteDatos WHERE IdFuente = p_IdFuente) THEN
         SET p_Resultado = 'INTEGRIDAD_REFERENCIAL';
-        SET p_Detalle   = CONCAT('Fuente inexistente: ', p_IdFuente);
+        SET p_Detalle = CONCAT('Fuente inexistente: ', p_IdFuente);
     ELSE
         INSERT INTO Encuesta
                (IdOpinion, IdCliente, IdProducto, IdFuente, Fecha, Comentario,
@@ -561,18 +554,18 @@ BEGIN
 END$$
 
 -- ---------------------------------------------------------------------
--- INSERTAR RESENA WEB
+-- INSERTAR RESEÑA WEB
 -- ---------------------------------------------------------------------
 CREATE PROCEDURE sp_InsertarResenaWeb(
-    IN  p_IdReview   VARCHAR(10),
-    IN  p_IdCliente  VARCHAR(10),
+    IN  p_IdReview VARCHAR(10),
+    IN  p_IdCliente VARCHAR(10),
     IN  p_IdProducto VARCHAR(10),
-    IN  p_IdFuente   VARCHAR(10),
-    IN  p_Fecha      DATE,
+    IN  p_IdFuente VARCHAR(10),
+    IN  p_Fecha DATE,
     IN  p_Comentario TEXT,
-    IN  p_Rating     INT,
-    OUT p_Resultado  VARCHAR(30),
-    OUT p_Detalle    VARCHAR(255)
+    IN  p_Rating INT,
+    OUT p_Resultado VARCHAR(30),
+    OUT p_Detalle VARCHAR(255)
 )
 BEGIN
     DECLARE v_msg TEXT DEFAULT NULL;
@@ -580,27 +573,27 @@ BEGIN
     BEGIN
         GET DIAGNOSTICS CONDITION 1 v_msg = MESSAGE_TEXT;
         SET p_Resultado = 'ERROR_BD';
-        SET p_Detalle   = LEFT(v_msg, 255);
+        SET p_Detalle = LEFT(v_msg, 255);
     END;
 
     SET p_Resultado = 'OK';
-    SET p_Detalle   = NULL;
+    SET p_Detalle = NULL;
 
     IF EXISTS (SELECT 1 FROM ResenaWeb WHERE IdReview = p_IdReview) THEN
         SET p_Resultado = 'DUPLICADO';
-        SET p_Detalle   = CONCAT('IdReview ya existe: ', p_IdReview);
+        SET p_Detalle = CONCAT('IdReview ya existe: ', p_IdReview);
     ELSEIF p_Rating NOT BETWEEN 1 AND 5 THEN
         SET p_Resultado = 'REGLA_NEGOCIO';
-        SET p_Detalle   = CONCAT('Rating fuera de rango 1-5: ', p_Rating);
+        SET p_Detalle = CONCAT('Rating fuera de rango 1-5: ', p_Rating);
     ELSEIF NOT EXISTS (SELECT 1 FROM Cliente WHERE IdCliente = p_IdCliente) THEN
         SET p_Resultado = 'INTEGRIDAD_REFERENCIAL';
-        SET p_Detalle   = CONCAT('Cliente inexistente: ', p_IdCliente);
+        SET p_Detalle = CONCAT('Cliente inexistente: ', p_IdCliente);
     ELSEIF NOT EXISTS (SELECT 1 FROM Producto WHERE IdProducto = p_IdProducto) THEN
         SET p_Resultado = 'INTEGRIDAD_REFERENCIAL';
-        SET p_Detalle   = CONCAT('Producto inexistente: ', p_IdProducto);
+        SET p_Detalle = CONCAT('Producto inexistente: ', p_IdProducto);
     ELSEIF NOT EXISTS (SELECT 1 FROM FuenteDatos WHERE IdFuente = p_IdFuente) THEN
         SET p_Resultado = 'INTEGRIDAD_REFERENCIAL';
-        SET p_Detalle   = CONCAT('Fuente inexistente: ', p_IdFuente);
+        SET p_Detalle = CONCAT('Fuente inexistente: ', p_IdFuente);
     ELSE
         INSERT INTO ResenaWeb
                (IdReview, IdCliente, IdProducto, IdFuente, Fecha, Comentario, Rating)
@@ -610,7 +603,7 @@ END$$
 
 -- ---------------------------------------------------------------------
 -- LIMPIAR DATOS (para re-ejecutar el ETL desde cero)
--- p_BorrarLogs = 1 tambien vacia LogCarga y RegistroRechazado.
+-- p_BorrarLogs = tambien vacia LogCarga y RegistroRechazado.
 -- ---------------------------------------------------------------------
 CREATE PROCEDURE sp_LimpiarDatos(IN p_BorrarLogs TINYINT)
 BEGIN
@@ -643,7 +636,7 @@ END$$
 
 -- ---------------------------------------------------------------------
 -- RESUMEN DE UNA EJECUCION (NULL = la ultima)
--- Devuelve 2 resultados: detalle por archivo y totales.
+-- Devuelve: detalle por archivo y totales.
 -- ---------------------------------------------------------------------
 CREATE PROCEDURE sp_ResumenCarga(IN p_IdEjecucion CHAR(36))
 BEGIN
@@ -688,22 +681,20 @@ DELIMITER ;
 -- =====================================================================
 
 -- Une las tres fuentes de opinion en un formato comun.
---  * Encuesta: clasificacion y puntaje originales.
---  * ResenaWeb: clasificacion DERIVADA del rating (4-5 Positiva, 3 Neutra, 1-2 Negativa).
---  * ComentarioSocial: sin clasificacion ni puntaje (NULL).
+--  * Encuesta.
+--  * ResenaWeb.
+--  * ComentarioSocial.
 --
 -- NOTA: todas las columnas de texto llevan COLLATE utf8mb4_unicode_ci explicito.
--- Sin esto, CAST(... AS CHAR) usa la collation por defecto del charset
--- (utf8mb4_0900_ai_ci) y el UNION falla con el error 1271.
 CREATE VIEW vw_OpinionesUnificadas AS
-SELECT 'Encuesta' COLLATE utf8mb4_unicode_ci                                      AS Origen,
+SELECT 'Encuesta' COLLATE utf8mb4_unicode_ci AS Origen,
        CAST(e.IdOpinion AS CHAR(10) CHARACTER SET utf8mb4)
-            COLLATE utf8mb4_unicode_ci                                            AS IdRegistro,
+            COLLATE utf8mb4_unicode_ci AS IdRegistro,
        e.IdCliente, e.IdProducto, e.IdFuente, e.Fecha, e.Comentario,
-       'Encuesta' COLLATE utf8mb4_unicode_ci                                      AS Plataforma,
+       'Encuesta' COLLATE utf8mb4_unicode_ci AS Plataforma,
        CAST(e.Clasificacion AS CHAR(10) CHARACTER SET utf8mb4)
-            COLLATE utf8mb4_unicode_ci                                            AS Clasificacion,
-       e.PuntajeSatisfaccion                                                      AS Puntaje
+            COLLATE utf8mb4_unicode_ci AS Clasificacion,
+       e.PuntajeSatisfaccion AS Puntaje
   FROM Encuesta e
 UNION ALL
 SELECT 'ResenaWeb' COLLATE utf8mb4_unicode_ci,
@@ -727,13 +718,13 @@ SELECT 'ComentarioSocial' COLLATE utf8mb4_unicode_ci,
 -- Resumen de opiniones por producto.
 CREATE VIEW vw_ResumenPorProducto AS
 SELECT p.IdProducto,
-       p.Nombre                                        AS Producto,
+       p.Nombre AS Producto,
        p.Categoria,
-       COUNT(o.IdRegistro)                             AS TotalOpiniones,
-       COALESCE(SUM(o.Clasificacion = 'Positiva'), 0)  AS Positivas,
-       COALESCE(SUM(o.Clasificacion = 'Neutra'),   0)  AS Neutras,
-       COALESCE(SUM(o.Clasificacion = 'Negativa'), 0)  AS Negativas,
-       ROUND(AVG(o.Puntaje), 2)                        AS PuntajePromedio
+       COUNT(o.IdRegistro) AS TotalOpiniones,
+       COALESCE(SUM(o.Clasificacion = 'Positiva'), 0) AS Positivas,
+       COALESCE(SUM(o.Clasificacion = 'Neutra'), 0) AS Neutras,
+       COALESCE(SUM(o.Clasificacion = 'Negativa'), 0) AS Negativas,
+       ROUND(AVG(o.Puntaje), 2) AS PuntajePromedio
   FROM Producto p
   LEFT JOIN vw_OpinionesUnificadas o ON o.IdProducto = p.IdProducto
  GROUP BY p.IdProducto, p.Nombre, p.Categoria;
@@ -741,8 +732,8 @@ SELECT p.IdProducto,
 -- Satisfaccion promedio por categoria de producto.
 CREATE VIEW vw_SatisfaccionPorCategoria AS
 SELECT p.Categoria,
-       COUNT(o.IdRegistro)                            AS TotalOpiniones,
-       ROUND(AVG(o.Puntaje), 2)                       AS PuntajePromedio,
+       COUNT(o.IdRegistro) AS TotalOpiniones,
+       ROUND(AVG(o.Puntaje), 2) AS PuntajePromedio,
        COALESCE(SUM(o.Clasificacion = 'Positiva'), 0) AS Positivas,
        COALESCE(SUM(o.Clasificacion = 'Negativa'), 0) AS Negativas
   FROM Producto p
@@ -754,10 +745,10 @@ CREATE VIEW vw_ActividadPorCliente AS
 SELECT c.IdCliente,
        c.Nombre,
        c.Email,
-       COALESCE(SUM(o.Origen = 'Encuesta'), 0)         AS Encuestas,
-       COALESCE(SUM(o.Origen = 'ResenaWeb'), 0)        AS Resenas,
+       COALESCE(SUM(o.Origen = 'Encuesta'), 0) AS Encuestas,
+       COALESCE(SUM(o.Origen = 'ResenaWeb'), 0) AS Resenas,
        COALESCE(SUM(o.Origen = 'ComentarioSocial'), 0) AS ComentariosSociales,
-       COUNT(o.IdRegistro)                             AS TotalOpiniones
+       COUNT(o.IdRegistro) AS TotalOpiniones
   FROM Cliente c
   LEFT JOIN vw_OpinionesUnificadas o ON o.IdCliente = c.IdCliente
  GROUP BY c.IdCliente, c.Nombre, c.Email;
@@ -765,11 +756,11 @@ SELECT c.IdCliente,
 -- Comentarios sociales por plataforma (identificados vs anonimos).
 CREATE VIEW vw_ComentariosSocialesPorPlataforma AS
 SELECT Plataforma,
-       COUNT(*)                         AS TotalComentarios,
-       SUM(IdCliente IS NOT NULL)       AS ConCliente,
-       SUM(IdCliente IS NULL)           AS Anonimos,
-       MIN(Fecha)                       AS PrimerComentario,
-       MAX(Fecha)                       AS UltimoComentario
+       COUNT(*) AS TotalComentarios,
+       SUM(IdCliente IS NOT NULL) AS ConCliente,
+       SUM(IdCliente IS NULL) AS Anonimos,
+       MIN(Fecha) AS PrimerComentario,
+       MAX(Fecha) AS UltimoComentario
   FROM ComentarioSocial
  GROUP BY Plataforma;
 
@@ -780,7 +771,7 @@ SELECT l.IdLog,
        l.Archivo,
        l.TablaDestino,
        l.IdFuenteAsignada,
-       f.TipoFuente                                  AS TipoFuenteAsignada,
+       f.TipoFuente AS TipoFuenteAsignada,
        l.Procesados, l.Insertados, l.Rechazados,
        l.Estado,
        l.FechaInicio, l.FechaFin,
