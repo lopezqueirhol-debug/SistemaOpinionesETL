@@ -35,9 +35,7 @@ public static class LoaderCatalog
         };
     }
 
-    // ------------------------------------------------------------------
     // Maestras
-    // ------------------------------------------------------------------
 
     private static IFileLoader Fuentes(FieldValidator v) =>
         new FileLoader<FuenteDatos>(
@@ -53,7 +51,7 @@ public static class LoaderCatalog
             contentKeyOf: null,
             insert: (repo, e) => repo.Insertar(e));
 
-    // clients.csv trae IdCliente numerico (1, 2, 3...) -> se transforma a 'C001', 'C002'...
+    // clients.csv trae IdCliente numerico (1, 2, 3...) -> se transforma a 'C001', 'C002'
     private static IFileLoader Clientes(FieldValidator v) =>
         new FileLoader<Cliente>(
             fileName: "clients.csv",
@@ -68,7 +66,7 @@ public static class LoaderCatalog
             contentKeyOf: null,
             insert: (repo, e) => repo.Insertar(e));
 
-    // products.csv trae IdProducto numerico (1, 2, 3...) -> se transforma a 'P001', 'P002'...
+    // products.csv trae IdProducto numerico (1, 2, 3...) -> se transforma a 'P001', 'P002'
     private static IFileLoader Productos(FieldValidator v) =>
         new FileLoader<Producto>(
             fileName: "products.csv",
@@ -83,11 +81,11 @@ public static class LoaderCatalog
             contentKeyOf: null,
             insert: (repo, e) => repo.Insertar(e));
 
-    // ------------------------------------------------------------------
-    // Transaccionales
-    // ------------------------------------------------------------------
 
-    // social_comments.csv: IdCliente opcional (88 vacios). La columna 'Fuente' (Instagram, ...)
+    // Transaccionales
+
+
+    // social_comments.csv: IdCliente opcional (para datos vacios). La columna 'Fuente' (Instagram, ...)
     // se guarda en Plataforma; el IdFuente se resuelve por TipoFuente.
     private static IFileLoader ComentariosSociales(EtlOptions options, FieldValidator v) =>
         new FileLoader<ComentarioSocial>(
@@ -133,7 +131,6 @@ public static class LoaderCatalog
 
     // surveys_part1.csv: IdCliente/IdProducto vienen como numeros (8537, 366...) -> 'C8537', 'P366'.
     // Los que no existan en las tablas maestras se rechazan por integridad referencial.
-    // La columna 'Fuente' (EncuestaInterna) no se almacena: el IdFuente se resuelve por TipoFuente.
     private static IFileLoader Encuestas(EtlOptions options, FieldValidator v) =>
         new FileLoader<Encuesta>(
             fileName: "surveys_part1.csv",
@@ -165,9 +162,7 @@ public static class LoaderCatalog
             insert: (repo, e) => repo.Insertar(e),
             tipoFuente: RequireTipoFuente(options, "surveys_part1.csv"));
 
-    // ------------------------------------------------------------------
     // Helpers
-    // ------------------------------------------------------------------
 
     private static string ContentKey(string idCliente, string idProducto, DateOnly fecha, string comentario) =>
         $"{idCliente}|{idProducto}|{fecha:yyyy-MM-dd}|{comentario}";
