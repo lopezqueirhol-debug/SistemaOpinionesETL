@@ -28,9 +28,7 @@ public sealed class ConsoleReporter : IDisposable
     public string LogDirectory { get; }
     public string LogFilePath { get; }
 
-    // ------------------------------------------------------------------
     // Escritura basica
-    // ------------------------------------------------------------------
 
     public void Line(string text = "", ConsoleColor? color = null)
     {
@@ -47,9 +45,7 @@ public sealed class ConsoleReporter : IDisposable
 
     private void Separator(char ch) => Line(new string(ch, LineWidth));
 
-    // ------------------------------------------------------------------
     // Etapas del proceso
-    // ------------------------------------------------------------------
 
     public void Banner(EtlRunResult run, string server, string database, string csvDirectory)
     {
@@ -141,7 +137,7 @@ public sealed class ConsoleReporter : IDisposable
         }
 
         Line();
-        Info($"Fin          : {run.FinishedAt:yyyy-MM-dd HH:mm:ss}   (duración total: {(run.FinishedAt - run.StartedAt).TotalSeconds:0.0} s)");
+        Info($"Fin          : {run.FinishedAt:yyyy-MM-dd HH:mm:ss}   (duracion total: {(run.FinishedAt - run.StartedAt).TotalSeconds:0.0} s)");
         Info($"Log          : {LogFilePath}");
         if (run.RejectedCsvPath is not null)
             Info($"Rechazados   : {run.RejectedCsvPath}");
