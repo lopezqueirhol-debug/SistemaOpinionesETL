@@ -1,8 +1,5 @@
 namespace SistemaOpiniones.Etl.Domain;
 
-// Entidades ya validadas y transformadas, listas para insertarse.
-// Reflejan las tablas del modelo relacional (script 01_SistemaOpiniones_Schema.sql).
-
 /// <summary>Tabla FuenteDatos (fuente_datos.csv).</summary>
 public sealed record FuenteDatos(string IdFuente, string TipoFuente, DateOnly FechaCarga);
 
