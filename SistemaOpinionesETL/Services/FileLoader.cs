@@ -64,7 +64,7 @@ public sealed class FileLoader<T> : IFileLoader
         {
             var path = Path.Combine(context.CsvDirectory, FileName);
             if (!File.Exists(path))
-                throw new CsvStructureException($"No se encontró el archivo '{path}'.");
+                throw new CsvStructureException($"No se encontro el archivo '{path}'.");
 
             // 1. Fuente de datos segun el tipo configurado (ComentarioSocial, ResenaWeb, Encuesta).
             if (_tipoFuente is not null)
@@ -99,7 +99,7 @@ public sealed class FileLoader<T> : IFileLoader
                     var contentKey = _contentKeyOf?.Invoke(entity);
                     if (contentKey is not null && contentKeys.Contains(contentKey))
                         throw new RowValidationException(RejectionReason.Duplicado,
-                            "Registro idéntico (mismo cliente, producto, fecha y comentario) repetido en el archivo.");
+                            "Registro identico (mismo cliente, producto, fecha y comentario) repetido en el archivo.");
 
                     // Duplicados en BD, integridad referencial y reglas: los resuelve el procedimiento almacenado.
                     var outcome = _insert(context.Repository, entity);
@@ -130,7 +130,7 @@ public sealed class FileLoader<T> : IFileLoader
         }
         catch (MySqlException ex)
         {
-            result.Fail($"Error de base de datos (código {ex.Number}): {ex.Message}");
+            result.Fail($"Error de base de datos (codigo {ex.Number}): {ex.Message}");
         }
         catch (Exception ex)
         {
