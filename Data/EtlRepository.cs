@@ -37,9 +37,7 @@ public sealed class EtlRepository : IDisposable
     public string ServerName => _connection.DataSource;
     public string DatabaseName => _connection.Database;
 
-    // ------------------------------------------------------------------
     // Conexion y verificacion
-    // ------------------------------------------------------------------
 
     public void Open() => _connection.Open();
 
@@ -67,9 +65,7 @@ public sealed class EtlRepository : IDisposable
         }
     }
 
-    // ------------------------------------------------------------------
     // Utilidades del proceso
-    // ------------------------------------------------------------------
 
     public void LimpiarDatos(bool borrarLogs)
     {
@@ -117,9 +113,7 @@ public sealed class EtlRepository : IDisposable
                ?? throw new EtlException($"No se pudo resolver el IdFuente para el tipo '{tipoFuente}'.");
     }
 
-    // ------------------------------------------------------------------
     // Control de carga (LogCarga / RegistroRechazado)
-    // ------------------------------------------------------------------
 
     public long IniciarLog(Guid runId, string archivo, string tablaDestino, string? idFuente)
     {
@@ -160,9 +154,7 @@ public sealed class EtlRepository : IDisposable
         cmd.ExecuteNonQuery();
     }
 
-    // ------------------------------------------------------------------
     // Inserciones (un procedimiento por tabla)
-    // ------------------------------------------------------------------
 
     public InsertOutcome Insertar(FuenteDatos e)
     {
@@ -233,9 +225,7 @@ public sealed class EtlRepository : IDisposable
 
     public void Dispose() => _connection.Dispose();
 
-    // ------------------------------------------------------------------
     // Helpers
-    // ------------------------------------------------------------------
 
     private MySqlCommand CreateProcedure(string name)
     {
