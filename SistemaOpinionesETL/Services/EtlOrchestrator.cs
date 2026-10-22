@@ -63,8 +63,8 @@ public sealed class EtlOrchestrator
             if (loader.IsMaster && result.Status == LoadStatus.Error)
             {
                 run.Aborted = true;
-                run.AbortReason = $"Falló la carga de la tabla maestra {loader.TableName}; " +
-                                  "no se cargan las demás tablas para preservar la integridad referencial.";
+                run.AbortReason = $"Fallo la carga de la tabla maestra {loader.TableName}; " +
+                                  "no se cargan las demas tablas para preservar la integridad referencial.";
 
                 for (var j = i + 1; j < loaders.Count; j++)
                     run.SkippedFiles.Add(loaders[j].FileName);
@@ -101,8 +101,8 @@ public sealed class EtlOrchestrator
         catch (MySqlException ex)
         {
             throw new EtlException(
-                $"No se pudo conectar a MySQL (código {ex.Number}): {ex.Message}. " +
-                "Verifique que el servidor esté activo y revise la cadena de conexión en appsettings.json.", ex);
+                $"No se pudo conectar a MySQL (codigo {ex.Number}): {ex.Message}. " +
+                "Verifique que el servidor este activo y revise la cadena de conexion en appsettings.json.", ex);
         }
     }
 
@@ -125,7 +125,7 @@ public sealed class EtlOrchestrator
         }
 
         throw new ConfigurationException(
-            $"No se encontró la carpeta de CSV '{configured}'. Se buscó en: {string.Join(" | ", candidates)}");
+            $"No se encontro la carpeta de CSV '{configured}'. Se busco en: {string.Join(" | ", candidates)}");
     }
 
     /// <summary>Guarda todos los registros rechazados en un CSV (util como evidencia). Devuelve la ruta o null.</summary>
