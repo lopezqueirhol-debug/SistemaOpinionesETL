@@ -54,11 +54,11 @@ public sealed class ConsoleReporter : IDisposable
     public void Banner(EtlRunResult run, string server, string database, string csvDirectory)
     {
         Separator('=');
-        Line("  SISTEMA DE ANÁLISIS DE OPINIONES DE CLIENTES  -  PROCESO ETL", ConsoleColor.Cyan);
+        Line("  SISTEMA DE ANALISIS DE OPINIONES DE CLIENTES  -  PROCESO ETL", ConsoleColor.Cyan);
         Separator('=');
-        Info($"Ejecución    : {run.RunId}");
+        Info($"Ejecucion    : {run.RunId}");
         Info($"Inicio       : {run.StartedAt:yyyy-MM-dd HH:mm:ss}");
-        Info($"Servidor     : {server}   |   Base de datos: {database}");
+        Info($"Servidor    : {server}   |   Base de datos: {database}");
         Info($"Carpeta CSV  : {csvDirectory}");
         Info($"Log          : {LogFilePath}");
         Separator('-');
@@ -151,11 +151,11 @@ public sealed class ConsoleReporter : IDisposable
         if (run.Aborted)
             Line($"  RESULTADO: PROCESO DETENIDO. {run.AbortReason}", ConsoleColor.Red);
         else if (run.HasErrors)
-            Line("  RESULTADO: FINALIZÓ CON ERRORES (revise el detalle de cada archivo).", ConsoleColor.Red);
+            Line("  RESULTADO: FINALIZO CON ERRORES (revise el detalle de cada archivo).", ConsoleColor.Red);
         else if (run.TotalRechazados > 0)
-            Line("  RESULTADO: FINALIZÓ CORRECTAMENTE, CON REGISTROS RECHAZADOS (ver detalle arriba).", ConsoleColor.Yellow);
+            Line("  RESULTADO: FINALIZO CORRECTAMENTE, CON REGISTROS RECHAZADOS (ver detalle arriba).", ConsoleColor.Yellow);
         else
-            Line("  RESULTADO: FINALIZÓ CORRECTAMENTE SIN RECHAZOS.", ConsoleColor.Green);
+            Line("  RESULTADO: FINALIZO CORRECTAMENTE SIN RECHAZOS.", ConsoleColor.Green);
 
         Separator('=');
     }
