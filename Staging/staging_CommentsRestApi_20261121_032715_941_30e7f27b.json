@@ -1,0 +1,2002 @@
+[
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0001",
+    "ClientId": "C019",
+    "ProductId": "P003",
+    "EventDateUtc": "2025-06-15T00:00:00Z",
+    "Comment": "Informaci\u00F3n suficiente, sin mayor novedad",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0002",
+    "ClientId": null,
+    "ProductId": "P006",
+    "EventDateUtc": "2025-08-27T00:00:00Z",
+    "Comment": "Muy mala calidad, se rompi\u00F3 r\u00E1pido",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0003",
+    "ClientId": null,
+    "ProductId": "P008",
+    "EventDateUtc": "2025-07-28T00:00:00Z",
+    "Comment": "Gran relaci\u00F3n calidad-precio",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0004",
+    "ClientId": null,
+    "ProductId": "P015",
+    "EventDateUtc": "2025-09-05T00:00:00Z",
+    "Comment": "P\u00E9sima atenci\u00F3n al cliente",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0005",
+    "ClientId": "C031",
+    "ProductId": "P010",
+    "EventDateUtc": "2025-09-04T00:00:00Z",
+    "Comment": "No cumple con lo anunciado, insatisfecho",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0006",
+    "ClientId": null,
+    "ProductId": "P005",
+    "EventDateUtc": "2025-06-18T00:00:00Z",
+    "Comment": "No cumple con lo anunciado, insatisfecho",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0007",
+    "ClientId": "C036",
+    "ProductId": "P017",
+    "EventDateUtc": "2025-07-20T00:00:00Z",
+    "Comment": "No funciona como esperaba, decepcionado",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0008",
+    "ClientId": null,
+    "ProductId": "P017",
+    "EventDateUtc": "2025-08-25T00:00:00Z",
+    "Comment": "Me encanta este producto, excelente calidad",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0009",
+    "ClientId": "C021",
+    "ProductId": "P010",
+    "EventDateUtc": "2025-07-09T00:00:00Z",
+    "Comment": "Informaci\u00F3n suficiente, sin mayor novedad",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0010",
+    "ClientId": null,
+    "ProductId": "P010",
+    "EventDateUtc": "2025-08-28T00:00:00Z",
+    "Comment": "Gran relaci\u00F3n calidad-precio",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0011",
+    "ClientId": null,
+    "ProductId": "P010",
+    "EventDateUtc": "2025-07-01T00:00:00Z",
+    "Comment": "Muy satisfecho con la compra, lo recomiendo",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0012",
+    "ClientId": "C040",
+    "ProductId": "P005",
+    "EventDateUtc": "2025-07-03T00:00:00Z",
+    "Comment": "Satisface lo b\u00E1sico",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0013",
+    "ClientId": null,
+    "ProductId": "P002",
+    "EventDateUtc": "2025-07-02T00:00:00Z",
+    "Comment": "Me encanta este producto, excelente calidad",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0014",
+    "ClientId": null,
+    "ProductId": "P009",
+    "EventDateUtc": "2025-06-24T00:00:00Z",
+    "Comment": "Entrega correcta, sin comentarios adicionales",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0015",
+    "ClientId": "C035",
+    "ProductId": "P001",
+    "EventDateUtc": "2025-08-13T00:00:00Z",
+    "Comment": "Producto lleg\u00F3 r\u00E1pido y funciona perfecto",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0016",
+    "ClientId": "C005",
+    "ProductId": "P013",
+    "EventDateUtc": "2025-07-22T00:00:00Z",
+    "Comment": "No funciona como esperaba, decepcionado",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0017",
+    "ClientId": "C022",
+    "ProductId": "P016",
+    "EventDateUtc": "2025-08-04T00:00:00Z",
+    "Comment": "Env\u00EDo tard\u00EDo y producto da\u00F1ado",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0018",
+    "ClientId": null,
+    "ProductId": "P012",
+    "EventDateUtc": "2025-07-04T00:00:00Z",
+    "Comment": "Producto lleg\u00F3 r\u00E1pido y funciona perfecto",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0019",
+    "ClientId": "C030",
+    "ProductId": "P004",
+    "EventDateUtc": "2025-08-26T00:00:00Z",
+    "Comment": "Calidad superior, muy contento",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0020",
+    "ClientId": "C025",
+    "ProductId": "P004",
+    "EventDateUtc": "2025-08-24T00:00:00Z",
+    "Comment": "Entrega correcta, sin comentarios adicionales",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0021",
+    "ClientId": null,
+    "ProductId": "P011",
+    "EventDateUtc": "2025-07-12T00:00:00Z",
+    "Comment": "Informaci\u00F3n suficiente, sin mayor novedad",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0022",
+    "ClientId": "C020",
+    "ProductId": "P017",
+    "EventDateUtc": "2025-07-11T00:00:00Z",
+    "Comment": "Muy mala calidad, se rompi\u00F3 r\u00E1pido",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0023",
+    "ClientId": null,
+    "ProductId": "P015",
+    "EventDateUtc": "2025-09-07T00:00:00Z",
+    "Comment": "Producto lleg\u00F3 r\u00E1pido y funciona perfecto",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0024",
+    "ClientId": "C031",
+    "ProductId": "P010",
+    "EventDateUtc": "2025-07-20T00:00:00Z",
+    "Comment": "Me encanta este producto, excelente calidad",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0025",
+    "ClientId": null,
+    "ProductId": "P005",
+    "EventDateUtc": "2025-09-08T00:00:00Z",
+    "Comment": "Entrega correcta, sin comentarios adicionales",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0026",
+    "ClientId": "C036",
+    "ProductId": "P013",
+    "EventDateUtc": "2025-09-04T00:00:00Z",
+    "Comment": "Gran relaci\u00F3n calidad-precio",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0027",
+    "ClientId": "C036",
+    "ProductId": "P013",
+    "EventDateUtc": "2025-06-27T00:00:00Z",
+    "Comment": "Gran relaci\u00F3n calidad-precio",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0028",
+    "ClientId": "C007",
+    "ProductId": "P004",
+    "EventDateUtc": "2025-07-29T00:00:00Z",
+    "Comment": "Producto lleg\u00F3 r\u00E1pido y funciona perfecto",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0029",
+    "ClientId": "C033",
+    "ProductId": "P005",
+    "EventDateUtc": "2025-09-09T00:00:00Z",
+    "Comment": "Muy mala calidad, se rompi\u00F3 r\u00E1pido",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0030",
+    "ClientId": null,
+    "ProductId": "P005",
+    "EventDateUtc": "2025-08-25T00:00:00Z",
+    "Comment": "Satisface lo b\u00E1sico",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0031",
+    "ClientId": null,
+    "ProductId": "P020",
+    "EventDateUtc": "2025-08-24T00:00:00Z",
+    "Comment": "Gran relaci\u00F3n calidad-precio",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0032",
+    "ClientId": null,
+    "ProductId": "P013",
+    "EventDateUtc": "2025-08-01T00:00:00Z",
+    "Comment": "Es lo que esperaba, nada excepcional",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0033",
+    "ClientId": null,
+    "ProductId": "P017",
+    "EventDateUtc": "2025-07-15T00:00:00Z",
+    "Comment": "P\u00E9sima atenci\u00F3n al cliente",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0034",
+    "ClientId": "C008",
+    "ProductId": "P001",
+    "EventDateUtc": "2025-06-17T00:00:00Z",
+    "Comment": "Satisface lo b\u00E1sico",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0035",
+    "ClientId": "C017",
+    "ProductId": "P001",
+    "EventDateUtc": "2025-08-15T00:00:00Z",
+    "Comment": "Satisface lo b\u00E1sico",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0036",
+    "ClientId": "C011",
+    "ProductId": "P002",
+    "EventDateUtc": "2025-08-26T00:00:00Z",
+    "Comment": "P\u00E9sima atenci\u00F3n al cliente",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0037",
+    "ClientId": "C008",
+    "ProductId": "P008",
+    "EventDateUtc": "2025-07-22T00:00:00Z",
+    "Comment": "Calidad superior, muy contento",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0038",
+    "ClientId": "C014",
+    "ProductId": "P005",
+    "EventDateUtc": "2025-09-06T00:00:00Z",
+    "Comment": "P\u00E9sima atenci\u00F3n al cliente",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0039",
+    "ClientId": "C036",
+    "ProductId": "P005",
+    "EventDateUtc": "2025-07-27T00:00:00Z",
+    "Comment": "Calidad superior, muy contento",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0040",
+    "ClientId": null,
+    "ProductId": "P011",
+    "EventDateUtc": "2025-07-06T00:00:00Z",
+    "Comment": "P\u00E9sima atenci\u00F3n al cliente",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0041",
+    "ClientId": null,
+    "ProductId": "P012",
+    "EventDateUtc": "2025-07-14T00:00:00Z",
+    "Comment": "Es lo que esperaba, nada excepcional",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0042",
+    "ClientId": null,
+    "ProductId": "P007",
+    "EventDateUtc": "2025-08-06T00:00:00Z",
+    "Comment": "Producto lleg\u00F3 r\u00E1pido y funciona perfecto",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0043",
+    "ClientId": null,
+    "ProductId": "P010",
+    "EventDateUtc": "2025-07-14T00:00:00Z",
+    "Comment": "No cumple con lo anunciado, insatisfecho",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0044",
+    "ClientId": "C018",
+    "ProductId": "P012",
+    "EventDateUtc": "2025-07-06T00:00:00Z",
+    "Comment": "Gran relaci\u00F3n calidad-precio",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0045",
+    "ClientId": null,
+    "ProductId": "P013",
+    "EventDateUtc": "2025-08-07T00:00:00Z",
+    "Comment": "Producto lleg\u00F3 r\u00E1pido y funciona perfecto",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0046",
+    "ClientId": "C006",
+    "ProductId": "P002",
+    "EventDateUtc": "2025-08-12T00:00:00Z",
+    "Comment": "Calidad superior, muy contento",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0047",
+    "ClientId": "C035",
+    "ProductId": "P016",
+    "EventDateUtc": "2025-08-10T00:00:00Z",
+    "Comment": "Gran relaci\u00F3n calidad-precio",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0048",
+    "ClientId": "C038",
+    "ProductId": "P005",
+    "EventDateUtc": "2025-07-08T00:00:00Z",
+    "Comment": "Me encanta este producto, excelente calidad",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0049",
+    "ClientId": null,
+    "ProductId": "P008",
+    "EventDateUtc": "2025-07-15T00:00:00Z",
+    "Comment": "Calidad superior, muy contento",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0050",
+    "ClientId": null,
+    "ProductId": "P004",
+    "EventDateUtc": "2025-07-23T00:00:00Z",
+    "Comment": "Gran relaci\u00F3n calidad-precio",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0051",
+    "ClientId": "C013",
+    "ProductId": "P016",
+    "EventDateUtc": "2025-08-08T00:00:00Z",
+    "Comment": "Es lo que esperaba, nada excepcional",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0052",
+    "ClientId": null,
+    "ProductId": "P002",
+    "EventDateUtc": "2025-07-07T00:00:00Z",
+    "Comment": "Gran relaci\u00F3n calidad-precio",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0053",
+    "ClientId": null,
+    "ProductId": "P002",
+    "EventDateUtc": "2025-07-25T00:00:00Z",
+    "Comment": "Muy satisfecho con la compra, lo recomiendo",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0054",
+    "ClientId": "C019",
+    "ProductId": "P016",
+    "EventDateUtc": "2025-07-03T00:00:00Z",
+    "Comment": "Producto recibido, cumple su funci\u00F3n",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0055",
+    "ClientId": "C022",
+    "ProductId": "P020",
+    "EventDateUtc": "2025-07-12T00:00:00Z",
+    "Comment": "Gran relaci\u00F3n calidad-precio",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0056",
+    "ClientId": null,
+    "ProductId": "P005",
+    "EventDateUtc": "2025-08-02T00:00:00Z",
+    "Comment": "No funciona como esperaba, decepcionado",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0057",
+    "ClientId": null,
+    "ProductId": "P006",
+    "EventDateUtc": "2025-08-01T00:00:00Z",
+    "Comment": "No funciona como esperaba, decepcionado",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0058",
+    "ClientId": "C013",
+    "ProductId": "P010",
+    "EventDateUtc": "2025-07-10T00:00:00Z",
+    "Comment": "Calidad superior, muy contento",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0059",
+    "ClientId": "C007",
+    "ProductId": "P011",
+    "EventDateUtc": "2025-08-03T00:00:00Z",
+    "Comment": "Muy satisfecho con la compra, lo recomiendo",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0060",
+    "ClientId": "C025",
+    "ProductId": "P008",
+    "EventDateUtc": "2025-08-06T00:00:00Z",
+    "Comment": "Producto lleg\u00F3 r\u00E1pido y funciona perfecto",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0061",
+    "ClientId": null,
+    "ProductId": "P019",
+    "EventDateUtc": "2025-08-14T00:00:00Z",
+    "Comment": "Producto lleg\u00F3 r\u00E1pido y funciona perfecto",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0062",
+    "ClientId": null,
+    "ProductId": "P002",
+    "EventDateUtc": "2025-06-18T00:00:00Z",
+    "Comment": "No funciona como esperaba, decepcionado",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0063",
+    "ClientId": null,
+    "ProductId": "P017",
+    "EventDateUtc": "2025-08-29T00:00:00Z",
+    "Comment": "Es lo que esperaba, nada excepcional",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0064",
+    "ClientId": "C015",
+    "ProductId": "P010",
+    "EventDateUtc": "2025-08-25T00:00:00Z",
+    "Comment": "Muy satisfecho con la compra, lo recomiendo",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0065",
+    "ClientId": null,
+    "ProductId": "P015",
+    "EventDateUtc": "2025-07-05T00:00:00Z",
+    "Comment": "No cumple con lo anunciado, insatisfecho",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0066",
+    "ClientId": null,
+    "ProductId": "P016",
+    "EventDateUtc": "2025-06-18T00:00:00Z",
+    "Comment": "Informaci\u00F3n suficiente, sin mayor novedad",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0067",
+    "ClientId": null,
+    "ProductId": "P020",
+    "EventDateUtc": "2025-06-15T00:00:00Z",
+    "Comment": "Calidad superior, muy contento",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0068",
+    "ClientId": "C037",
+    "ProductId": "P012",
+    "EventDateUtc": "2025-08-19T00:00:00Z",
+    "Comment": "Gran relaci\u00F3n calidad-precio",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0069",
+    "ClientId": "C011",
+    "ProductId": "P019",
+    "EventDateUtc": "2025-08-30T00:00:00Z",
+    "Comment": "Gran relaci\u00F3n calidad-precio",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0070",
+    "ClientId": null,
+    "ProductId": "P007",
+    "EventDateUtc": "2025-09-06T00:00:00Z",
+    "Comment": "P\u00E9sima atenci\u00F3n al cliente",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0071",
+    "ClientId": "C027",
+    "ProductId": "P015",
+    "EventDateUtc": "2025-07-16T00:00:00Z",
+    "Comment": "Muy mala calidad, se rompi\u00F3 r\u00E1pido",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0072",
+    "ClientId": null,
+    "ProductId": "P010",
+    "EventDateUtc": "2025-08-17T00:00:00Z",
+    "Comment": "Me encanta este producto, excelente calidad",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0073",
+    "ClientId": "C028",
+    "ProductId": "P019",
+    "EventDateUtc": "2025-09-06T00:00:00Z",
+    "Comment": "Me encanta este producto, excelente calidad",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0074",
+    "ClientId": null,
+    "ProductId": "P003",
+    "EventDateUtc": "2025-08-21T00:00:00Z",
+    "Comment": "Env\u00EDo tard\u00EDo y producto da\u00F1ado",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0075",
+    "ClientId": null,
+    "ProductId": "P005",
+    "EventDateUtc": "2025-07-27T00:00:00Z",
+    "Comment": "Entrega correcta, sin comentarios adicionales",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0076",
+    "ClientId": null,
+    "ProductId": "P015",
+    "EventDateUtc": "2025-06-18T00:00:00Z",
+    "Comment": "Entrega correcta, sin comentarios adicionales",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0077",
+    "ClientId": "C023",
+    "ProductId": "P018",
+    "EventDateUtc": "2025-07-08T00:00:00Z",
+    "Comment": "Gran relaci\u00F3n calidad-precio",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0078",
+    "ClientId": null,
+    "ProductId": "P005",
+    "EventDateUtc": "2025-08-06T00:00:00Z",
+    "Comment": "Me encanta este producto, excelente calidad",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0079",
+    "ClientId": null,
+    "ProductId": "P015",
+    "EventDateUtc": "2025-08-15T00:00:00Z",
+    "Comment": "P\u00E9sima atenci\u00F3n al cliente",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0080",
+    "ClientId": "C010",
+    "ProductId": "P008",
+    "EventDateUtc": "2025-06-21T00:00:00Z",
+    "Comment": "Me encanta este producto, excelente calidad",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0081",
+    "ClientId": null,
+    "ProductId": "P014",
+    "EventDateUtc": "2025-08-18T00:00:00Z",
+    "Comment": "Producto recibido, cumple su funci\u00F3n",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0082",
+    "ClientId": "C003",
+    "ProductId": "P003",
+    "EventDateUtc": "2025-09-08T00:00:00Z",
+    "Comment": "Muy mala calidad, se rompi\u00F3 r\u00E1pido",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0083",
+    "ClientId": "C035",
+    "ProductId": "P013",
+    "EventDateUtc": "2025-07-11T00:00:00Z",
+    "Comment": "Me encanta este producto, excelente calidad",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0084",
+    "ClientId": "C037",
+    "ProductId": "P010",
+    "EventDateUtc": "2025-08-03T00:00:00Z",
+    "Comment": "Gran relaci\u00F3n calidad-precio",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0085",
+    "ClientId": "C010",
+    "ProductId": "P008",
+    "EventDateUtc": "2025-07-23T00:00:00Z",
+    "Comment": "Satisface lo b\u00E1sico",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0086",
+    "ClientId": "C036",
+    "ProductId": "P010",
+    "EventDateUtc": "2025-06-19T00:00:00Z",
+    "Comment": "Informaci\u00F3n suficiente, sin mayor novedad",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0087",
+    "ClientId": "C004",
+    "ProductId": "P014",
+    "EventDateUtc": "2025-08-04T00:00:00Z",
+    "Comment": "Entrega correcta, sin comentarios adicionales",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0088",
+    "ClientId": "C020",
+    "ProductId": "P014",
+    "EventDateUtc": "2025-08-14T00:00:00Z",
+    "Comment": "Gran relaci\u00F3n calidad-precio",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0089",
+    "ClientId": "C010",
+    "ProductId": "P008",
+    "EventDateUtc": "2025-07-23T00:00:00Z",
+    "Comment": "Producto recibido, cumple su funci\u00F3n",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0090",
+    "ClientId": "C009",
+    "ProductId": "P014",
+    "EventDateUtc": "2025-08-02T00:00:00Z",
+    "Comment": "Producto lleg\u00F3 r\u00E1pido y funciona perfecto",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0091",
+    "ClientId": null,
+    "ProductId": "P003",
+    "EventDateUtc": "2025-08-20T00:00:00Z",
+    "Comment": "Producto recibido, cumple su funci\u00F3n",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0092",
+    "ClientId": "C039",
+    "ProductId": "P002",
+    "EventDateUtc": "2025-06-30T00:00:00Z",
+    "Comment": "Muy mala calidad, se rompi\u00F3 r\u00E1pido",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0093",
+    "ClientId": "C014",
+    "ProductId": "P018",
+    "EventDateUtc": "2025-09-12T00:00:00Z",
+    "Comment": "Es lo que esperaba, nada excepcional",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0094",
+    "ClientId": null,
+    "ProductId": "P007",
+    "EventDateUtc": "2025-07-14T00:00:00Z",
+    "Comment": "Producto recibido, cumple su funci\u00F3n",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0095",
+    "ClientId": null,
+    "ProductId": "P008",
+    "EventDateUtc": "2025-07-05T00:00:00Z",
+    "Comment": "Entrega correcta, sin comentarios adicionales",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0096",
+    "ClientId": null,
+    "ProductId": "P011",
+    "EventDateUtc": "2025-07-30T00:00:00Z",
+    "Comment": "Gran relaci\u00F3n calidad-precio",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0097",
+    "ClientId": "C033",
+    "ProductId": "P010",
+    "EventDateUtc": "2025-07-15T00:00:00Z",
+    "Comment": "Entrega correcta, sin comentarios adicionales",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0098",
+    "ClientId": null,
+    "ProductId": "P011",
+    "EventDateUtc": "2025-07-03T00:00:00Z",
+    "Comment": "Calidad superior, muy contento",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0099",
+    "ClientId": null,
+    "ProductId": "P008",
+    "EventDateUtc": "2025-07-01T00:00:00Z",
+    "Comment": "Gran relaci\u00F3n calidad-precio",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0100",
+    "ClientId": "C013",
+    "ProductId": "P014",
+    "EventDateUtc": "2025-08-13T00:00:00Z",
+    "Comment": "Calidad superior, muy contento",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0101",
+    "ClientId": "C022",
+    "ProductId": "P016",
+    "EventDateUtc": "2025-06-23T00:00:00Z",
+    "Comment": "Calidad superior, muy contento",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0102",
+    "ClientId": "C023",
+    "ProductId": "P016",
+    "EventDateUtc": "2025-08-21T00:00:00Z",
+    "Comment": "Gran relaci\u00F3n calidad-precio",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0103",
+    "ClientId": null,
+    "ProductId": "P018",
+    "EventDateUtc": "2025-09-04T00:00:00Z",
+    "Comment": "Satisface lo b\u00E1sico",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0104",
+    "ClientId": null,
+    "ProductId": "P002",
+    "EventDateUtc": "2025-06-15T00:00:00Z",
+    "Comment": "No funciona como esperaba, decepcionado",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0105",
+    "ClientId": "C033",
+    "ProductId": "P005",
+    "EventDateUtc": "2025-06-24T00:00:00Z",
+    "Comment": "Muy mala calidad, se rompi\u00F3 r\u00E1pido",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0106",
+    "ClientId": null,
+    "ProductId": "P020",
+    "EventDateUtc": "2025-07-07T00:00:00Z",
+    "Comment": "Muy mala calidad, se rompi\u00F3 r\u00E1pido",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0107",
+    "ClientId": "C002",
+    "ProductId": "P018",
+    "EventDateUtc": "2025-08-08T00:00:00Z",
+    "Comment": "Env\u00EDo tard\u00EDo y producto da\u00F1ado",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0108",
+    "ClientId": "C028",
+    "ProductId": "P001",
+    "EventDateUtc": "2025-09-01T00:00:00Z",
+    "Comment": "Informaci\u00F3n suficiente, sin mayor novedad",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0109",
+    "ClientId": "C013",
+    "ProductId": "P017",
+    "EventDateUtc": "2025-08-10T00:00:00Z",
+    "Comment": "Env\u00EDo tard\u00EDo y producto da\u00F1ado",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0110",
+    "ClientId": "C026",
+    "ProductId": "P013",
+    "EventDateUtc": "2025-08-16T00:00:00Z",
+    "Comment": "No funciona como esperaba, decepcionado",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0111",
+    "ClientId": null,
+    "ProductId": "P010",
+    "EventDateUtc": "2025-07-24T00:00:00Z",
+    "Comment": "Producto recibido, cumple su funci\u00F3n",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0112",
+    "ClientId": "C031",
+    "ProductId": "P013",
+    "EventDateUtc": "2025-08-23T00:00:00Z",
+    "Comment": "Me encanta este producto, excelente calidad",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0113",
+    "ClientId": "C028",
+    "ProductId": "P003",
+    "EventDateUtc": "2025-09-01T00:00:00Z",
+    "Comment": "Env\u00EDo tard\u00EDo y producto da\u00F1ado",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0114",
+    "ClientId": null,
+    "ProductId": "P017",
+    "EventDateUtc": "2025-08-10T00:00:00Z",
+    "Comment": "Gran relaci\u00F3n calidad-precio",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0115",
+    "ClientId": null,
+    "ProductId": "P002",
+    "EventDateUtc": "2025-07-03T00:00:00Z",
+    "Comment": "Env\u00EDo tard\u00EDo y producto da\u00F1ado",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0116",
+    "ClientId": "C021",
+    "ProductId": "P002",
+    "EventDateUtc": "2025-08-26T00:00:00Z",
+    "Comment": "Muy satisfecho con la compra, lo recomiendo",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0117",
+    "ClientId": null,
+    "ProductId": "P013",
+    "EventDateUtc": "2025-07-03T00:00:00Z",
+    "Comment": "Gran relaci\u00F3n calidad-precio",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0118",
+    "ClientId": null,
+    "ProductId": "P013",
+    "EventDateUtc": "2025-08-27T00:00:00Z",
+    "Comment": "No cumple con lo anunciado, insatisfecho",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0119",
+    "ClientId": "C023",
+    "ProductId": "P003",
+    "EventDateUtc": "2025-09-04T00:00:00Z",
+    "Comment": "Calidad superior, muy contento",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0120",
+    "ClientId": null,
+    "ProductId": "P011",
+    "EventDateUtc": "2025-08-03T00:00:00Z",
+    "Comment": "P\u00E9sima atenci\u00F3n al cliente",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0121",
+    "ClientId": null,
+    "ProductId": "P001",
+    "EventDateUtc": "2025-08-15T00:00:00Z",
+    "Comment": "Entrega correcta, sin comentarios adicionales",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0122",
+    "ClientId": "C025",
+    "ProductId": "P012",
+    "EventDateUtc": "2025-07-27T00:00:00Z",
+    "Comment": "P\u00E9sima atenci\u00F3n al cliente",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0123",
+    "ClientId": null,
+    "ProductId": "P003",
+    "EventDateUtc": "2025-09-04T00:00:00Z",
+    "Comment": "Muy satisfecho con la compra, lo recomiendo",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0124",
+    "ClientId": "C025",
+    "ProductId": "P003",
+    "EventDateUtc": "2025-07-26T00:00:00Z",
+    "Comment": "Informaci\u00F3n suficiente, sin mayor novedad",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0125",
+    "ClientId": "C006",
+    "ProductId": "P011",
+    "EventDateUtc": "2025-07-29T00:00:00Z",
+    "Comment": "Producto lleg\u00F3 r\u00E1pido y funciona perfecto",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0126",
+    "ClientId": "C006",
+    "ProductId": "P009",
+    "EventDateUtc": "2025-07-04T00:00:00Z",
+    "Comment": "Calidad superior, muy contento",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0127",
+    "ClientId": "C002",
+    "ProductId": "P017",
+    "EventDateUtc": "2025-06-29T00:00:00Z",
+    "Comment": "Gran relaci\u00F3n calidad-precio",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0128",
+    "ClientId": null,
+    "ProductId": "P020",
+    "EventDateUtc": "2025-07-23T00:00:00Z",
+    "Comment": "Producto recibido, cumple su funci\u00F3n",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0129",
+    "ClientId": null,
+    "ProductId": "P013",
+    "EventDateUtc": "2025-07-02T00:00:00Z",
+    "Comment": "Satisface lo b\u00E1sico",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0130",
+    "ClientId": "C025",
+    "ProductId": "P017",
+    "EventDateUtc": "2025-08-10T00:00:00Z",
+    "Comment": "Producto lleg\u00F3 r\u00E1pido y funciona perfecto",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0131",
+    "ClientId": "C011",
+    "ProductId": "P016",
+    "EventDateUtc": "2025-07-14T00:00:00Z",
+    "Comment": "No cumple con lo anunciado, insatisfecho",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0132",
+    "ClientId": "C016",
+    "ProductId": "P003",
+    "EventDateUtc": "2025-06-27T00:00:00Z",
+    "Comment": "Entrega correcta, sin comentarios adicionales",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0133",
+    "ClientId": "C009",
+    "ProductId": "P007",
+    "EventDateUtc": "2025-06-26T00:00:00Z",
+    "Comment": "Calidad superior, muy contento",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0134",
+    "ClientId": null,
+    "ProductId": "P013",
+    "EventDateUtc": "2025-06-22T00:00:00Z",
+    "Comment": "Producto lleg\u00F3 r\u00E1pido y funciona perfecto",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0135",
+    "ClientId": "C021",
+    "ProductId": "P020",
+    "EventDateUtc": "2025-08-04T00:00:00Z",
+    "Comment": "No funciona como esperaba, decepcionado",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0136",
+    "ClientId": null,
+    "ProductId": "P006",
+    "EventDateUtc": "2025-06-17T00:00:00Z",
+    "Comment": "Es lo que esperaba, nada excepcional",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0137",
+    "ClientId": null,
+    "ProductId": "P016",
+    "EventDateUtc": "2025-08-09T00:00:00Z",
+    "Comment": "Es lo que esperaba, nada excepcional",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0138",
+    "ClientId": "C037",
+    "ProductId": "P013",
+    "EventDateUtc": "2025-06-18T00:00:00Z",
+    "Comment": "Gran relaci\u00F3n calidad-precio",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0139",
+    "ClientId": "C030",
+    "ProductId": "P018",
+    "EventDateUtc": "2025-08-07T00:00:00Z",
+    "Comment": "Informaci\u00F3n suficiente, sin mayor novedad",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0140",
+    "ClientId": null,
+    "ProductId": "P003",
+    "EventDateUtc": "2025-07-12T00:00:00Z",
+    "Comment": "Entrega correcta, sin comentarios adicionales",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0141",
+    "ClientId": null,
+    "ProductId": "P005",
+    "EventDateUtc": "2025-07-21T00:00:00Z",
+    "Comment": "Muy satisfecho con la compra, lo recomiendo",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0142",
+    "ClientId": "C039",
+    "ProductId": "P013",
+    "EventDateUtc": "2025-07-11T00:00:00Z",
+    "Comment": "No cumple con lo anunciado, insatisfecho",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0143",
+    "ClientId": "C024",
+    "ProductId": "P014",
+    "EventDateUtc": "2025-06-24T00:00:00Z",
+    "Comment": "Satisface lo b\u00E1sico",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0144",
+    "ClientId": "C016",
+    "ProductId": "P003",
+    "EventDateUtc": "2025-06-23T00:00:00Z",
+    "Comment": "Env\u00EDo tard\u00EDo y producto da\u00F1ado",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0145",
+    "ClientId": "C026",
+    "ProductId": "P020",
+    "EventDateUtc": "2025-08-31T00:00:00Z",
+    "Comment": "Es lo que esperaba, nada excepcional",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0146",
+    "ClientId": "C015",
+    "ProductId": "P001",
+    "EventDateUtc": "2025-07-01T00:00:00Z",
+    "Comment": "P\u00E9sima atenci\u00F3n al cliente",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0147",
+    "ClientId": "C024",
+    "ProductId": "P019",
+    "EventDateUtc": "2025-07-11T00:00:00Z",
+    "Comment": "Gran relaci\u00F3n calidad-precio",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0148",
+    "ClientId": "C002",
+    "ProductId": "P005",
+    "EventDateUtc": "2025-09-03T00:00:00Z",
+    "Comment": "Env\u00EDo tard\u00EDo y producto da\u00F1ado",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0149",
+    "ClientId": null,
+    "ProductId": "P004",
+    "EventDateUtc": "2025-08-01T00:00:00Z",
+    "Comment": "Es lo que esperaba, nada excepcional",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0150",
+    "ClientId": null,
+    "ProductId": "P015",
+    "EventDateUtc": "2025-09-01T00:00:00Z",
+    "Comment": "Env\u00EDo tard\u00EDo y producto da\u00F1ado",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0151",
+    "ClientId": null,
+    "ProductId": "P015",
+    "EventDateUtc": "2025-09-08T00:00:00Z",
+    "Comment": "Muy mala calidad, se rompi\u00F3 r\u00E1pido",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0152",
+    "ClientId": "C022",
+    "ProductId": "P004",
+    "EventDateUtc": "2025-08-13T00:00:00Z",
+    "Comment": "No funciona como esperaba, decepcionado",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0153",
+    "ClientId": "C011",
+    "ProductId": "P017",
+    "EventDateUtc": "2025-08-15T00:00:00Z",
+    "Comment": "Calidad superior, muy contento",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0154",
+    "ClientId": null,
+    "ProductId": "P013",
+    "EventDateUtc": "2025-09-10T00:00:00Z",
+    "Comment": "Calidad superior, muy contento",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0155",
+    "ClientId": null,
+    "ProductId": "P020",
+    "EventDateUtc": "2025-09-13T00:00:00Z",
+    "Comment": "No cumple con lo anunciado, insatisfecho",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0156",
+    "ClientId": "C005",
+    "ProductId": "P007",
+    "EventDateUtc": "2025-07-29T00:00:00Z",
+    "Comment": "P\u00E9sima atenci\u00F3n al cliente",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0157",
+    "ClientId": "C008",
+    "ProductId": "P011",
+    "EventDateUtc": "2025-06-24T00:00:00Z",
+    "Comment": "Calidad superior, muy contento",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0158",
+    "ClientId": "C040",
+    "ProductId": "P011",
+    "EventDateUtc": "2025-07-30T00:00:00Z",
+    "Comment": "Me encanta este producto, excelente calidad",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0159",
+    "ClientId": null,
+    "ProductId": "P015",
+    "EventDateUtc": "2025-06-30T00:00:00Z",
+    "Comment": "Es lo que esperaba, nada excepcional",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0160",
+    "ClientId": null,
+    "ProductId": "P003",
+    "EventDateUtc": "2025-08-30T00:00:00Z",
+    "Comment": "Muy satisfecho con la compra, lo recomiendo",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0161",
+    "ClientId": "C010",
+    "ProductId": "P006",
+    "EventDateUtc": "2025-08-27T00:00:00Z",
+    "Comment": "No cumple con lo anunciado, insatisfecho",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0162",
+    "ClientId": "C012",
+    "ProductId": "P019",
+    "EventDateUtc": "2025-06-23T00:00:00Z",
+    "Comment": "P\u00E9sima atenci\u00F3n al cliente",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0163",
+    "ClientId": "C032",
+    "ProductId": "P006",
+    "EventDateUtc": "2025-07-18T00:00:00Z",
+    "Comment": "Muy satisfecho con la compra, lo recomiendo",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0164",
+    "ClientId": "C023",
+    "ProductId": "P020",
+    "EventDateUtc": "2025-08-20T00:00:00Z",
+    "Comment": "Entrega correcta, sin comentarios adicionales",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0165",
+    "ClientId": null,
+    "ProductId": "P013",
+    "EventDateUtc": "2025-06-18T00:00:00Z",
+    "Comment": "No cumple con lo anunciado, insatisfecho",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0166",
+    "ClientId": "C029",
+    "ProductId": "P016",
+    "EventDateUtc": "2025-09-10T00:00:00Z",
+    "Comment": "Muy mala calidad, se rompi\u00F3 r\u00E1pido",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0167",
+    "ClientId": "C018",
+    "ProductId": "P008",
+    "EventDateUtc": "2025-07-17T00:00:00Z",
+    "Comment": "Producto lleg\u00F3 r\u00E1pido y funciona perfecto",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0168",
+    "ClientId": null,
+    "ProductId": "P019",
+    "EventDateUtc": "2025-08-30T00:00:00Z",
+    "Comment": "Satisface lo b\u00E1sico",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0169",
+    "ClientId": "C035",
+    "ProductId": "P019",
+    "EventDateUtc": "2025-09-08T00:00:00Z",
+    "Comment": "Es lo que esperaba, nada excepcional",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0170",
+    "ClientId": "C028",
+    "ProductId": "P015",
+    "EventDateUtc": "2025-09-09T00:00:00Z",
+    "Comment": "Muy satisfecho con la compra, lo recomiendo",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0171",
+    "ClientId": "C006",
+    "ProductId": "P015",
+    "EventDateUtc": "2025-08-18T00:00:00Z",
+    "Comment": "Muy mala calidad, se rompi\u00F3 r\u00E1pido",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0172",
+    "ClientId": null,
+    "ProductId": "P019",
+    "EventDateUtc": "2025-07-21T00:00:00Z",
+    "Comment": "Satisface lo b\u00E1sico",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0173",
+    "ClientId": null,
+    "ProductId": "P006",
+    "EventDateUtc": "2025-07-03T00:00:00Z",
+    "Comment": "Informaci\u00F3n suficiente, sin mayor novedad",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0174",
+    "ClientId": "C039",
+    "ProductId": "P012",
+    "EventDateUtc": "2025-08-07T00:00:00Z",
+    "Comment": "Env\u00EDo tard\u00EDo y producto da\u00F1ado",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0175",
+    "ClientId": "C033",
+    "ProductId": "P010",
+    "EventDateUtc": "2025-07-23T00:00:00Z",
+    "Comment": "Producto recibido, cumple su funci\u00F3n",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0176",
+    "ClientId": null,
+    "ProductId": "P002",
+    "EventDateUtc": "2025-08-28T00:00:00Z",
+    "Comment": "Informaci\u00F3n suficiente, sin mayor novedad",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0177",
+    "ClientId": "C021",
+    "ProductId": "P008",
+    "EventDateUtc": "2025-08-26T00:00:00Z",
+    "Comment": "Entrega correcta, sin comentarios adicionales",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0178",
+    "ClientId": null,
+    "ProductId": "P019",
+    "EventDateUtc": "2025-09-04T00:00:00Z",
+    "Comment": "No cumple con lo anunciado, insatisfecho",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0179",
+    "ClientId": "C018",
+    "ProductId": "P003",
+    "EventDateUtc": "2025-07-13T00:00:00Z",
+    "Comment": "Env\u00EDo tard\u00EDo y producto da\u00F1ado",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0180",
+    "ClientId": "C006",
+    "ProductId": "P011",
+    "EventDateUtc": "2025-06-20T00:00:00Z",
+    "Comment": "Entrega correcta, sin comentarios adicionales",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0181",
+    "ClientId": null,
+    "ProductId": "P012",
+    "EventDateUtc": "2025-07-21T00:00:00Z",
+    "Comment": "Entrega correcta, sin comentarios adicionales",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0182",
+    "ClientId": "C021",
+    "ProductId": "P007",
+    "EventDateUtc": "2025-07-02T00:00:00Z",
+    "Comment": "Es lo que esperaba, nada excepcional",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0183",
+    "ClientId": "C032",
+    "ProductId": "P005",
+    "EventDateUtc": "2025-09-01T00:00:00Z",
+    "Comment": "Producto recibido, cumple su funci\u00F3n",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0184",
+    "ClientId": "C011",
+    "ProductId": "P015",
+    "EventDateUtc": "2025-08-19T00:00:00Z",
+    "Comment": "Muy mala calidad, se rompi\u00F3 r\u00E1pido",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0185",
+    "ClientId": null,
+    "ProductId": "P005",
+    "EventDateUtc": "2025-06-22T00:00:00Z",
+    "Comment": "Producto lleg\u00F3 r\u00E1pido y funciona perfecto",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0186",
+    "ClientId": "C024",
+    "ProductId": "P012",
+    "EventDateUtc": "2025-07-25T00:00:00Z",
+    "Comment": "No funciona como esperaba, decepcionado",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0187",
+    "ClientId": null,
+    "ProductId": "P010",
+    "EventDateUtc": "2025-09-02T00:00:00Z",
+    "Comment": "Entrega correcta, sin comentarios adicionales",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0188",
+    "ClientId": "C031",
+    "ProductId": "P004",
+    "EventDateUtc": "2025-07-09T00:00:00Z",
+    "Comment": "Gran relaci\u00F3n calidad-precio",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0189",
+    "ClientId": "C022",
+    "ProductId": "P015",
+    "EventDateUtc": "2025-08-28T00:00:00Z",
+    "Comment": "Entrega correcta, sin comentarios adicionales",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0190",
+    "ClientId": "C025",
+    "ProductId": "P016",
+    "EventDateUtc": "2025-08-04T00:00:00Z",
+    "Comment": "Me encanta este producto, excelente calidad",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0191",
+    "ClientId": null,
+    "ProductId": "P012",
+    "EventDateUtc": "2025-06-19T00:00:00Z",
+    "Comment": "Muy satisfecho con la compra, lo recomiendo",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0192",
+    "ClientId": "C037",
+    "ProductId": "P005",
+    "EventDateUtc": "2025-07-31T00:00:00Z",
+    "Comment": "Muy satisfecho con la compra, lo recomiendo",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0193",
+    "ClientId": null,
+    "ProductId": "P007",
+    "EventDateUtc": "2025-06-18T00:00:00Z",
+    "Comment": "Calidad superior, muy contento",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0194",
+    "ClientId": null,
+    "ProductId": "P015",
+    "EventDateUtc": "2025-08-29T00:00:00Z",
+    "Comment": "Me encanta este producto, excelente calidad",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0195",
+    "ClientId": null,
+    "ProductId": "P019",
+    "EventDateUtc": "2025-08-27T00:00:00Z",
+    "Comment": "Calidad superior, muy contento",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0196",
+    "ClientId": "C006",
+    "ProductId": "P008",
+    "EventDateUtc": "2025-06-28T00:00:00Z",
+    "Comment": "Gran relaci\u00F3n calidad-precio",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0197",
+    "ClientId": null,
+    "ProductId": "P010",
+    "EventDateUtc": "2025-07-09T00:00:00Z",
+    "Comment": "Env\u00EDo tard\u00EDo y producto da\u00F1ado",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0198",
+    "ClientId": "C026",
+    "ProductId": "P020",
+    "EventDateUtc": "2025-07-12T00:00:00Z",
+    "Comment": "Me encanta este producto, excelente calidad",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0199",
+    "ClientId": "C032",
+    "ProductId": "P013",
+    "EventDateUtc": "2025-09-12T00:00:00Z",
+    "Comment": "Muy mala calidad, se rompi\u00F3 r\u00E1pido",
+    "Score": null
+  },
+  {
+    "SourceType": "API_REST",
+    "SourceName": "CommentsRestApi",
+    "ExternalId": "T0200",
+    "ClientId": null,
+    "ProductId": "P012",
+    "EventDateUtc": "2025-07-29T00:00:00Z",
+    "Comment": "Gran relaci\u00F3n calidad-precio",
+    "Score": null
+  }
+]

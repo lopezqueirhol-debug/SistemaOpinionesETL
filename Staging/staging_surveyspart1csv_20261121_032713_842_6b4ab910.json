@@ -1,0 +1,5002 @@
+[
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "1",
+    "ClientId": "8537",
+    "ProductId": "366",
+    "EventDateUtc": "2025-07-15T04:00:00Z",
+    "Comment": "El producto est\u00E1 bien, pero esperaba un poco m\u00E1s de calidad.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "2",
+    "ClientId": "2721",
+    "ProductId": "667",
+    "EventDateUtc": "2024-12-07T04:00:00Z",
+    "Comment": "Ni malo ni excelente, simplemente regular.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "3",
+    "ClientId": "8424",
+    "ProductId": "953",
+    "EventDateUtc": "2025-06-20T04:00:00Z",
+    "Comment": "Mala calidad, no lo recomiendo para nada.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "4",
+    "ClientId": "9672",
+    "ProductId": "961",
+    "EventDateUtc": "2025-08-17T04:00:00Z",
+    "Comment": "El producto est\u00E1 bien, pero esperaba un poco m\u00E1s de calidad.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "5",
+    "ClientId": "8018",
+    "ProductId": "607",
+    "EventDateUtc": "2024-10-22T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 en perfecto estado y antes de tiempo.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "6",
+    "ClientId": "6119",
+    "ProductId": "89",
+    "EventDateUtc": "2025-03-06T04:00:00Z",
+    "Comment": "El servicio fue r\u00E1pido y eficiente, estoy muy satisfecho.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "7",
+    "ClientId": "4890",
+    "ProductId": "478",
+    "EventDateUtc": "2025-07-19T04:00:00Z",
+    "Comment": "El env\u00EDo fue normal, dentro del tiempo esperado.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "8",
+    "ClientId": "415",
+    "ProductId": "388",
+    "EventDateUtc": "2025-02-06T04:00:00Z",
+    "Comment": "Me encanta, es justo lo que necesitaba.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "9",
+    "ClientId": "6110",
+    "ProductId": "970",
+    "EventDateUtc": "2024-09-19T04:00:00Z",
+    "Comment": "El servicio fue r\u00E1pido y eficiente, estoy muy satisfecho.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "10",
+    "ClientId": "8693",
+    "ProductId": "48",
+    "EventDateUtc": "2025-05-29T04:00:00Z",
+    "Comment": "Me encanta, es justo lo que necesitaba.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "11",
+    "ClientId": "9269",
+    "ProductId": "74",
+    "EventDateUtc": "2025-02-07T04:00:00Z",
+    "Comment": "El producto est\u00E1 bien, pero esperaba un poco m\u00E1s de calidad.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "12",
+    "ClientId": "3734",
+    "ProductId": "34",
+    "EventDateUtc": "2025-05-30T04:00:00Z",
+    "Comment": "El producto est\u00E1 bien, pero esperaba un poco m\u00E1s de calidad.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "13",
+    "ClientId": "3629",
+    "ProductId": "930",
+    "EventDateUtc": "2025-04-27T04:00:00Z",
+    "Comment": "El servicio fue lento y el soporte no resolvi\u00F3 mi problema.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "14",
+    "ClientId": "1953",
+    "ProductId": "369",
+    "EventDateUtc": "2025-06-23T04:00:00Z",
+    "Comment": "Ni malo ni excelente, simplemente regular.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "15",
+    "ClientId": "253",
+    "ProductId": "385",
+    "EventDateUtc": "2025-04-05T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 da\u00F1ado y no cumpli\u00F3 con lo prometido.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "16",
+    "ClientId": "8697",
+    "ProductId": "750",
+    "EventDateUtc": "2025-04-25T04:00:00Z",
+    "Comment": "El servicio fue r\u00E1pido y eficiente, estoy muy satisfecho.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "17",
+    "ClientId": "2756",
+    "ProductId": "339",
+    "EventDateUtc": "2024-12-03T04:00:00Z",
+    "Comment": "El env\u00EDo fue normal, dentro del tiempo esperado.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "18",
+    "ClientId": "9132",
+    "ProductId": "390",
+    "EventDateUtc": "2025-01-21T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 da\u00F1ado y no cumpli\u00F3 con lo prometido.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "19",
+    "ClientId": "1370",
+    "ProductId": "393",
+    "EventDateUtc": "2024-12-07T04:00:00Z",
+    "Comment": "Excelente calidad, definitivamente volver\u00EDa a comprar.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "20",
+    "ClientId": "6506",
+    "ProductId": "271",
+    "EventDateUtc": "2025-01-15T04:00:00Z",
+    "Comment": "Excelente calidad, definitivamente volver\u00EDa a comprar.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "21",
+    "ClientId": "8571",
+    "ProductId": "835",
+    "EventDateUtc": "2025-03-04T04:00:00Z",
+    "Comment": "Mala calidad, no lo recomiendo para nada.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "22",
+    "ClientId": "3635",
+    "ProductId": "977",
+    "EventDateUtc": "2025-04-13T04:00:00Z",
+    "Comment": "Mala calidad, no lo recomiendo para nada.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "23",
+    "ClientId": "3407",
+    "ProductId": "712",
+    "EventDateUtc": "2025-01-30T04:00:00Z",
+    "Comment": "El servicio fue lento y el soporte no resolvi\u00F3 mi problema.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "24",
+    "ClientId": "7342",
+    "ProductId": "386",
+    "EventDateUtc": "2025-07-13T04:00:00Z",
+    "Comment": "El producto super\u00F3 mis expectativas, muy recomendable.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "25",
+    "ClientId": "6272",
+    "ProductId": "27",
+    "EventDateUtc": "2025-07-24T04:00:00Z",
+    "Comment": "El servicio fue lento y el soporte no resolvi\u00F3 mi problema.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "26",
+    "ClientId": "3318",
+    "ProductId": "654",
+    "EventDateUtc": "2025-08-20T04:00:00Z",
+    "Comment": "El producto super\u00F3 mis expectativas, muy recomendable.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "27",
+    "ClientId": "552",
+    "ProductId": "383",
+    "EventDateUtc": "2025-04-12T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 da\u00F1ado y no cumpli\u00F3 con lo prometido.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "28",
+    "ClientId": "6660",
+    "ProductId": "592",
+    "EventDateUtc": "2025-04-08T04:00:00Z",
+    "Comment": "El servicio fue lento y el soporte no resolvi\u00F3 mi problema.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "29",
+    "ClientId": "539",
+    "ProductId": "957",
+    "EventDateUtc": "2025-08-06T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 en perfecto estado y antes de tiempo.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "30",
+    "ClientId": "6473",
+    "ProductId": "144",
+    "EventDateUtc": "2025-02-12T04:00:00Z",
+    "Comment": "La experiencia fue aceptable, aunque podr\u00EDa mejorar.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "31",
+    "ClientId": "7512",
+    "ProductId": "765",
+    "EventDateUtc": "2024-12-26T04:00:00Z",
+    "Comment": "No era lo que esperaba, muy decepcionado.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "32",
+    "ClientId": "6558",
+    "ProductId": "953",
+    "EventDateUtc": "2024-09-14T04:00:00Z",
+    "Comment": "Excelente calidad, definitivamente volver\u00EDa a comprar.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "33",
+    "ClientId": "2699",
+    "ProductId": "19",
+    "EventDateUtc": "2024-09-18T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 da\u00F1ado y no cumpli\u00F3 con lo prometido.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "34",
+    "ClientId": "996",
+    "ProductId": "340",
+    "EventDateUtc": "2025-09-10T04:00:00Z",
+    "Comment": "El servicio fue r\u00E1pido y eficiente, estoy muy satisfecho.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "35",
+    "ClientId": "5820",
+    "ProductId": "771",
+    "EventDateUtc": "2024-12-04T04:00:00Z",
+    "Comment": "Mala calidad, no lo recomiendo para nada.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "36",
+    "ClientId": "8344",
+    "ProductId": "733",
+    "EventDateUtc": "2024-12-11T04:00:00Z",
+    "Comment": "El servicio fue lento y el soporte no resolvi\u00F3 mi problema.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "37",
+    "ClientId": "943",
+    "ProductId": "705",
+    "EventDateUtc": "2025-07-20T04:00:00Z",
+    "Comment": "La experiencia fue aceptable, aunque podr\u00EDa mejorar.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "38",
+    "ClientId": "6554",
+    "ProductId": "477",
+    "EventDateUtc": "2025-08-29T04:00:00Z",
+    "Comment": "El producto cumple su funci\u00F3n, nada especial.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "39",
+    "ClientId": "5662",
+    "ProductId": "513",
+    "EventDateUtc": "2025-04-02T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 da\u00F1ado y no cumpli\u00F3 con lo prometido.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "40",
+    "ClientId": "9665",
+    "ProductId": "701",
+    "EventDateUtc": "2025-07-16T04:00:00Z",
+    "Comment": "Me encanta, es justo lo que necesitaba.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "41",
+    "ClientId": "3803",
+    "ProductId": "446",
+    "EventDateUtc": "2025-01-19T04:00:00Z",
+    "Comment": "El env\u00EDo fue normal, dentro del tiempo esperado.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "42",
+    "ClientId": "9881",
+    "ProductId": "851",
+    "EventDateUtc": "2025-06-13T04:00:00Z",
+    "Comment": "El producto super\u00F3 mis expectativas, muy recomendable.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "43",
+    "ClientId": "7334",
+    "ProductId": "376",
+    "EventDateUtc": "2025-01-17T04:00:00Z",
+    "Comment": "Mala calidad, no lo recomiendo para nada.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "44",
+    "ClientId": "1287",
+    "ProductId": "46",
+    "EventDateUtc": "2025-01-21T04:00:00Z",
+    "Comment": "El servicio fue lento y el soporte no resolvi\u00F3 mi problema.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "45",
+    "ClientId": "6817",
+    "ProductId": "323",
+    "EventDateUtc": "2025-01-12T04:00:00Z",
+    "Comment": "Ni malo ni excelente, simplemente regular.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "46",
+    "ClientId": "2399",
+    "ProductId": "618",
+    "EventDateUtc": "2025-05-17T04:00:00Z",
+    "Comment": "El servicio fue r\u00E1pido y eficiente, estoy muy satisfecho.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "47",
+    "ClientId": "7073",
+    "ProductId": "122",
+    "EventDateUtc": "2025-03-26T04:00:00Z",
+    "Comment": "El servicio fue lento y el soporte no resolvi\u00F3 mi problema.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "48",
+    "ClientId": "1781",
+    "ProductId": "184",
+    "EventDateUtc": "2025-08-06T04:00:00Z",
+    "Comment": "Excelente calidad, definitivamente volver\u00EDa a comprar.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "49",
+    "ClientId": "3209",
+    "ProductId": "290",
+    "EventDateUtc": "2025-08-25T04:00:00Z",
+    "Comment": "La experiencia fue aceptable, aunque podr\u00EDa mejorar.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "50",
+    "ClientId": "5704",
+    "ProductId": "991",
+    "EventDateUtc": "2025-09-07T04:00:00Z",
+    "Comment": "El producto dej\u00F3 de funcionar al poco tiempo de usarlo.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "51",
+    "ClientId": "7496",
+    "ProductId": "889",
+    "EventDateUtc": "2025-04-15T04:00:00Z",
+    "Comment": "Me encanta, es justo lo que necesitaba.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "52",
+    "ClientId": "8078",
+    "ProductId": "917",
+    "EventDateUtc": "2024-10-25T04:00:00Z",
+    "Comment": "El producto cumple su funci\u00F3n, nada especial.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "53",
+    "ClientId": "1574",
+    "ProductId": "779",
+    "EventDateUtc": "2024-09-25T04:00:00Z",
+    "Comment": "El producto est\u00E1 bien, pero esperaba un poco m\u00E1s de calidad.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "54",
+    "ClientId": "9647",
+    "ProductId": "768",
+    "EventDateUtc": "2024-11-10T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 en perfecto estado y antes de tiempo.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "55",
+    "ClientId": "3032",
+    "ProductId": "856",
+    "EventDateUtc": "2025-01-06T04:00:00Z",
+    "Comment": "El producto dej\u00F3 de funcionar al poco tiempo de usarlo.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "56",
+    "ClientId": "122",
+    "ProductId": "378",
+    "EventDateUtc": "2025-08-09T04:00:00Z",
+    "Comment": "El env\u00EDo fue normal, dentro del tiempo esperado.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "57",
+    "ClientId": "9945",
+    "ProductId": "207",
+    "EventDateUtc": "2025-09-03T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 da\u00F1ado y no cumpli\u00F3 con lo prometido.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "58",
+    "ClientId": "8267",
+    "ProductId": "917",
+    "EventDateUtc": "2025-08-05T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 da\u00F1ado y no cumpli\u00F3 con lo prometido.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "59",
+    "ClientId": "7131",
+    "ProductId": "149",
+    "EventDateUtc": "2025-06-20T04:00:00Z",
+    "Comment": "El env\u00EDo fue normal, dentro del tiempo esperado.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "60",
+    "ClientId": "8691",
+    "ProductId": "962",
+    "EventDateUtc": "2025-05-19T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 da\u00F1ado y no cumpli\u00F3 con lo prometido.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "61",
+    "ClientId": "9807",
+    "ProductId": "632",
+    "EventDateUtc": "2024-10-08T04:00:00Z",
+    "Comment": "El producto super\u00F3 mis expectativas, muy recomendable.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "62",
+    "ClientId": "9194",
+    "ProductId": "909",
+    "EventDateUtc": "2025-02-23T04:00:00Z",
+    "Comment": "El env\u00EDo fue normal, dentro del tiempo esperado.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "63",
+    "ClientId": "5358",
+    "ProductId": "79",
+    "EventDateUtc": "2024-11-30T04:00:00Z",
+    "Comment": "El servicio fue r\u00E1pido y eficiente, estoy muy satisfecho.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "64",
+    "ClientId": "3632",
+    "ProductId": "82",
+    "EventDateUtc": "2025-06-06T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 en perfecto estado y antes de tiempo.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "65",
+    "ClientId": "6367",
+    "ProductId": "635",
+    "EventDateUtc": "2025-01-02T04:00:00Z",
+    "Comment": "La experiencia fue aceptable, aunque podr\u00EDa mejorar.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "66",
+    "ClientId": "5529",
+    "ProductId": "889",
+    "EventDateUtc": "2024-12-10T04:00:00Z",
+    "Comment": "El producto est\u00E1 bien, pero esperaba un poco m\u00E1s de calidad.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "67",
+    "ClientId": "84",
+    "ProductId": "317",
+    "EventDateUtc": "2025-04-23T04:00:00Z",
+    "Comment": "El servicio fue lento y el soporte no resolvi\u00F3 mi problema.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "68",
+    "ClientId": "2371",
+    "ProductId": "115",
+    "EventDateUtc": "2025-07-02T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 da\u00F1ado y no cumpli\u00F3 con lo prometido.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "69",
+    "ClientId": "2560",
+    "ProductId": "933",
+    "EventDateUtc": "2025-08-08T04:00:00Z",
+    "Comment": "No era lo que esperaba, muy decepcionado.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "70",
+    "ClientId": "208",
+    "ProductId": "462",
+    "EventDateUtc": "2024-12-06T04:00:00Z",
+    "Comment": "El producto dej\u00F3 de funcionar al poco tiempo de usarlo.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "71",
+    "ClientId": "7885",
+    "ProductId": "717",
+    "EventDateUtc": "2025-08-15T04:00:00Z",
+    "Comment": "El servicio fue r\u00E1pido y eficiente, estoy muy satisfecho.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "72",
+    "ClientId": "7614",
+    "ProductId": "609",
+    "EventDateUtc": "2025-07-07T04:00:00Z",
+    "Comment": "La experiencia fue aceptable, aunque podr\u00EDa mejorar.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "73",
+    "ClientId": "6509",
+    "ProductId": "455",
+    "EventDateUtc": "2024-11-29T04:00:00Z",
+    "Comment": "El servicio fue r\u00E1pido y eficiente, estoy muy satisfecho.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "74",
+    "ClientId": "1488",
+    "ProductId": "637",
+    "EventDateUtc": "2024-10-08T04:00:00Z",
+    "Comment": "Me encanta, es justo lo que necesitaba.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "75",
+    "ClientId": "8128",
+    "ProductId": "503",
+    "EventDateUtc": "2025-03-21T04:00:00Z",
+    "Comment": "El producto est\u00E1 bien, pero esperaba un poco m\u00E1s de calidad.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "76",
+    "ClientId": "2657",
+    "ProductId": "753",
+    "EventDateUtc": "2024-11-09T04:00:00Z",
+    "Comment": "El servicio fue r\u00E1pido y eficiente, estoy muy satisfecho.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "77",
+    "ClientId": "8303",
+    "ProductId": "236",
+    "EventDateUtc": "2024-10-24T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 da\u00F1ado y no cumpli\u00F3 con lo prometido.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "78",
+    "ClientId": "8796",
+    "ProductId": "791",
+    "EventDateUtc": "2024-11-02T04:00:00Z",
+    "Comment": "El servicio fue r\u00E1pido y eficiente, estoy muy satisfecho.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "79",
+    "ClientId": "8093",
+    "ProductId": "421",
+    "EventDateUtc": "2025-03-05T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 da\u00F1ado y no cumpli\u00F3 con lo prometido.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "80",
+    "ClientId": "5311",
+    "ProductId": "112",
+    "EventDateUtc": "2025-05-28T04:00:00Z",
+    "Comment": "El servicio fue lento y el soporte no resolvi\u00F3 mi problema.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "81",
+    "ClientId": "4143",
+    "ProductId": "446",
+    "EventDateUtc": "2025-08-13T04:00:00Z",
+    "Comment": "Excelente calidad, definitivamente volver\u00EDa a comprar.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "82",
+    "ClientId": "8005",
+    "ProductId": "627",
+    "EventDateUtc": "2025-08-20T04:00:00Z",
+    "Comment": "El producto dej\u00F3 de funcionar al poco tiempo de usarlo.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "83",
+    "ClientId": "705",
+    "ProductId": "48",
+    "EventDateUtc": "2024-09-15T04:00:00Z",
+    "Comment": "Mala calidad, no lo recomiendo para nada.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "84",
+    "ClientId": "3792",
+    "ProductId": "337",
+    "EventDateUtc": "2025-01-03T04:00:00Z",
+    "Comment": "El servicio fue lento y el soporte no resolvi\u00F3 mi problema.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "85",
+    "ClientId": "8455",
+    "ProductId": "749",
+    "EventDateUtc": "2024-10-14T04:00:00Z",
+    "Comment": "El producto cumple su funci\u00F3n, nada especial.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "86",
+    "ClientId": "5177",
+    "ProductId": "672",
+    "EventDateUtc": "2025-01-08T04:00:00Z",
+    "Comment": "El env\u00EDo fue normal, dentro del tiempo esperado.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "87",
+    "ClientId": "5361",
+    "ProductId": "774",
+    "EventDateUtc": "2024-11-04T04:00:00Z",
+    "Comment": "No era lo que esperaba, muy decepcionado.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "88",
+    "ClientId": "6865",
+    "ProductId": "864",
+    "EventDateUtc": "2024-12-26T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 en perfecto estado y antes de tiempo.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "89",
+    "ClientId": "9351",
+    "ProductId": "971",
+    "EventDateUtc": "2025-04-27T04:00:00Z",
+    "Comment": "El servicio fue lento y el soporte no resolvi\u00F3 mi problema.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "90",
+    "ClientId": "4621",
+    "ProductId": "570",
+    "EventDateUtc": "2025-08-04T04:00:00Z",
+    "Comment": "Excelente calidad, definitivamente volver\u00EDa a comprar.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "91",
+    "ClientId": "3552",
+    "ProductId": "136",
+    "EventDateUtc": "2024-11-30T04:00:00Z",
+    "Comment": "La experiencia fue aceptable, aunque podr\u00EDa mejorar.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "92",
+    "ClientId": "1315",
+    "ProductId": "85",
+    "EventDateUtc": "2025-07-28T04:00:00Z",
+    "Comment": "El servicio fue lento y el soporte no resolvi\u00F3 mi problema.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "93",
+    "ClientId": "4734",
+    "ProductId": "152",
+    "EventDateUtc": "2024-11-15T04:00:00Z",
+    "Comment": "El producto super\u00F3 mis expectativas, muy recomendable.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "94",
+    "ClientId": "7080",
+    "ProductId": "801",
+    "EventDateUtc": "2025-06-11T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 en perfecto estado y antes de tiempo.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "95",
+    "ClientId": "5688",
+    "ProductId": "725",
+    "EventDateUtc": "2025-04-23T04:00:00Z",
+    "Comment": "El producto super\u00F3 mis expectativas, muy recomendable.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "96",
+    "ClientId": "5127",
+    "ProductId": "332",
+    "EventDateUtc": "2025-03-09T04:00:00Z",
+    "Comment": "Excelente calidad, definitivamente volver\u00EDa a comprar.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "97",
+    "ClientId": "4002",
+    "ProductId": "697",
+    "EventDateUtc": "2025-02-03T04:00:00Z",
+    "Comment": "El servicio fue lento y el soporte no resolvi\u00F3 mi problema.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "98",
+    "ClientId": "8606",
+    "ProductId": "153",
+    "EventDateUtc": "2025-03-01T04:00:00Z",
+    "Comment": "El producto cumple su funci\u00F3n, nada especial.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "99",
+    "ClientId": "677",
+    "ProductId": "285",
+    "EventDateUtc": "2025-03-05T04:00:00Z",
+    "Comment": "El producto cumple su funci\u00F3n, nada especial.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "100",
+    "ClientId": "4532",
+    "ProductId": "970",
+    "EventDateUtc": "2025-08-28T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 en perfecto estado y antes de tiempo.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "101",
+    "ClientId": "850",
+    "ProductId": "710",
+    "EventDateUtc": "2024-10-22T04:00:00Z",
+    "Comment": "No era lo que esperaba, muy decepcionado.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "102",
+    "ClientId": "9156",
+    "ProductId": "443",
+    "EventDateUtc": "2025-07-21T04:00:00Z",
+    "Comment": "El producto super\u00F3 mis expectativas, muy recomendable.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "103",
+    "ClientId": "5397",
+    "ProductId": "672",
+    "EventDateUtc": "2024-11-23T04:00:00Z",
+    "Comment": "El env\u00EDo fue normal, dentro del tiempo esperado.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "104",
+    "ClientId": "8901",
+    "ProductId": "929",
+    "EventDateUtc": "2024-12-15T04:00:00Z",
+    "Comment": "El producto super\u00F3 mis expectativas, muy recomendable.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "105",
+    "ClientId": "8473",
+    "ProductId": "87",
+    "EventDateUtc": "2025-02-13T04:00:00Z",
+    "Comment": "El servicio fue lento y el soporte no resolvi\u00F3 mi problema.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "106",
+    "ClientId": "2046",
+    "ProductId": "565",
+    "EventDateUtc": "2025-07-17T04:00:00Z",
+    "Comment": "El servicio fue r\u00E1pido y eficiente, estoy muy satisfecho.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "107",
+    "ClientId": "9046",
+    "ProductId": "377",
+    "EventDateUtc": "2025-02-02T04:00:00Z",
+    "Comment": "El producto super\u00F3 mis expectativas, muy recomendable.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "108",
+    "ClientId": "3398",
+    "ProductId": "530",
+    "EventDateUtc": "2024-12-02T04:00:00Z",
+    "Comment": "El servicio fue r\u00E1pido y eficiente, estoy muy satisfecho.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "109",
+    "ClientId": "2410",
+    "ProductId": "266",
+    "EventDateUtc": "2025-01-30T04:00:00Z",
+    "Comment": "Ni malo ni excelente, simplemente regular.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "110",
+    "ClientId": "927",
+    "ProductId": "539",
+    "EventDateUtc": "2024-10-25T04:00:00Z",
+    "Comment": "Excelente calidad, definitivamente volver\u00EDa a comprar.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "111",
+    "ClientId": "4701",
+    "ProductId": "443",
+    "EventDateUtc": "2025-09-03T04:00:00Z",
+    "Comment": "El producto dej\u00F3 de funcionar al poco tiempo de usarlo.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "112",
+    "ClientId": "274",
+    "ProductId": "693",
+    "EventDateUtc": "2025-04-12T04:00:00Z",
+    "Comment": "El env\u00EDo fue normal, dentro del tiempo esperado.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "113",
+    "ClientId": "6821",
+    "ProductId": "540",
+    "EventDateUtc": "2024-09-21T04:00:00Z",
+    "Comment": "El producto est\u00E1 bien, pero esperaba un poco m\u00E1s de calidad.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "114",
+    "ClientId": "2309",
+    "ProductId": "771",
+    "EventDateUtc": "2025-09-09T04:00:00Z",
+    "Comment": "La experiencia fue aceptable, aunque podr\u00EDa mejorar.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "115",
+    "ClientId": "1558",
+    "ProductId": "644",
+    "EventDateUtc": "2024-10-30T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 en perfecto estado y antes de tiempo.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "116",
+    "ClientId": "2057",
+    "ProductId": "76",
+    "EventDateUtc": "2025-08-23T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 da\u00F1ado y no cumpli\u00F3 con lo prometido.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "117",
+    "ClientId": "5784",
+    "ProductId": "703",
+    "EventDateUtc": "2025-04-05T04:00:00Z",
+    "Comment": "El servicio fue r\u00E1pido y eficiente, estoy muy satisfecho.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "118",
+    "ClientId": "9843",
+    "ProductId": "560",
+    "EventDateUtc": "2024-12-07T04:00:00Z",
+    "Comment": "El servicio fue r\u00E1pido y eficiente, estoy muy satisfecho.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "119",
+    "ClientId": "9485",
+    "ProductId": "893",
+    "EventDateUtc": "2024-11-25T04:00:00Z",
+    "Comment": "El servicio fue lento y el soporte no resolvi\u00F3 mi problema.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "120",
+    "ClientId": "4194",
+    "ProductId": "46",
+    "EventDateUtc": "2025-02-02T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 en perfecto estado y antes de tiempo.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "121",
+    "ClientId": "5543",
+    "ProductId": "548",
+    "EventDateUtc": "2025-03-18T04:00:00Z",
+    "Comment": "El producto cumple su funci\u00F3n, nada especial.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "122",
+    "ClientId": "1108",
+    "ProductId": "747",
+    "EventDateUtc": "2025-07-25T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 en perfecto estado y antes de tiempo.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "123",
+    "ClientId": "3355",
+    "ProductId": "852",
+    "EventDateUtc": "2025-03-22T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 da\u00F1ado y no cumpli\u00F3 con lo prometido.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "124",
+    "ClientId": "382",
+    "ProductId": "131",
+    "EventDateUtc": "2024-12-19T04:00:00Z",
+    "Comment": "El producto cumple su funci\u00F3n, nada especial.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "125",
+    "ClientId": "3491",
+    "ProductId": "875",
+    "EventDateUtc": "2024-11-06T04:00:00Z",
+    "Comment": "El env\u00EDo fue normal, dentro del tiempo esperado.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "126",
+    "ClientId": "1780",
+    "ProductId": "909",
+    "EventDateUtc": "2025-04-23T04:00:00Z",
+    "Comment": "El producto dej\u00F3 de funcionar al poco tiempo de usarlo.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "127",
+    "ClientId": "1267",
+    "ProductId": "425",
+    "EventDateUtc": "2025-03-06T04:00:00Z",
+    "Comment": "El producto cumple su funci\u00F3n, nada especial.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "128",
+    "ClientId": "7340",
+    "ProductId": "940",
+    "EventDateUtc": "2025-05-29T04:00:00Z",
+    "Comment": "El producto super\u00F3 mis expectativas, muy recomendable.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "129",
+    "ClientId": "8434",
+    "ProductId": "704",
+    "EventDateUtc": "2025-05-24T04:00:00Z",
+    "Comment": "El producto dej\u00F3 de funcionar al poco tiempo de usarlo.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "130",
+    "ClientId": "8234",
+    "ProductId": "980",
+    "EventDateUtc": "2025-07-01T04:00:00Z",
+    "Comment": "El servicio fue r\u00E1pido y eficiente, estoy muy satisfecho.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "131",
+    "ClientId": "4262",
+    "ProductId": "655",
+    "EventDateUtc": "2024-12-19T04:00:00Z",
+    "Comment": "El producto cumple su funci\u00F3n, nada especial.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "132",
+    "ClientId": "5829",
+    "ProductId": "364",
+    "EventDateUtc": "2025-04-29T04:00:00Z",
+    "Comment": "El servicio fue lento y el soporte no resolvi\u00F3 mi problema.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "133",
+    "ClientId": "1866",
+    "ProductId": "649",
+    "EventDateUtc": "2025-01-12T04:00:00Z",
+    "Comment": "La experiencia fue aceptable, aunque podr\u00EDa mejorar.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "134",
+    "ClientId": "8608",
+    "ProductId": "572",
+    "EventDateUtc": "2025-08-27T04:00:00Z",
+    "Comment": "El servicio fue r\u00E1pido y eficiente, estoy muy satisfecho.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "135",
+    "ClientId": "8293",
+    "ProductId": "197",
+    "EventDateUtc": "2025-07-23T04:00:00Z",
+    "Comment": "El producto cumple su funci\u00F3n, nada especial.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "136",
+    "ClientId": "6248",
+    "ProductId": "70",
+    "EventDateUtc": "2025-03-19T04:00:00Z",
+    "Comment": "Me encanta, es justo lo que necesitaba.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "137",
+    "ClientId": "4600",
+    "ProductId": "869",
+    "EventDateUtc": "2025-06-01T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 da\u00F1ado y no cumpli\u00F3 con lo prometido.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "138",
+    "ClientId": "8720",
+    "ProductId": "157",
+    "EventDateUtc": "2025-03-18T04:00:00Z",
+    "Comment": "El producto super\u00F3 mis expectativas, muy recomendable.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "139",
+    "ClientId": "9715",
+    "ProductId": "889",
+    "EventDateUtc": "2025-08-29T04:00:00Z",
+    "Comment": "Ni malo ni excelente, simplemente regular.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "140",
+    "ClientId": "821",
+    "ProductId": "637",
+    "EventDateUtc": "2025-06-05T04:00:00Z",
+    "Comment": "El env\u00EDo fue normal, dentro del tiempo esperado.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "141",
+    "ClientId": "2439",
+    "ProductId": "779",
+    "EventDateUtc": "2024-11-14T04:00:00Z",
+    "Comment": "Excelente calidad, definitivamente volver\u00EDa a comprar.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "142",
+    "ClientId": "1339",
+    "ProductId": "274",
+    "EventDateUtc": "2025-01-03T04:00:00Z",
+    "Comment": "El servicio fue r\u00E1pido y eficiente, estoy muy satisfecho.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "143",
+    "ClientId": "7504",
+    "ProductId": "454",
+    "EventDateUtc": "2025-04-04T04:00:00Z",
+    "Comment": "La experiencia fue aceptable, aunque podr\u00EDa mejorar.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "144",
+    "ClientId": "8142",
+    "ProductId": "522",
+    "EventDateUtc": "2025-07-18T04:00:00Z",
+    "Comment": "El producto super\u00F3 mis expectativas, muy recomendable.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "145",
+    "ClientId": "378",
+    "ProductId": "604",
+    "EventDateUtc": "2024-12-31T04:00:00Z",
+    "Comment": "Mala calidad, no lo recomiendo para nada.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "146",
+    "ClientId": "4941",
+    "ProductId": "909",
+    "EventDateUtc": "2024-10-18T04:00:00Z",
+    "Comment": "Mala calidad, no lo recomiendo para nada.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "147",
+    "ClientId": "8162",
+    "ProductId": "201",
+    "EventDateUtc": "2025-05-08T04:00:00Z",
+    "Comment": "El servicio fue lento y el soporte no resolvi\u00F3 mi problema.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "148",
+    "ClientId": "8492",
+    "ProductId": "570",
+    "EventDateUtc": "2025-02-04T04:00:00Z",
+    "Comment": "El servicio fue lento y el soporte no resolvi\u00F3 mi problema.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "149",
+    "ClientId": "1115",
+    "ProductId": "821",
+    "EventDateUtc": "2025-01-24T04:00:00Z",
+    "Comment": "El servicio fue lento y el soporte no resolvi\u00F3 mi problema.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "150",
+    "ClientId": "7991",
+    "ProductId": "889",
+    "EventDateUtc": "2025-08-21T04:00:00Z",
+    "Comment": "El producto dej\u00F3 de funcionar al poco tiempo de usarlo.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "151",
+    "ClientId": "6542",
+    "ProductId": "483",
+    "EventDateUtc": "2025-08-09T04:00:00Z",
+    "Comment": "El servicio fue lento y el soporte no resolvi\u00F3 mi problema.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "152",
+    "ClientId": "2335",
+    "ProductId": "783",
+    "EventDateUtc": "2025-07-29T04:00:00Z",
+    "Comment": "El producto super\u00F3 mis expectativas, muy recomendable.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "153",
+    "ClientId": "947",
+    "ProductId": "467",
+    "EventDateUtc": "2025-04-17T04:00:00Z",
+    "Comment": "Me encanta, es justo lo que necesitaba.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "154",
+    "ClientId": "8582",
+    "ProductId": "978",
+    "EventDateUtc": "2024-10-30T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 da\u00F1ado y no cumpli\u00F3 con lo prometido.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "155",
+    "ClientId": "7282",
+    "ProductId": "857",
+    "EventDateUtc": "2025-09-10T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 da\u00F1ado y no cumpli\u00F3 con lo prometido.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "156",
+    "ClientId": "1896",
+    "ProductId": "430",
+    "EventDateUtc": "2025-02-21T04:00:00Z",
+    "Comment": "El servicio fue lento y el soporte no resolvi\u00F3 mi problema.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "157",
+    "ClientId": "8328",
+    "ProductId": "735",
+    "EventDateUtc": "2024-12-28T04:00:00Z",
+    "Comment": "El producto super\u00F3 mis expectativas, muy recomendable.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "158",
+    "ClientId": "283",
+    "ProductId": "87",
+    "EventDateUtc": "2025-06-03T04:00:00Z",
+    "Comment": "No era lo que esperaba, muy decepcionado.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "159",
+    "ClientId": "930",
+    "ProductId": "146",
+    "EventDateUtc": "2025-08-10T04:00:00Z",
+    "Comment": "El producto super\u00F3 mis expectativas, muy recomendable.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "160",
+    "ClientId": "826",
+    "ProductId": "644",
+    "EventDateUtc": "2025-02-24T04:00:00Z",
+    "Comment": "No era lo que esperaba, muy decepcionado.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "161",
+    "ClientId": "6587",
+    "ProductId": "919",
+    "EventDateUtc": "2025-01-16T04:00:00Z",
+    "Comment": "El servicio fue r\u00E1pido y eficiente, estoy muy satisfecho.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "162",
+    "ClientId": "804",
+    "ProductId": "487",
+    "EventDateUtc": "2025-07-02T04:00:00Z",
+    "Comment": "El servicio fue lento y el soporte no resolvi\u00F3 mi problema.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "163",
+    "ClientId": "7129",
+    "ProductId": "61",
+    "EventDateUtc": "2024-10-27T04:00:00Z",
+    "Comment": "El env\u00EDo fue normal, dentro del tiempo esperado.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "164",
+    "ClientId": "6238",
+    "ProductId": "565",
+    "EventDateUtc": "2025-04-16T04:00:00Z",
+    "Comment": "El producto super\u00F3 mis expectativas, muy recomendable.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "165",
+    "ClientId": "1527",
+    "ProductId": "884",
+    "EventDateUtc": "2025-02-03T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 en perfecto estado y antes de tiempo.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "166",
+    "ClientId": "2313",
+    "ProductId": "215",
+    "EventDateUtc": "2025-03-16T04:00:00Z",
+    "Comment": "Me encanta, es justo lo que necesitaba.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "167",
+    "ClientId": "6680",
+    "ProductId": "126",
+    "EventDateUtc": "2024-10-23T04:00:00Z",
+    "Comment": "El producto est\u00E1 bien, pero esperaba un poco m\u00E1s de calidad.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "168",
+    "ClientId": "9909",
+    "ProductId": "139",
+    "EventDateUtc": "2025-02-12T04:00:00Z",
+    "Comment": "Excelente calidad, definitivamente volver\u00EDa a comprar.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "169",
+    "ClientId": "5304",
+    "ProductId": "705",
+    "EventDateUtc": "2025-05-11T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 en perfecto estado y antes de tiempo.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "170",
+    "ClientId": "7079",
+    "ProductId": "469",
+    "EventDateUtc": "2025-09-12T04:00:00Z",
+    "Comment": "Mala calidad, no lo recomiendo para nada.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "171",
+    "ClientId": "522",
+    "ProductId": "993",
+    "EventDateUtc": "2025-09-10T04:00:00Z",
+    "Comment": "El producto cumple su funci\u00F3n, nada especial.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "172",
+    "ClientId": "1214",
+    "ProductId": "538",
+    "EventDateUtc": "2025-06-16T04:00:00Z",
+    "Comment": "La experiencia fue aceptable, aunque podr\u00EDa mejorar.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "173",
+    "ClientId": "6999",
+    "ProductId": "486",
+    "EventDateUtc": "2025-05-16T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 da\u00F1ado y no cumpli\u00F3 con lo prometido.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "174",
+    "ClientId": "2494",
+    "ProductId": "10",
+    "EventDateUtc": "2025-06-27T04:00:00Z",
+    "Comment": "Me encanta, es justo lo que necesitaba.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "175",
+    "ClientId": "3525",
+    "ProductId": "703",
+    "EventDateUtc": "2025-06-23T04:00:00Z",
+    "Comment": "El servicio fue r\u00E1pido y eficiente, estoy muy satisfecho.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "176",
+    "ClientId": "868",
+    "ProductId": "386",
+    "EventDateUtc": "2025-09-12T04:00:00Z",
+    "Comment": "No era lo que esperaba, muy decepcionado.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "177",
+    "ClientId": "2057",
+    "ProductId": "523",
+    "EventDateUtc": "2025-04-28T04:00:00Z",
+    "Comment": "Me encanta, es justo lo que necesitaba.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "178",
+    "ClientId": "2231",
+    "ProductId": "891",
+    "EventDateUtc": "2024-11-09T04:00:00Z",
+    "Comment": "El producto dej\u00F3 de funcionar al poco tiempo de usarlo.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "179",
+    "ClientId": "4815",
+    "ProductId": "716",
+    "EventDateUtc": "2025-08-26T04:00:00Z",
+    "Comment": "El producto cumple su funci\u00F3n, nada especial.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "180",
+    "ClientId": "4365",
+    "ProductId": "44",
+    "EventDateUtc": "2024-11-25T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 da\u00F1ado y no cumpli\u00F3 con lo prometido.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "181",
+    "ClientId": "4496",
+    "ProductId": "666",
+    "EventDateUtc": "2025-03-19T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 da\u00F1ado y no cumpli\u00F3 con lo prometido.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "182",
+    "ClientId": "3043",
+    "ProductId": "378",
+    "EventDateUtc": "2025-08-13T04:00:00Z",
+    "Comment": "El producto cumple su funci\u00F3n, nada especial.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "183",
+    "ClientId": "8847",
+    "ProductId": "55",
+    "EventDateUtc": "2025-03-28T04:00:00Z",
+    "Comment": "Mala calidad, no lo recomiendo para nada.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "184",
+    "ClientId": "9376",
+    "ProductId": "930",
+    "EventDateUtc": "2024-11-09T04:00:00Z",
+    "Comment": "El producto est\u00E1 bien, pero esperaba un poco m\u00E1s de calidad.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "185",
+    "ClientId": "8809",
+    "ProductId": "277",
+    "EventDateUtc": "2024-11-12T04:00:00Z",
+    "Comment": "Me encanta, es justo lo que necesitaba.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "186",
+    "ClientId": "3995",
+    "ProductId": "466",
+    "EventDateUtc": "2025-06-17T04:00:00Z",
+    "Comment": "El producto dej\u00F3 de funcionar al poco tiempo de usarlo.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "187",
+    "ClientId": "2988",
+    "ProductId": "777",
+    "EventDateUtc": "2025-02-09T04:00:00Z",
+    "Comment": "Me encanta, es justo lo que necesitaba.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "188",
+    "ClientId": "5113",
+    "ProductId": "215",
+    "EventDateUtc": "2025-01-24T04:00:00Z",
+    "Comment": "El producto est\u00E1 bien, pero esperaba un poco m\u00E1s de calidad.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "189",
+    "ClientId": "9685",
+    "ProductId": "280",
+    "EventDateUtc": "2024-09-30T04:00:00Z",
+    "Comment": "Mala calidad, no lo recomiendo para nada.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "190",
+    "ClientId": "7211",
+    "ProductId": "965",
+    "EventDateUtc": "2024-11-22T04:00:00Z",
+    "Comment": "Me encanta, es justo lo que necesitaba.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "191",
+    "ClientId": "4519",
+    "ProductId": "617",
+    "EventDateUtc": "2025-07-08T04:00:00Z",
+    "Comment": "El producto est\u00E1 bien, pero esperaba un poco m\u00E1s de calidad.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "192",
+    "ClientId": "8124",
+    "ProductId": "360",
+    "EventDateUtc": "2024-11-13T04:00:00Z",
+    "Comment": "El env\u00EDo fue normal, dentro del tiempo esperado.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "193",
+    "ClientId": "2029",
+    "ProductId": "429",
+    "EventDateUtc": "2024-10-12T04:00:00Z",
+    "Comment": "El env\u00EDo fue normal, dentro del tiempo esperado.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "194",
+    "ClientId": "4465",
+    "ProductId": "990",
+    "EventDateUtc": "2025-03-12T04:00:00Z",
+    "Comment": "Mala calidad, no lo recomiendo para nada.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "195",
+    "ClientId": "3986",
+    "ProductId": "563",
+    "EventDateUtc": "2025-09-09T04:00:00Z",
+    "Comment": "El producto super\u00F3 mis expectativas, muy recomendable.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "196",
+    "ClientId": "1169",
+    "ProductId": "602",
+    "EventDateUtc": "2025-03-09T04:00:00Z",
+    "Comment": "El producto est\u00E1 bien, pero esperaba un poco m\u00E1s de calidad.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "197",
+    "ClientId": "878",
+    "ProductId": "130",
+    "EventDateUtc": "2025-03-11T04:00:00Z",
+    "Comment": "El servicio fue r\u00E1pido y eficiente, estoy muy satisfecho.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "198",
+    "ClientId": "3335",
+    "ProductId": "906",
+    "EventDateUtc": "2025-05-11T04:00:00Z",
+    "Comment": "El servicio fue lento y el soporte no resolvi\u00F3 mi problema.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "199",
+    "ClientId": "2896",
+    "ProductId": "736",
+    "EventDateUtc": "2025-04-01T04:00:00Z",
+    "Comment": "El env\u00EDo fue normal, dentro del tiempo esperado.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "200",
+    "ClientId": "6568",
+    "ProductId": "38",
+    "EventDateUtc": "2024-09-22T04:00:00Z",
+    "Comment": "El env\u00EDo fue normal, dentro del tiempo esperado.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "201",
+    "ClientId": "7719",
+    "ProductId": "104",
+    "EventDateUtc": "2024-12-03T04:00:00Z",
+    "Comment": "Me encanta, es justo lo que necesitaba.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "202",
+    "ClientId": "9918",
+    "ProductId": "459",
+    "EventDateUtc": "2025-07-13T04:00:00Z",
+    "Comment": "No era lo que esperaba, muy decepcionado.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "203",
+    "ClientId": "205",
+    "ProductId": "967",
+    "EventDateUtc": "2025-06-14T04:00:00Z",
+    "Comment": "El producto est\u00E1 bien, pero esperaba un poco m\u00E1s de calidad.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "204",
+    "ClientId": "9617",
+    "ProductId": "828",
+    "EventDateUtc": "2025-05-18T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 en perfecto estado y antes de tiempo.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "205",
+    "ClientId": "9251",
+    "ProductId": "698",
+    "EventDateUtc": "2025-05-30T04:00:00Z",
+    "Comment": "El producto est\u00E1 bien, pero esperaba un poco m\u00E1s de calidad.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "206",
+    "ClientId": "190",
+    "ProductId": "148",
+    "EventDateUtc": "2025-03-08T04:00:00Z",
+    "Comment": "El servicio fue r\u00E1pido y eficiente, estoy muy satisfecho.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "207",
+    "ClientId": "3773",
+    "ProductId": "408",
+    "EventDateUtc": "2025-03-11T04:00:00Z",
+    "Comment": "El servicio fue r\u00E1pido y eficiente, estoy muy satisfecho.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "208",
+    "ClientId": "791",
+    "ProductId": "420",
+    "EventDateUtc": "2025-02-10T04:00:00Z",
+    "Comment": "El servicio fue lento y el soporte no resolvi\u00F3 mi problema.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "209",
+    "ClientId": "9539",
+    "ProductId": "338",
+    "EventDateUtc": "2025-02-05T04:00:00Z",
+    "Comment": "El env\u00EDo fue normal, dentro del tiempo esperado.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "210",
+    "ClientId": "5775",
+    "ProductId": "936",
+    "EventDateUtc": "2024-12-27T04:00:00Z",
+    "Comment": "El producto est\u00E1 bien, pero esperaba un poco m\u00E1s de calidad.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "211",
+    "ClientId": "3916",
+    "ProductId": "672",
+    "EventDateUtc": "2025-03-09T04:00:00Z",
+    "Comment": "El producto dej\u00F3 de funcionar al poco tiempo de usarlo.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "212",
+    "ClientId": "713",
+    "ProductId": "390",
+    "EventDateUtc": "2025-06-01T04:00:00Z",
+    "Comment": "Me encanta, es justo lo que necesitaba.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "213",
+    "ClientId": "8057",
+    "ProductId": "92",
+    "EventDateUtc": "2025-06-23T04:00:00Z",
+    "Comment": "El producto est\u00E1 bien, pero esperaba un poco m\u00E1s de calidad.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "214",
+    "ClientId": "7560",
+    "ProductId": "346",
+    "EventDateUtc": "2024-12-04T04:00:00Z",
+    "Comment": "El producto est\u00E1 bien, pero esperaba un poco m\u00E1s de calidad.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "215",
+    "ClientId": "9516",
+    "ProductId": "289",
+    "EventDateUtc": "2025-02-11T04:00:00Z",
+    "Comment": "El producto cumple su funci\u00F3n, nada especial.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "216",
+    "ClientId": "7297",
+    "ProductId": "596",
+    "EventDateUtc": "2024-09-22T04:00:00Z",
+    "Comment": "Me encanta, es justo lo que necesitaba.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "217",
+    "ClientId": "4943",
+    "ProductId": "179",
+    "EventDateUtc": "2024-10-14T04:00:00Z",
+    "Comment": "El producto super\u00F3 mis expectativas, muy recomendable.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "218",
+    "ClientId": "6610",
+    "ProductId": "608",
+    "EventDateUtc": "2025-02-22T04:00:00Z",
+    "Comment": "No era lo que esperaba, muy decepcionado.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "219",
+    "ClientId": "5644",
+    "ProductId": "610",
+    "EventDateUtc": "2025-04-24T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 en perfecto estado y antes de tiempo.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "220",
+    "ClientId": "3455",
+    "ProductId": "37",
+    "EventDateUtc": "2025-07-27T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 en perfecto estado y antes de tiempo.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "221",
+    "ClientId": "353",
+    "ProductId": "124",
+    "EventDateUtc": "2025-01-01T04:00:00Z",
+    "Comment": "El servicio fue lento y el soporte no resolvi\u00F3 mi problema.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "222",
+    "ClientId": "8237",
+    "ProductId": "959",
+    "EventDateUtc": "2025-04-26T04:00:00Z",
+    "Comment": "Excelente calidad, definitivamente volver\u00EDa a comprar.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "223",
+    "ClientId": "6003",
+    "ProductId": "957",
+    "EventDateUtc": "2025-07-11T04:00:00Z",
+    "Comment": "El producto super\u00F3 mis expectativas, muy recomendable.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "224",
+    "ClientId": "1751",
+    "ProductId": "178",
+    "EventDateUtc": "2024-11-30T04:00:00Z",
+    "Comment": "Ni malo ni excelente, simplemente regular.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "225",
+    "ClientId": "9563",
+    "ProductId": "997",
+    "EventDateUtc": "2024-10-30T04:00:00Z",
+    "Comment": "La experiencia fue aceptable, aunque podr\u00EDa mejorar.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "226",
+    "ClientId": "6342",
+    "ProductId": "639",
+    "EventDateUtc": "2024-11-20T04:00:00Z",
+    "Comment": "El servicio fue r\u00E1pido y eficiente, estoy muy satisfecho.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "227",
+    "ClientId": "8241",
+    "ProductId": "541",
+    "EventDateUtc": "2024-09-25T04:00:00Z",
+    "Comment": "Ni malo ni excelente, simplemente regular.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "228",
+    "ClientId": "7725",
+    "ProductId": "301",
+    "EventDateUtc": "2024-10-16T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 da\u00F1ado y no cumpli\u00F3 con lo prometido.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "229",
+    "ClientId": "4623",
+    "ProductId": "224",
+    "EventDateUtc": "2025-04-18T04:00:00Z",
+    "Comment": "El env\u00EDo fue normal, dentro del tiempo esperado.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "230",
+    "ClientId": "1044",
+    "ProductId": "285",
+    "EventDateUtc": "2025-02-09T04:00:00Z",
+    "Comment": "El producto dej\u00F3 de funcionar al poco tiempo de usarlo.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "231",
+    "ClientId": "6845",
+    "ProductId": "474",
+    "EventDateUtc": "2024-12-03T04:00:00Z",
+    "Comment": "El env\u00EDo fue normal, dentro del tiempo esperado.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "232",
+    "ClientId": "8266",
+    "ProductId": "750",
+    "EventDateUtc": "2024-11-07T04:00:00Z",
+    "Comment": "El producto est\u00E1 bien, pero esperaba un poco m\u00E1s de calidad.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "233",
+    "ClientId": "1677",
+    "ProductId": "547",
+    "EventDateUtc": "2025-05-26T04:00:00Z",
+    "Comment": "El producto est\u00E1 bien, pero esperaba un poco m\u00E1s de calidad.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "234",
+    "ClientId": "3394",
+    "ProductId": "724",
+    "EventDateUtc": "2024-10-16T04:00:00Z",
+    "Comment": "El env\u00EDo fue normal, dentro del tiempo esperado.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "235",
+    "ClientId": "5975",
+    "ProductId": "159",
+    "EventDateUtc": "2024-09-24T04:00:00Z",
+    "Comment": "El producto dej\u00F3 de funcionar al poco tiempo de usarlo.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "236",
+    "ClientId": "3054",
+    "ProductId": "824",
+    "EventDateUtc": "2025-07-18T04:00:00Z",
+    "Comment": "El producto cumple su funci\u00F3n, nada especial.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "237",
+    "ClientId": "9957",
+    "ProductId": "487",
+    "EventDateUtc": "2025-05-08T04:00:00Z",
+    "Comment": "Mala calidad, no lo recomiendo para nada.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "238",
+    "ClientId": "2898",
+    "ProductId": "426",
+    "EventDateUtc": "2025-01-02T04:00:00Z",
+    "Comment": "Me encanta, es justo lo que necesitaba.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "239",
+    "ClientId": "8280",
+    "ProductId": "407",
+    "EventDateUtc": "2024-12-17T04:00:00Z",
+    "Comment": "El servicio fue r\u00E1pido y eficiente, estoy muy satisfecho.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "240",
+    "ClientId": "9018",
+    "ProductId": "297",
+    "EventDateUtc": "2024-11-18T04:00:00Z",
+    "Comment": "El env\u00EDo fue normal, dentro del tiempo esperado.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "241",
+    "ClientId": "8962",
+    "ProductId": "946",
+    "EventDateUtc": "2025-01-26T04:00:00Z",
+    "Comment": "El env\u00EDo fue normal, dentro del tiempo esperado.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "242",
+    "ClientId": "4348",
+    "ProductId": "629",
+    "EventDateUtc": "2025-08-03T04:00:00Z",
+    "Comment": "El servicio fue lento y el soporte no resolvi\u00F3 mi problema.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "243",
+    "ClientId": "5667",
+    "ProductId": "260",
+    "EventDateUtc": "2025-06-08T04:00:00Z",
+    "Comment": "No era lo que esperaba, muy decepcionado.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "244",
+    "ClientId": "4864",
+    "ProductId": "16",
+    "EventDateUtc": "2025-08-29T04:00:00Z",
+    "Comment": "Ni malo ni excelente, simplemente regular.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "245",
+    "ClientId": "1276",
+    "ProductId": "602",
+    "EventDateUtc": "2025-05-01T04:00:00Z",
+    "Comment": "Excelente calidad, definitivamente volver\u00EDa a comprar.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "246",
+    "ClientId": "5468",
+    "ProductId": "823",
+    "EventDateUtc": "2025-09-01T04:00:00Z",
+    "Comment": "El servicio fue lento y el soporte no resolvi\u00F3 mi problema.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "247",
+    "ClientId": "3652",
+    "ProductId": "367",
+    "EventDateUtc": "2024-12-03T04:00:00Z",
+    "Comment": "El producto est\u00E1 bien, pero esperaba un poco m\u00E1s de calidad.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "248",
+    "ClientId": "9828",
+    "ProductId": "553",
+    "EventDateUtc": "2025-02-27T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 en perfecto estado y antes de tiempo.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "249",
+    "ClientId": "7602",
+    "ProductId": "312",
+    "EventDateUtc": "2024-12-19T04:00:00Z",
+    "Comment": "El producto dej\u00F3 de funcionar al poco tiempo de usarlo.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "250",
+    "ClientId": "3806",
+    "ProductId": "211",
+    "EventDateUtc": "2025-08-23T04:00:00Z",
+    "Comment": "El producto dej\u00F3 de funcionar al poco tiempo de usarlo.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "251",
+    "ClientId": "8038",
+    "ProductId": "339",
+    "EventDateUtc": "2025-01-23T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 da\u00F1ado y no cumpli\u00F3 con lo prometido.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "252",
+    "ClientId": "1474",
+    "ProductId": "727",
+    "EventDateUtc": "2025-07-02T04:00:00Z",
+    "Comment": "El producto dej\u00F3 de funcionar al poco tiempo de usarlo.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "253",
+    "ClientId": "9142",
+    "ProductId": "19",
+    "EventDateUtc": "2025-04-04T04:00:00Z",
+    "Comment": "El servicio fue lento y el soporte no resolvi\u00F3 mi problema.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "254",
+    "ClientId": "184",
+    "ProductId": "480",
+    "EventDateUtc": "2025-02-04T04:00:00Z",
+    "Comment": "Mala calidad, no lo recomiendo para nada.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "255",
+    "ClientId": "9804",
+    "ProductId": "538",
+    "EventDateUtc": "2025-08-25T04:00:00Z",
+    "Comment": "La experiencia fue aceptable, aunque podr\u00EDa mejorar.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "256",
+    "ClientId": "6015",
+    "ProductId": "526",
+    "EventDateUtc": "2024-11-03T04:00:00Z",
+    "Comment": "El servicio fue r\u00E1pido y eficiente, estoy muy satisfecho.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "257",
+    "ClientId": "7503",
+    "ProductId": "88",
+    "EventDateUtc": "2025-02-10T04:00:00Z",
+    "Comment": "Mala calidad, no lo recomiendo para nada.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "258",
+    "ClientId": "5376",
+    "ProductId": "332",
+    "EventDateUtc": "2025-07-08T04:00:00Z",
+    "Comment": "El servicio fue r\u00E1pido y eficiente, estoy muy satisfecho.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "259",
+    "ClientId": "1649",
+    "ProductId": "20",
+    "EventDateUtc": "2025-01-24T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 da\u00F1ado y no cumpli\u00F3 con lo prometido.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "260",
+    "ClientId": "2106",
+    "ProductId": "484",
+    "EventDateUtc": "2024-12-15T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 da\u00F1ado y no cumpli\u00F3 con lo prometido.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "261",
+    "ClientId": "1656",
+    "ProductId": "330",
+    "EventDateUtc": "2025-04-05T04:00:00Z",
+    "Comment": "El producto super\u00F3 mis expectativas, muy recomendable.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "262",
+    "ClientId": "1138",
+    "ProductId": "40",
+    "EventDateUtc": "2025-01-09T04:00:00Z",
+    "Comment": "El servicio fue r\u00E1pido y eficiente, estoy muy satisfecho.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "263",
+    "ClientId": "3673",
+    "ProductId": "413",
+    "EventDateUtc": "2024-11-29T04:00:00Z",
+    "Comment": "El producto super\u00F3 mis expectativas, muy recomendable.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "264",
+    "ClientId": "7140",
+    "ProductId": "539",
+    "EventDateUtc": "2024-12-08T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 da\u00F1ado y no cumpli\u00F3 con lo prometido.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "265",
+    "ClientId": "416",
+    "ProductId": "634",
+    "EventDateUtc": "2025-06-11T04:00:00Z",
+    "Comment": "El servicio fue lento y el soporte no resolvi\u00F3 mi problema.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "266",
+    "ClientId": "5394",
+    "ProductId": "784",
+    "EventDateUtc": "2024-10-28T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 en perfecto estado y antes de tiempo.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "267",
+    "ClientId": "1568",
+    "ProductId": "571",
+    "EventDateUtc": "2025-03-05T04:00:00Z",
+    "Comment": "El producto super\u00F3 mis expectativas, muy recomendable.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "268",
+    "ClientId": "9965",
+    "ProductId": "181",
+    "EventDateUtc": "2024-09-18T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 da\u00F1ado y no cumpli\u00F3 con lo prometido.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "269",
+    "ClientId": "289",
+    "ProductId": "267",
+    "EventDateUtc": "2025-01-10T04:00:00Z",
+    "Comment": "Ni malo ni excelente, simplemente regular.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "270",
+    "ClientId": "8147",
+    "ProductId": "247",
+    "EventDateUtc": "2025-07-05T04:00:00Z",
+    "Comment": "El servicio fue r\u00E1pido y eficiente, estoy muy satisfecho.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "271",
+    "ClientId": "7030",
+    "ProductId": "397",
+    "EventDateUtc": "2025-07-11T04:00:00Z",
+    "Comment": "Mala calidad, no lo recomiendo para nada.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "272",
+    "ClientId": "2867",
+    "ProductId": "287",
+    "EventDateUtc": "2025-04-03T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 en perfecto estado y antes de tiempo.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "273",
+    "ClientId": "4911",
+    "ProductId": "592",
+    "EventDateUtc": "2025-05-27T04:00:00Z",
+    "Comment": "El servicio fue r\u00E1pido y eficiente, estoy muy satisfecho.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "274",
+    "ClientId": "2794",
+    "ProductId": "548",
+    "EventDateUtc": "2024-12-18T04:00:00Z",
+    "Comment": "Me encanta, es justo lo que necesitaba.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "275",
+    "ClientId": "4509",
+    "ProductId": "880",
+    "EventDateUtc": "2025-07-04T04:00:00Z",
+    "Comment": "El servicio fue r\u00E1pido y eficiente, estoy muy satisfecho.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "276",
+    "ClientId": "4968",
+    "ProductId": "36",
+    "EventDateUtc": "2025-07-18T04:00:00Z",
+    "Comment": "El env\u00EDo fue normal, dentro del tiempo esperado.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "277",
+    "ClientId": "2220",
+    "ProductId": "985",
+    "EventDateUtc": "2024-11-20T04:00:00Z",
+    "Comment": "Ni malo ni excelente, simplemente regular.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "278",
+    "ClientId": "3723",
+    "ProductId": "396",
+    "EventDateUtc": "2025-06-25T04:00:00Z",
+    "Comment": "El servicio fue r\u00E1pido y eficiente, estoy muy satisfecho.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "279",
+    "ClientId": "6324",
+    "ProductId": "294",
+    "EventDateUtc": "2025-04-10T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 da\u00F1ado y no cumpli\u00F3 con lo prometido.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "280",
+    "ClientId": "6563",
+    "ProductId": "173",
+    "EventDateUtc": "2025-05-21T04:00:00Z",
+    "Comment": "Ni malo ni excelente, simplemente regular.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "281",
+    "ClientId": "1464",
+    "ProductId": "157",
+    "EventDateUtc": "2024-10-07T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 en perfecto estado y antes de tiempo.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "282",
+    "ClientId": "6971",
+    "ProductId": "572",
+    "EventDateUtc": "2025-06-23T04:00:00Z",
+    "Comment": "Excelente calidad, definitivamente volver\u00EDa a comprar.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "283",
+    "ClientId": "8769",
+    "ProductId": "332",
+    "EventDateUtc": "2025-09-04T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 da\u00F1ado y no cumpli\u00F3 con lo prometido.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "284",
+    "ClientId": "157",
+    "ProductId": "57",
+    "EventDateUtc": "2024-11-24T04:00:00Z",
+    "Comment": "El env\u00EDo fue normal, dentro del tiempo esperado.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "285",
+    "ClientId": "9634",
+    "ProductId": "905",
+    "EventDateUtc": "2025-02-18T04:00:00Z",
+    "Comment": "El servicio fue lento y el soporte no resolvi\u00F3 mi problema.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "286",
+    "ClientId": "5679",
+    "ProductId": "903",
+    "EventDateUtc": "2025-06-04T04:00:00Z",
+    "Comment": "El env\u00EDo fue normal, dentro del tiempo esperado.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "287",
+    "ClientId": "6022",
+    "ProductId": "682",
+    "EventDateUtc": "2025-08-28T04:00:00Z",
+    "Comment": "La experiencia fue aceptable, aunque podr\u00EDa mejorar.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "288",
+    "ClientId": "1778",
+    "ProductId": "375",
+    "EventDateUtc": "2024-10-11T04:00:00Z",
+    "Comment": "Ni malo ni excelente, simplemente regular.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "289",
+    "ClientId": "7507",
+    "ProductId": "668",
+    "EventDateUtc": "2025-02-20T04:00:00Z",
+    "Comment": "Mala calidad, no lo recomiendo para nada.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "290",
+    "ClientId": "4899",
+    "ProductId": "102",
+    "EventDateUtc": "2024-10-04T04:00:00Z",
+    "Comment": "El servicio fue r\u00E1pido y eficiente, estoy muy satisfecho.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "291",
+    "ClientId": "2527",
+    "ProductId": "621",
+    "EventDateUtc": "2025-03-06T04:00:00Z",
+    "Comment": "Mala calidad, no lo recomiendo para nada.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "292",
+    "ClientId": "3232",
+    "ProductId": "419",
+    "EventDateUtc": "2025-03-18T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 da\u00F1ado y no cumpli\u00F3 con lo prometido.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "293",
+    "ClientId": "485",
+    "ProductId": "940",
+    "EventDateUtc": "2024-12-27T04:00:00Z",
+    "Comment": "El env\u00EDo fue normal, dentro del tiempo esperado.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "294",
+    "ClientId": "4105",
+    "ProductId": "576",
+    "EventDateUtc": "2025-08-26T04:00:00Z",
+    "Comment": "La experiencia fue aceptable, aunque podr\u00EDa mejorar.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "295",
+    "ClientId": "20",
+    "ProductId": "779",
+    "EventDateUtc": "2025-01-25T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 da\u00F1ado y no cumpli\u00F3 con lo prometido.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "296",
+    "ClientId": "3625",
+    "ProductId": "477",
+    "EventDateUtc": "2025-04-16T04:00:00Z",
+    "Comment": "Me encanta, es justo lo que necesitaba.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "297",
+    "ClientId": "52",
+    "ProductId": "336",
+    "EventDateUtc": "2025-01-27T04:00:00Z",
+    "Comment": "La experiencia fue aceptable, aunque podr\u00EDa mejorar.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "298",
+    "ClientId": "8522",
+    "ProductId": "339",
+    "EventDateUtc": "2025-05-14T04:00:00Z",
+    "Comment": "Mala calidad, no lo recomiendo para nada.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "299",
+    "ClientId": "6372",
+    "ProductId": "751",
+    "EventDateUtc": "2024-11-25T04:00:00Z",
+    "Comment": "El servicio fue r\u00E1pido y eficiente, estoy muy satisfecho.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "300",
+    "ClientId": "2212",
+    "ProductId": "905",
+    "EventDateUtc": "2024-10-01T04:00:00Z",
+    "Comment": "No era lo que esperaba, muy decepcionado.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "301",
+    "ClientId": "3762",
+    "ProductId": "647",
+    "EventDateUtc": "2025-05-27T04:00:00Z",
+    "Comment": "Me encanta, es justo lo que necesitaba.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "302",
+    "ClientId": "9321",
+    "ProductId": "783",
+    "EventDateUtc": "2024-11-12T04:00:00Z",
+    "Comment": "La experiencia fue aceptable, aunque podr\u00EDa mejorar.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "303",
+    "ClientId": "5917",
+    "ProductId": "189",
+    "EventDateUtc": "2025-04-21T04:00:00Z",
+    "Comment": "El env\u00EDo fue normal, dentro del tiempo esperado.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "304",
+    "ClientId": "1182",
+    "ProductId": "467",
+    "EventDateUtc": "2025-06-04T04:00:00Z",
+    "Comment": "El producto dej\u00F3 de funcionar al poco tiempo de usarlo.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "305",
+    "ClientId": "8723",
+    "ProductId": "486",
+    "EventDateUtc": "2025-06-21T04:00:00Z",
+    "Comment": "El producto cumple su funci\u00F3n, nada especial.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "306",
+    "ClientId": "2540",
+    "ProductId": "784",
+    "EventDateUtc": "2024-09-16T04:00:00Z",
+    "Comment": "Ni malo ni excelente, simplemente regular.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "307",
+    "ClientId": "9628",
+    "ProductId": "488",
+    "EventDateUtc": "2025-05-09T04:00:00Z",
+    "Comment": "Mala calidad, no lo recomiendo para nada.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "308",
+    "ClientId": "2064",
+    "ProductId": "376",
+    "EventDateUtc": "2025-08-28T04:00:00Z",
+    "Comment": "Mala calidad, no lo recomiendo para nada.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "309",
+    "ClientId": "9983",
+    "ProductId": "576",
+    "EventDateUtc": "2024-12-16T04:00:00Z",
+    "Comment": "Excelente calidad, definitivamente volver\u00EDa a comprar.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "310",
+    "ClientId": "2198",
+    "ProductId": "315",
+    "EventDateUtc": "2025-05-18T04:00:00Z",
+    "Comment": "Excelente calidad, definitivamente volver\u00EDa a comprar.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "311",
+    "ClientId": "2201",
+    "ProductId": "730",
+    "EventDateUtc": "2024-11-17T04:00:00Z",
+    "Comment": "El servicio fue r\u00E1pido y eficiente, estoy muy satisfecho.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "312",
+    "ClientId": "5497",
+    "ProductId": "797",
+    "EventDateUtc": "2025-02-04T04:00:00Z",
+    "Comment": "El producto dej\u00F3 de funcionar al poco tiempo de usarlo.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "313",
+    "ClientId": "8883",
+    "ProductId": "897",
+    "EventDateUtc": "2025-07-19T04:00:00Z",
+    "Comment": "Me encanta, es justo lo que necesitaba.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "314",
+    "ClientId": "1665",
+    "ProductId": "56",
+    "EventDateUtc": "2024-12-15T04:00:00Z",
+    "Comment": "El producto cumple su funci\u00F3n, nada especial.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "315",
+    "ClientId": "1873",
+    "ProductId": "430",
+    "EventDateUtc": "2024-12-08T04:00:00Z",
+    "Comment": "El servicio fue lento y el soporte no resolvi\u00F3 mi problema.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "316",
+    "ClientId": "5804",
+    "ProductId": "826",
+    "EventDateUtc": "2025-01-16T04:00:00Z",
+    "Comment": "El producto super\u00F3 mis expectativas, muy recomendable.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "317",
+    "ClientId": "9969",
+    "ProductId": "142",
+    "EventDateUtc": "2024-10-14T04:00:00Z",
+    "Comment": "El env\u00EDo fue normal, dentro del tiempo esperado.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "318",
+    "ClientId": "8026",
+    "ProductId": "487",
+    "EventDateUtc": "2025-05-07T04:00:00Z",
+    "Comment": "Ni malo ni excelente, simplemente regular.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "319",
+    "ClientId": "4622",
+    "ProductId": "850",
+    "EventDateUtc": "2024-12-08T04:00:00Z",
+    "Comment": "Excelente calidad, definitivamente volver\u00EDa a comprar.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "320",
+    "ClientId": "8375",
+    "ProductId": "547",
+    "EventDateUtc": "2025-03-17T04:00:00Z",
+    "Comment": "La experiencia fue aceptable, aunque podr\u00EDa mejorar.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "321",
+    "ClientId": "5822",
+    "ProductId": "306",
+    "EventDateUtc": "2025-09-07T04:00:00Z",
+    "Comment": "El producto est\u00E1 bien, pero esperaba un poco m\u00E1s de calidad.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "322",
+    "ClientId": "9983",
+    "ProductId": "3",
+    "EventDateUtc": "2025-05-09T04:00:00Z",
+    "Comment": "El producto cumple su funci\u00F3n, nada especial.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "323",
+    "ClientId": "6680",
+    "ProductId": "871",
+    "EventDateUtc": "2024-10-13T04:00:00Z",
+    "Comment": "El servicio fue r\u00E1pido y eficiente, estoy muy satisfecho.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "324",
+    "ClientId": "9101",
+    "ProductId": "202",
+    "EventDateUtc": "2025-06-28T04:00:00Z",
+    "Comment": "El servicio fue r\u00E1pido y eficiente, estoy muy satisfecho.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "325",
+    "ClientId": "6763",
+    "ProductId": "675",
+    "EventDateUtc": "2025-03-28T04:00:00Z",
+    "Comment": "Me encanta, es justo lo que necesitaba.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "326",
+    "ClientId": "9231",
+    "ProductId": "899",
+    "EventDateUtc": "2025-03-25T04:00:00Z",
+    "Comment": "El producto cumple su funci\u00F3n, nada especial.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "327",
+    "ClientId": "1525",
+    "ProductId": "642",
+    "EventDateUtc": "2025-03-26T04:00:00Z",
+    "Comment": "El producto super\u00F3 mis expectativas, muy recomendable.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "328",
+    "ClientId": "5339",
+    "ProductId": "285",
+    "EventDateUtc": "2024-11-07T04:00:00Z",
+    "Comment": "Mala calidad, no lo recomiendo para nada.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "329",
+    "ClientId": "4297",
+    "ProductId": "149",
+    "EventDateUtc": "2024-11-14T04:00:00Z",
+    "Comment": "El producto super\u00F3 mis expectativas, muy recomendable.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "330",
+    "ClientId": "6744",
+    "ProductId": "472",
+    "EventDateUtc": "2025-02-05T04:00:00Z",
+    "Comment": "El env\u00EDo fue normal, dentro del tiempo esperado.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "331",
+    "ClientId": "4119",
+    "ProductId": "308",
+    "EventDateUtc": "2025-03-20T04:00:00Z",
+    "Comment": "No era lo que esperaba, muy decepcionado.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "332",
+    "ClientId": "2120",
+    "ProductId": "175",
+    "EventDateUtc": "2025-06-28T04:00:00Z",
+    "Comment": "Excelente calidad, definitivamente volver\u00EDa a comprar.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "333",
+    "ClientId": "3880",
+    "ProductId": "195",
+    "EventDateUtc": "2025-04-21T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 en perfecto estado y antes de tiempo.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "334",
+    "ClientId": "9438",
+    "ProductId": "932",
+    "EventDateUtc": "2025-01-17T04:00:00Z",
+    "Comment": "No era lo que esperaba, muy decepcionado.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "335",
+    "ClientId": "7326",
+    "ProductId": "689",
+    "EventDateUtc": "2024-09-28T04:00:00Z",
+    "Comment": "Me encanta, es justo lo que necesitaba.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "336",
+    "ClientId": "6046",
+    "ProductId": "757",
+    "EventDateUtc": "2025-02-01T04:00:00Z",
+    "Comment": "La experiencia fue aceptable, aunque podr\u00EDa mejorar.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "337",
+    "ClientId": "8525",
+    "ProductId": "995",
+    "EventDateUtc": "2025-06-02T04:00:00Z",
+    "Comment": "El producto dej\u00F3 de funcionar al poco tiempo de usarlo.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "338",
+    "ClientId": "9642",
+    "ProductId": "306",
+    "EventDateUtc": "2025-04-19T04:00:00Z",
+    "Comment": "El servicio fue r\u00E1pido y eficiente, estoy muy satisfecho.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "339",
+    "ClientId": "8091",
+    "ProductId": "366",
+    "EventDateUtc": "2025-03-02T04:00:00Z",
+    "Comment": "El producto dej\u00F3 de funcionar al poco tiempo de usarlo.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "340",
+    "ClientId": "1725",
+    "ProductId": "638",
+    "EventDateUtc": "2025-02-26T04:00:00Z",
+    "Comment": "El producto est\u00E1 bien, pero esperaba un poco m\u00E1s de calidad.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "341",
+    "ClientId": "8332",
+    "ProductId": "60",
+    "EventDateUtc": "2024-11-13T04:00:00Z",
+    "Comment": "Me encanta, es justo lo que necesitaba.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "342",
+    "ClientId": "2820",
+    "ProductId": "912",
+    "EventDateUtc": "2025-01-22T04:00:00Z",
+    "Comment": "La experiencia fue aceptable, aunque podr\u00EDa mejorar.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "343",
+    "ClientId": "7599",
+    "ProductId": "775",
+    "EventDateUtc": "2025-09-12T04:00:00Z",
+    "Comment": "No era lo que esperaba, muy decepcionado.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "344",
+    "ClientId": "8020",
+    "ProductId": "120",
+    "EventDateUtc": "2025-07-03T04:00:00Z",
+    "Comment": "El producto super\u00F3 mis expectativas, muy recomendable.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "345",
+    "ClientId": "9873",
+    "ProductId": "265",
+    "EventDateUtc": "2025-05-09T04:00:00Z",
+    "Comment": "El producto dej\u00F3 de funcionar al poco tiempo de usarlo.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "346",
+    "ClientId": "4598",
+    "ProductId": "682",
+    "EventDateUtc": "2025-08-13T04:00:00Z",
+    "Comment": "El servicio fue r\u00E1pido y eficiente, estoy muy satisfecho.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "347",
+    "ClientId": "1028",
+    "ProductId": "212",
+    "EventDateUtc": "2025-02-10T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 en perfecto estado y antes de tiempo.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "348",
+    "ClientId": "5367",
+    "ProductId": "358",
+    "EventDateUtc": "2025-01-08T04:00:00Z",
+    "Comment": "Mala calidad, no lo recomiendo para nada.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "349",
+    "ClientId": "3371",
+    "ProductId": "350",
+    "EventDateUtc": "2025-08-06T04:00:00Z",
+    "Comment": "El producto dej\u00F3 de funcionar al poco tiempo de usarlo.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "350",
+    "ClientId": "1803",
+    "ProductId": "712",
+    "EventDateUtc": "2024-12-26T04:00:00Z",
+    "Comment": "El producto cumple su funci\u00F3n, nada especial.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "351",
+    "ClientId": "155",
+    "ProductId": "268",
+    "EventDateUtc": "2024-09-14T04:00:00Z",
+    "Comment": "El servicio fue lento y el soporte no resolvi\u00F3 mi problema.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "352",
+    "ClientId": "3850",
+    "ProductId": "571",
+    "EventDateUtc": "2025-06-21T04:00:00Z",
+    "Comment": "El servicio fue lento y el soporte no resolvi\u00F3 mi problema.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "353",
+    "ClientId": "6808",
+    "ProductId": "861",
+    "EventDateUtc": "2025-04-11T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 da\u00F1ado y no cumpli\u00F3 con lo prometido.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "354",
+    "ClientId": "9769",
+    "ProductId": "75",
+    "EventDateUtc": "2025-07-04T04:00:00Z",
+    "Comment": "El producto dej\u00F3 de funcionar al poco tiempo de usarlo.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "355",
+    "ClientId": "2448",
+    "ProductId": "995",
+    "EventDateUtc": "2024-12-20T04:00:00Z",
+    "Comment": "La experiencia fue aceptable, aunque podr\u00EDa mejorar.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "356",
+    "ClientId": "3909",
+    "ProductId": "47",
+    "EventDateUtc": "2025-04-18T04:00:00Z",
+    "Comment": "Mala calidad, no lo recomiendo para nada.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "357",
+    "ClientId": "1695",
+    "ProductId": "466",
+    "EventDateUtc": "2024-09-25T04:00:00Z",
+    "Comment": "El producto est\u00E1 bien, pero esperaba un poco m\u00E1s de calidad.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "358",
+    "ClientId": "5005",
+    "ProductId": "24",
+    "EventDateUtc": "2025-01-05T04:00:00Z",
+    "Comment": "El servicio fue lento y el soporte no resolvi\u00F3 mi problema.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "359",
+    "ClientId": "1204",
+    "ProductId": "274",
+    "EventDateUtc": "2025-01-10T04:00:00Z",
+    "Comment": "El servicio fue r\u00E1pido y eficiente, estoy muy satisfecho.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "360",
+    "ClientId": "2670",
+    "ProductId": "621",
+    "EventDateUtc": "2025-01-28T04:00:00Z",
+    "Comment": "El env\u00EDo fue normal, dentro del tiempo esperado.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "361",
+    "ClientId": "6744",
+    "ProductId": "532",
+    "EventDateUtc": "2025-07-27T04:00:00Z",
+    "Comment": "Ni malo ni excelente, simplemente regular.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "362",
+    "ClientId": "7338",
+    "ProductId": "639",
+    "EventDateUtc": "2025-04-20T04:00:00Z",
+    "Comment": "El producto est\u00E1 bien, pero esperaba un poco m\u00E1s de calidad.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "363",
+    "ClientId": "4923",
+    "ProductId": "126",
+    "EventDateUtc": "2025-02-28T04:00:00Z",
+    "Comment": "El servicio fue lento y el soporte no resolvi\u00F3 mi problema.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "364",
+    "ClientId": "8070",
+    "ProductId": "635",
+    "EventDateUtc": "2025-02-21T04:00:00Z",
+    "Comment": "La experiencia fue aceptable, aunque podr\u00EDa mejorar.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "365",
+    "ClientId": "9338",
+    "ProductId": "529",
+    "EventDateUtc": "2024-10-08T04:00:00Z",
+    "Comment": "No era lo que esperaba, muy decepcionado.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "366",
+    "ClientId": "8373",
+    "ProductId": "511",
+    "EventDateUtc": "2025-07-23T04:00:00Z",
+    "Comment": "La experiencia fue aceptable, aunque podr\u00EDa mejorar.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "367",
+    "ClientId": "8810",
+    "ProductId": "582",
+    "EventDateUtc": "2025-05-31T04:00:00Z",
+    "Comment": "Me encanta, es justo lo que necesitaba.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "368",
+    "ClientId": "7159",
+    "ProductId": "594",
+    "EventDateUtc": "2025-01-15T04:00:00Z",
+    "Comment": "El servicio fue r\u00E1pido y eficiente, estoy muy satisfecho.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "369",
+    "ClientId": "5612",
+    "ProductId": "150",
+    "EventDateUtc": "2025-03-30T04:00:00Z",
+    "Comment": "El producto dej\u00F3 de funcionar al poco tiempo de usarlo.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "370",
+    "ClientId": "3142",
+    "ProductId": "613",
+    "EventDateUtc": "2025-07-17T04:00:00Z",
+    "Comment": "Mala calidad, no lo recomiendo para nada.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "371",
+    "ClientId": "5033",
+    "ProductId": "510",
+    "EventDateUtc": "2025-07-10T04:00:00Z",
+    "Comment": "Excelente calidad, definitivamente volver\u00EDa a comprar.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "372",
+    "ClientId": "5139",
+    "ProductId": "800",
+    "EventDateUtc": "2025-01-01T04:00:00Z",
+    "Comment": "Me encanta, es justo lo que necesitaba.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "373",
+    "ClientId": "3968",
+    "ProductId": "169",
+    "EventDateUtc": "2025-06-25T04:00:00Z",
+    "Comment": "Ni malo ni excelente, simplemente regular.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "374",
+    "ClientId": "4662",
+    "ProductId": "970",
+    "EventDateUtc": "2025-05-05T04:00:00Z",
+    "Comment": "Mala calidad, no lo recomiendo para nada.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "375",
+    "ClientId": "5305",
+    "ProductId": "720",
+    "EventDateUtc": "2024-10-24T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 en perfecto estado y antes de tiempo.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "376",
+    "ClientId": "9894",
+    "ProductId": "638",
+    "EventDateUtc": "2025-05-28T04:00:00Z",
+    "Comment": "El servicio fue r\u00E1pido y eficiente, estoy muy satisfecho.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "377",
+    "ClientId": "173",
+    "ProductId": "757",
+    "EventDateUtc": "2024-11-03T04:00:00Z",
+    "Comment": "Ni malo ni excelente, simplemente regular.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "378",
+    "ClientId": "9721",
+    "ProductId": "876",
+    "EventDateUtc": "2025-03-05T04:00:00Z",
+    "Comment": "La experiencia fue aceptable, aunque podr\u00EDa mejorar.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "379",
+    "ClientId": "5477",
+    "ProductId": "39",
+    "EventDateUtc": "2025-05-19T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 da\u00F1ado y no cumpli\u00F3 con lo prometido.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "380",
+    "ClientId": "8395",
+    "ProductId": "50",
+    "EventDateUtc": "2024-12-18T04:00:00Z",
+    "Comment": "El producto est\u00E1 bien, pero esperaba un poco m\u00E1s de calidad.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "381",
+    "ClientId": "954",
+    "ProductId": "517",
+    "EventDateUtc": "2025-08-19T04:00:00Z",
+    "Comment": "No era lo que esperaba, muy decepcionado.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "382",
+    "ClientId": "1935",
+    "ProductId": "744",
+    "EventDateUtc": "2025-01-08T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 da\u00F1ado y no cumpli\u00F3 con lo prometido.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "383",
+    "ClientId": "2173",
+    "ProductId": "865",
+    "EventDateUtc": "2025-09-02T04:00:00Z",
+    "Comment": "La experiencia fue aceptable, aunque podr\u00EDa mejorar.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "384",
+    "ClientId": "4173",
+    "ProductId": "476",
+    "EventDateUtc": "2024-09-26T04:00:00Z",
+    "Comment": "El producto dej\u00F3 de funcionar al poco tiempo de usarlo.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "385",
+    "ClientId": "243",
+    "ProductId": "654",
+    "EventDateUtc": "2024-10-25T04:00:00Z",
+    "Comment": "Ni malo ni excelente, simplemente regular.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "386",
+    "ClientId": "5500",
+    "ProductId": "773",
+    "EventDateUtc": "2025-05-13T04:00:00Z",
+    "Comment": "El producto est\u00E1 bien, pero esperaba un poco m\u00E1s de calidad.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "387",
+    "ClientId": "1575",
+    "ProductId": "259",
+    "EventDateUtc": "2025-08-02T04:00:00Z",
+    "Comment": "El servicio fue r\u00E1pido y eficiente, estoy muy satisfecho.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "388",
+    "ClientId": "9586",
+    "ProductId": "95",
+    "EventDateUtc": "2024-12-03T04:00:00Z",
+    "Comment": "No era lo que esperaba, muy decepcionado.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "389",
+    "ClientId": "3625",
+    "ProductId": "38",
+    "EventDateUtc": "2025-09-04T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 da\u00F1ado y no cumpli\u00F3 con lo prometido.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "390",
+    "ClientId": "3879",
+    "ProductId": "610",
+    "EventDateUtc": "2025-06-28T04:00:00Z",
+    "Comment": "El producto super\u00F3 mis expectativas, muy recomendable.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "391",
+    "ClientId": "988",
+    "ProductId": "54",
+    "EventDateUtc": "2025-01-06T04:00:00Z",
+    "Comment": "Ni malo ni excelente, simplemente regular.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "392",
+    "ClientId": "5882",
+    "ProductId": "166",
+    "EventDateUtc": "2025-01-15T04:00:00Z",
+    "Comment": "El producto dej\u00F3 de funcionar al poco tiempo de usarlo.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "393",
+    "ClientId": "3613",
+    "ProductId": "520",
+    "EventDateUtc": "2024-10-09T04:00:00Z",
+    "Comment": "El producto dej\u00F3 de funcionar al poco tiempo de usarlo.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "394",
+    "ClientId": "4422",
+    "ProductId": "567",
+    "EventDateUtc": "2025-04-26T04:00:00Z",
+    "Comment": "El env\u00EDo fue normal, dentro del tiempo esperado.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "395",
+    "ClientId": "1812",
+    "ProductId": "483",
+    "EventDateUtc": "2024-10-12T04:00:00Z",
+    "Comment": "El producto cumple su funci\u00F3n, nada especial.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "396",
+    "ClientId": "5135",
+    "ProductId": "929",
+    "EventDateUtc": "2025-08-26T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 da\u00F1ado y no cumpli\u00F3 con lo prometido.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "397",
+    "ClientId": "2083",
+    "ProductId": "618",
+    "EventDateUtc": "2025-06-25T04:00:00Z",
+    "Comment": "Ni malo ni excelente, simplemente regular.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "398",
+    "ClientId": "2908",
+    "ProductId": "224",
+    "EventDateUtc": "2025-05-05T04:00:00Z",
+    "Comment": "Excelente calidad, definitivamente volver\u00EDa a comprar.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "399",
+    "ClientId": "195",
+    "ProductId": "444",
+    "EventDateUtc": "2025-03-28T04:00:00Z",
+    "Comment": "Me encanta, es justo lo que necesitaba.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "400",
+    "ClientId": "6022",
+    "ProductId": "836",
+    "EventDateUtc": "2025-08-08T04:00:00Z",
+    "Comment": "No era lo que esperaba, muy decepcionado.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "401",
+    "ClientId": "6761",
+    "ProductId": "319",
+    "EventDateUtc": "2025-01-06T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 da\u00F1ado y no cumpli\u00F3 con lo prometido.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "402",
+    "ClientId": "9146",
+    "ProductId": "336",
+    "EventDateUtc": "2024-09-20T04:00:00Z",
+    "Comment": "La experiencia fue aceptable, aunque podr\u00EDa mejorar.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "403",
+    "ClientId": "1042",
+    "ProductId": "323",
+    "EventDateUtc": "2025-07-16T04:00:00Z",
+    "Comment": "La experiencia fue aceptable, aunque podr\u00EDa mejorar.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "404",
+    "ClientId": "9238",
+    "ProductId": "453",
+    "EventDateUtc": "2025-06-23T04:00:00Z",
+    "Comment": "El servicio fue r\u00E1pido y eficiente, estoy muy satisfecho.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "405",
+    "ClientId": "2424",
+    "ProductId": "215",
+    "EventDateUtc": "2025-03-05T04:00:00Z",
+    "Comment": "Excelente calidad, definitivamente volver\u00EDa a comprar.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "406",
+    "ClientId": "5496",
+    "ProductId": "789",
+    "EventDateUtc": "2025-05-05T04:00:00Z",
+    "Comment": "El producto cumple su funci\u00F3n, nada especial.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "407",
+    "ClientId": "9736",
+    "ProductId": "307",
+    "EventDateUtc": "2025-04-26T04:00:00Z",
+    "Comment": "Ni malo ni excelente, simplemente regular.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "408",
+    "ClientId": "4299",
+    "ProductId": "601",
+    "EventDateUtc": "2025-04-01T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 en perfecto estado y antes de tiempo.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "409",
+    "ClientId": "4857",
+    "ProductId": "985",
+    "EventDateUtc": "2024-11-25T04:00:00Z",
+    "Comment": "Ni malo ni excelente, simplemente regular.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "410",
+    "ClientId": "4832",
+    "ProductId": "698",
+    "EventDateUtc": "2025-07-29T04:00:00Z",
+    "Comment": "El producto cumple su funci\u00F3n, nada especial.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "411",
+    "ClientId": "1973",
+    "ProductId": "95",
+    "EventDateUtc": "2025-08-04T04:00:00Z",
+    "Comment": "El env\u00EDo fue normal, dentro del tiempo esperado.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "412",
+    "ClientId": "572",
+    "ProductId": "364",
+    "EventDateUtc": "2025-08-28T04:00:00Z",
+    "Comment": "El producto est\u00E1 bien, pero esperaba un poco m\u00E1s de calidad.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "413",
+    "ClientId": "5564",
+    "ProductId": "213",
+    "EventDateUtc": "2024-10-21T04:00:00Z",
+    "Comment": "Excelente calidad, definitivamente volver\u00EDa a comprar.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "414",
+    "ClientId": "7905",
+    "ProductId": "689",
+    "EventDateUtc": "2025-06-19T04:00:00Z",
+    "Comment": "Ni malo ni excelente, simplemente regular.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "415",
+    "ClientId": "9169",
+    "ProductId": "632",
+    "EventDateUtc": "2025-08-15T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 da\u00F1ado y no cumpli\u00F3 con lo prometido.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "416",
+    "ClientId": "1889",
+    "ProductId": "996",
+    "EventDateUtc": "2024-10-21T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 da\u00F1ado y no cumpli\u00F3 con lo prometido.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "417",
+    "ClientId": "795",
+    "ProductId": "722",
+    "EventDateUtc": "2024-10-25T04:00:00Z",
+    "Comment": "Me encanta, es justo lo que necesitaba.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "418",
+    "ClientId": "2993",
+    "ProductId": "190",
+    "EventDateUtc": "2024-09-22T04:00:00Z",
+    "Comment": "El servicio fue r\u00E1pido y eficiente, estoy muy satisfecho.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "419",
+    "ClientId": "4875",
+    "ProductId": "412",
+    "EventDateUtc": "2025-08-15T04:00:00Z",
+    "Comment": "Me encanta, es justo lo que necesitaba.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "420",
+    "ClientId": "3696",
+    "ProductId": "840",
+    "EventDateUtc": "2025-03-18T04:00:00Z",
+    "Comment": "La experiencia fue aceptable, aunque podr\u00EDa mejorar.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "421",
+    "ClientId": "4235",
+    "ProductId": "274",
+    "EventDateUtc": "2025-06-02T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 en perfecto estado y antes de tiempo.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "422",
+    "ClientId": "1345",
+    "ProductId": "790",
+    "EventDateUtc": "2024-11-16T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 en perfecto estado y antes de tiempo.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "423",
+    "ClientId": "8581",
+    "ProductId": "624",
+    "EventDateUtc": "2025-07-09T04:00:00Z",
+    "Comment": "Excelente calidad, definitivamente volver\u00EDa a comprar.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "424",
+    "ClientId": "2206",
+    "ProductId": "360",
+    "EventDateUtc": "2024-10-16T04:00:00Z",
+    "Comment": "El servicio fue r\u00E1pido y eficiente, estoy muy satisfecho.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "425",
+    "ClientId": "3911",
+    "ProductId": "979",
+    "EventDateUtc": "2025-06-10T04:00:00Z",
+    "Comment": "El producto cumple su funci\u00F3n, nada especial.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "426",
+    "ClientId": "5650",
+    "ProductId": "246",
+    "EventDateUtc": "2024-09-26T04:00:00Z",
+    "Comment": "El producto dej\u00F3 de funcionar al poco tiempo de usarlo.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "427",
+    "ClientId": "4433",
+    "ProductId": "703",
+    "EventDateUtc": "2025-07-25T04:00:00Z",
+    "Comment": "El servicio fue r\u00E1pido y eficiente, estoy muy satisfecho.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "428",
+    "ClientId": "5782",
+    "ProductId": "466",
+    "EventDateUtc": "2025-09-14T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 da\u00F1ado y no cumpli\u00F3 con lo prometido.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "429",
+    "ClientId": "3343",
+    "ProductId": "949",
+    "EventDateUtc": "2025-07-24T04:00:00Z",
+    "Comment": "El producto dej\u00F3 de funcionar al poco tiempo de usarlo.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "430",
+    "ClientId": "5994",
+    "ProductId": "560",
+    "EventDateUtc": "2025-06-27T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 da\u00F1ado y no cumpli\u00F3 con lo prometido.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "431",
+    "ClientId": "4155",
+    "ProductId": "326",
+    "EventDateUtc": "2024-10-04T04:00:00Z",
+    "Comment": "No era lo que esperaba, muy decepcionado.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "432",
+    "ClientId": "9780",
+    "ProductId": "56",
+    "EventDateUtc": "2025-04-29T04:00:00Z",
+    "Comment": "La experiencia fue aceptable, aunque podr\u00EDa mejorar.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "433",
+    "ClientId": "5499",
+    "ProductId": "708",
+    "EventDateUtc": "2025-04-12T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 en perfecto estado y antes de tiempo.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "434",
+    "ClientId": "120",
+    "ProductId": "519",
+    "EventDateUtc": "2025-03-28T04:00:00Z",
+    "Comment": "El producto cumple su funci\u00F3n, nada especial.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "435",
+    "ClientId": "6982",
+    "ProductId": "605",
+    "EventDateUtc": "2025-08-07T04:00:00Z",
+    "Comment": "Me encanta, es justo lo que necesitaba.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "436",
+    "ClientId": "6273",
+    "ProductId": "288",
+    "EventDateUtc": "2025-01-15T04:00:00Z",
+    "Comment": "Me encanta, es justo lo que necesitaba.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "437",
+    "ClientId": "7972",
+    "ProductId": "903",
+    "EventDateUtc": "2024-10-30T04:00:00Z",
+    "Comment": "El producto est\u00E1 bien, pero esperaba un poco m\u00E1s de calidad.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "438",
+    "ClientId": "7823",
+    "ProductId": "671",
+    "EventDateUtc": "2024-12-25T04:00:00Z",
+    "Comment": "La experiencia fue aceptable, aunque podr\u00EDa mejorar.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "439",
+    "ClientId": "1638",
+    "ProductId": "22",
+    "EventDateUtc": "2024-09-19T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 da\u00F1ado y no cumpli\u00F3 con lo prometido.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "440",
+    "ClientId": "4715",
+    "ProductId": "591",
+    "EventDateUtc": "2024-10-09T04:00:00Z",
+    "Comment": "Me encanta, es justo lo que necesitaba.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "441",
+    "ClientId": "1001",
+    "ProductId": "429",
+    "EventDateUtc": "2025-05-06T04:00:00Z",
+    "Comment": "El producto dej\u00F3 de funcionar al poco tiempo de usarlo.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "442",
+    "ClientId": "470",
+    "ProductId": "29",
+    "EventDateUtc": "2025-07-02T04:00:00Z",
+    "Comment": "El servicio fue r\u00E1pido y eficiente, estoy muy satisfecho.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "443",
+    "ClientId": "4091",
+    "ProductId": "96",
+    "EventDateUtc": "2024-10-07T04:00:00Z",
+    "Comment": "La experiencia fue aceptable, aunque podr\u00EDa mejorar.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "444",
+    "ClientId": "2462",
+    "ProductId": "246",
+    "EventDateUtc": "2025-01-06T04:00:00Z",
+    "Comment": "Ni malo ni excelente, simplemente regular.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "445",
+    "ClientId": "5433",
+    "ProductId": "630",
+    "EventDateUtc": "2024-12-16T04:00:00Z",
+    "Comment": "El producto dej\u00F3 de funcionar al poco tiempo de usarlo.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "446",
+    "ClientId": "5698",
+    "ProductId": "752",
+    "EventDateUtc": "2024-11-18T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 en perfecto estado y antes de tiempo.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "447",
+    "ClientId": "725",
+    "ProductId": "332",
+    "EventDateUtc": "2024-09-27T04:00:00Z",
+    "Comment": "Me encanta, es justo lo que necesitaba.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "448",
+    "ClientId": "6326",
+    "ProductId": "714",
+    "EventDateUtc": "2025-06-25T04:00:00Z",
+    "Comment": "Ni malo ni excelente, simplemente regular.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "449",
+    "ClientId": "8007",
+    "ProductId": "481",
+    "EventDateUtc": "2024-11-04T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 en perfecto estado y antes de tiempo.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "450",
+    "ClientId": "5843",
+    "ProductId": "954",
+    "EventDateUtc": "2025-09-08T04:00:00Z",
+    "Comment": "Excelente calidad, definitivamente volver\u00EDa a comprar.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "451",
+    "ClientId": "679",
+    "ProductId": "505",
+    "EventDateUtc": "2024-09-26T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 en perfecto estado y antes de tiempo.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "452",
+    "ClientId": "7935",
+    "ProductId": "160",
+    "EventDateUtc": "2025-01-19T04:00:00Z",
+    "Comment": "El producto est\u00E1 bien, pero esperaba un poco m\u00E1s de calidad.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "453",
+    "ClientId": "9714",
+    "ProductId": "111",
+    "EventDateUtc": "2024-09-19T04:00:00Z",
+    "Comment": "Ni malo ni excelente, simplemente regular.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "454",
+    "ClientId": "4806",
+    "ProductId": "374",
+    "EventDateUtc": "2024-10-04T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 en perfecto estado y antes de tiempo.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "455",
+    "ClientId": "101",
+    "ProductId": "864",
+    "EventDateUtc": "2024-10-13T04:00:00Z",
+    "Comment": "El producto est\u00E1 bien, pero esperaba un poco m\u00E1s de calidad.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "456",
+    "ClientId": "8025",
+    "ProductId": "209",
+    "EventDateUtc": "2025-02-13T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 da\u00F1ado y no cumpli\u00F3 con lo prometido.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "457",
+    "ClientId": "9594",
+    "ProductId": "225",
+    "EventDateUtc": "2025-08-21T04:00:00Z",
+    "Comment": "El producto est\u00E1 bien, pero esperaba un poco m\u00E1s de calidad.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "458",
+    "ClientId": "9557",
+    "ProductId": "482",
+    "EventDateUtc": "2025-07-13T04:00:00Z",
+    "Comment": "El producto super\u00F3 mis expectativas, muy recomendable.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "459",
+    "ClientId": "5931",
+    "ProductId": "795",
+    "EventDateUtc": "2025-01-22T04:00:00Z",
+    "Comment": "El servicio fue lento y el soporte no resolvi\u00F3 mi problema.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "460",
+    "ClientId": "8303",
+    "ProductId": "353",
+    "EventDateUtc": "2025-05-04T04:00:00Z",
+    "Comment": "Excelente calidad, definitivamente volver\u00EDa a comprar.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "461",
+    "ClientId": "1690",
+    "ProductId": "330",
+    "EventDateUtc": "2025-04-27T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 en perfecto estado y antes de tiempo.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "462",
+    "ClientId": "1272",
+    "ProductId": "302",
+    "EventDateUtc": "2025-05-09T04:00:00Z",
+    "Comment": "El servicio fue r\u00E1pido y eficiente, estoy muy satisfecho.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "463",
+    "ClientId": "6996",
+    "ProductId": "229",
+    "EventDateUtc": "2024-10-09T04:00:00Z",
+    "Comment": "No era lo que esperaba, muy decepcionado.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "464",
+    "ClientId": "4664",
+    "ProductId": "13",
+    "EventDateUtc": "2025-04-11T04:00:00Z",
+    "Comment": "El producto dej\u00F3 de funcionar al poco tiempo de usarlo.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "465",
+    "ClientId": "6838",
+    "ProductId": "818",
+    "EventDateUtc": "2024-10-07T04:00:00Z",
+    "Comment": "El producto dej\u00F3 de funcionar al poco tiempo de usarlo.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "466",
+    "ClientId": "9041",
+    "ProductId": "318",
+    "EventDateUtc": "2025-09-07T04:00:00Z",
+    "Comment": "Ni malo ni excelente, simplemente regular.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "467",
+    "ClientId": "8552",
+    "ProductId": "400",
+    "EventDateUtc": "2024-09-24T04:00:00Z",
+    "Comment": "El env\u00EDo fue normal, dentro del tiempo esperado.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "468",
+    "ClientId": "8023",
+    "ProductId": "73",
+    "EventDateUtc": "2025-08-08T04:00:00Z",
+    "Comment": "Me encanta, es justo lo que necesitaba.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "469",
+    "ClientId": "2686",
+    "ProductId": "240",
+    "EventDateUtc": "2025-06-11T04:00:00Z",
+    "Comment": "Excelente calidad, definitivamente volver\u00EDa a comprar.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "470",
+    "ClientId": "4841",
+    "ProductId": "532",
+    "EventDateUtc": "2025-08-07T04:00:00Z",
+    "Comment": "Ni malo ni excelente, simplemente regular.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "471",
+    "ClientId": "4129",
+    "ProductId": "715",
+    "EventDateUtc": "2024-11-01T04:00:00Z",
+    "Comment": "Ni malo ni excelente, simplemente regular.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "472",
+    "ClientId": "3243",
+    "ProductId": "75",
+    "EventDateUtc": "2025-04-08T04:00:00Z",
+    "Comment": "Me encanta, es justo lo que necesitaba.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "473",
+    "ClientId": "9872",
+    "ProductId": "704",
+    "EventDateUtc": "2024-09-18T04:00:00Z",
+    "Comment": "El producto est\u00E1 bien, pero esperaba un poco m\u00E1s de calidad.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "474",
+    "ClientId": "2634",
+    "ProductId": "659",
+    "EventDateUtc": "2024-12-24T04:00:00Z",
+    "Comment": "Ni malo ni excelente, simplemente regular.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "475",
+    "ClientId": "4755",
+    "ProductId": "340",
+    "EventDateUtc": "2025-03-03T04:00:00Z",
+    "Comment": "El producto cumple su funci\u00F3n, nada especial.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "476",
+    "ClientId": "6382",
+    "ProductId": "864",
+    "EventDateUtc": "2025-03-22T04:00:00Z",
+    "Comment": "Me encanta, es justo lo que necesitaba.",
+    "Score": 5
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "477",
+    "ClientId": "5665",
+    "ProductId": "668",
+    "EventDateUtc": "2025-06-06T04:00:00Z",
+    "Comment": "El producto dej\u00F3 de funcionar al poco tiempo de usarlo.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "478",
+    "ClientId": "2589",
+    "ProductId": "255",
+    "EventDateUtc": "2025-04-03T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 da\u00F1ado y no cumpli\u00F3 con lo prometido.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "479",
+    "ClientId": "581",
+    "ProductId": "507",
+    "EventDateUtc": "2025-04-11T04:00:00Z",
+    "Comment": "El producto dej\u00F3 de funcionar al poco tiempo de usarlo.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "480",
+    "ClientId": "4775",
+    "ProductId": "970",
+    "EventDateUtc": "2025-02-11T04:00:00Z",
+    "Comment": "No era lo que esperaba, muy decepcionado.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "481",
+    "ClientId": "6287",
+    "ProductId": "586",
+    "EventDateUtc": "2024-11-23T04:00:00Z",
+    "Comment": "Ni malo ni excelente, simplemente regular.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "482",
+    "ClientId": "3485",
+    "ProductId": "474",
+    "EventDateUtc": "2025-01-22T04:00:00Z",
+    "Comment": "No era lo que esperaba, muy decepcionado.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "483",
+    "ClientId": "6852",
+    "ProductId": "287",
+    "EventDateUtc": "2025-01-02T04:00:00Z",
+    "Comment": "Ni malo ni excelente, simplemente regular.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "484",
+    "ClientId": "3626",
+    "ProductId": "80",
+    "EventDateUtc": "2025-01-24T04:00:00Z",
+    "Comment": "El producto dej\u00F3 de funcionar al poco tiempo de usarlo.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "485",
+    "ClientId": "5102",
+    "ProductId": "67",
+    "EventDateUtc": "2025-05-06T04:00:00Z",
+    "Comment": "El producto dej\u00F3 de funcionar al poco tiempo de usarlo.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "486",
+    "ClientId": "1585",
+    "ProductId": "584",
+    "EventDateUtc": "2024-12-26T04:00:00Z",
+    "Comment": "El producto dej\u00F3 de funcionar al poco tiempo de usarlo.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "487",
+    "ClientId": "3087",
+    "ProductId": "969",
+    "EventDateUtc": "2025-06-27T04:00:00Z",
+    "Comment": "Mala calidad, no lo recomiendo para nada.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "488",
+    "ClientId": "6971",
+    "ProductId": "659",
+    "EventDateUtc": "2025-07-24T04:00:00Z",
+    "Comment": "El producto dej\u00F3 de funcionar al poco tiempo de usarlo.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "489",
+    "ClientId": "9147",
+    "ProductId": "858",
+    "EventDateUtc": "2025-08-07T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 da\u00F1ado y no cumpli\u00F3 con lo prometido.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "490",
+    "ClientId": "3187",
+    "ProductId": "271",
+    "EventDateUtc": "2025-04-26T04:00:00Z",
+    "Comment": "No era lo que esperaba, muy decepcionado.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "491",
+    "ClientId": "4808",
+    "ProductId": "844",
+    "EventDateUtc": "2025-03-24T04:00:00Z",
+    "Comment": "El env\u00EDo fue normal, dentro del tiempo esperado.",
+    "Score": 3
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "492",
+    "ClientId": "1707",
+    "ProductId": "637",
+    "EventDateUtc": "2024-09-17T04:00:00Z",
+    "Comment": "Me encanta, es justo lo que necesitaba.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "493",
+    "ClientId": "23",
+    "ProductId": "989",
+    "EventDateUtc": "2024-12-27T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 da\u00F1ado y no cumpli\u00F3 con lo prometido.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "494",
+    "ClientId": "1829",
+    "ProductId": "702",
+    "EventDateUtc": "2025-03-29T04:00:00Z",
+    "Comment": "Excelente calidad, definitivamente volver\u00EDa a comprar.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "495",
+    "ClientId": "8255",
+    "ProductId": "550",
+    "EventDateUtc": "2025-01-12T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 da\u00F1ado y no cumpli\u00F3 con lo prometido.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "496",
+    "ClientId": "2257",
+    "ProductId": "480",
+    "EventDateUtc": "2025-03-26T04:00:00Z",
+    "Comment": "El producto super\u00F3 mis expectativas, muy recomendable.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "497",
+    "ClientId": "2487",
+    "ProductId": "609",
+    "EventDateUtc": "2025-04-05T04:00:00Z",
+    "Comment": "El producto lleg\u00F3 da\u00F1ado y no cumpli\u00F3 con lo prometido.",
+    "Score": 2
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "498",
+    "ClientId": "6079",
+    "ProductId": "90",
+    "EventDateUtc": "2025-01-28T04:00:00Z",
+    "Comment": "El servicio fue r\u00E1pido y eficiente, estoy muy satisfecho.",
+    "Score": 4
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "499",
+    "ClientId": "9732",
+    "ProductId": "140",
+    "EventDateUtc": "2025-06-13T04:00:00Z",
+    "Comment": "Mala calidad, no lo recomiendo para nada.",
+    "Score": 1
+  },
+  {
+    "SourceType": "CSV",
+    "SourceName": "surveys_part1.csv",
+    "ExternalId": "500",
+    "ClientId": "9572",
+    "ProductId": "96",
+    "EventDateUtc": "2025-03-01T04:00:00Z",
+    "Comment": "El producto est\u00E1 bien, pero esperaba un poco m\u00E1s de calidad.",
+    "Score": 3
+  }
+]

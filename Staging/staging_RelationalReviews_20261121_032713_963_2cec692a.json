@@ -1,0 +1,2002 @@
+[
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0001",
+    "ClientId": "C007",
+    "ProductId": "P016",
+    "EventDateUtc": "2024-10-23T04:00:00Z",
+    "Comment": "Producto lleg\u00F3 r\u00E1pido y funciona perfecto. Muy recomendable.",
+    "Score": 4
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0002",
+    "ClientId": "C028",
+    "ProductId": "P005",
+    "EventDateUtc": "2024-10-15T04:00:00Z",
+    "Comment": "Gran relaci\u00F3n calidad-precio. Muy recomendable.",
+    "Score": 3
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0003",
+    "ClientId": "C035",
+    "ProductId": "P020",
+    "EventDateUtc": "2025-02-02T04:00:00Z",
+    "Comment": "Entrega correcta, sin comentarios adicionales. OK.",
+    "Score": 5
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0004",
+    "ClientId": "C021",
+    "ProductId": "P009",
+    "EventDateUtc": "2025-04-24T04:00:00Z",
+    "Comment": "Producto recibido, cumple su funci\u00F3n. OK.",
+    "Score": 4
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0005",
+    "ClientId": "C030",
+    "ProductId": "P008",
+    "EventDateUtc": "2025-03-25T04:00:00Z",
+    "Comment": "No cumple con lo anunciado, insatisfecho. No volver\u00EDa a comprar.",
+    "Score": 1
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0006",
+    "ClientId": "C021",
+    "ProductId": "P016",
+    "EventDateUtc": "2025-03-16T04:00:00Z",
+    "Comment": "Muy satisfecho con la compra, lo recomiendo. Muy recomendable.",
+    "Score": 3
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0007",
+    "ClientId": "C018",
+    "ProductId": "P011",
+    "EventDateUtc": "2024-12-03T04:00:00Z",
+    "Comment": "Es lo que esperaba, nada excepcional. OK.",
+    "Score": 1
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0008",
+    "ClientId": "C013",
+    "ProductId": "P017",
+    "EventDateUtc": "2025-01-06T04:00:00Z",
+    "Comment": "Calidad superior, muy contento. Muy recomendable.",
+    "Score": 5
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0009",
+    "ClientId": "C031",
+    "ProductId": "P008",
+    "EventDateUtc": "2025-01-27T04:00:00Z",
+    "Comment": "No cumple con lo anunciado, insatisfecho. No volver\u00EDa a comprar.",
+    "Score": 1
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0010",
+    "ClientId": "C019",
+    "ProductId": "P003",
+    "EventDateUtc": "2025-04-10T04:00:00Z",
+    "Comment": "Muy satisfecho con la compra, lo recomiendo. Muy recomendable.",
+    "Score": 5
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0011",
+    "ClientId": "C031",
+    "ProductId": "P012",
+    "EventDateUtc": "2025-02-08T04:00:00Z",
+    "Comment": "Env\u00EDo tard\u00EDo y producto da\u00F1ado. No volver\u00EDa a comprar.",
+    "Score": 5
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0012",
+    "ClientId": "C023",
+    "ProductId": "P011",
+    "EventDateUtc": "2025-04-10T04:00:00Z",
+    "Comment": "Es lo que esperaba, nada excepcional. OK.",
+    "Score": 3
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0013",
+    "ClientId": "C008",
+    "ProductId": "P008",
+    "EventDateUtc": "2025-07-14T04:00:00Z",
+    "Comment": "Es lo que esperaba, nada excepcional. OK.",
+    "Score": 5
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0014",
+    "ClientId": "C013",
+    "ProductId": "P006",
+    "EventDateUtc": "2025-04-25T04:00:00Z",
+    "Comment": "Calidad superior, muy contento. Muy recomendable.",
+    "Score": 5
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0015",
+    "ClientId": "C039",
+    "ProductId": "P017",
+    "EventDateUtc": "2025-06-06T04:00:00Z",
+    "Comment": "Me encanta este producto, excelente calidad. Muy recomendable.",
+    "Score": 3
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0016",
+    "ClientId": "C024",
+    "ProductId": "P008",
+    "EventDateUtc": "2024-09-16T04:00:00Z",
+    "Comment": "Me encanta este producto, excelente calidad. Muy recomendable.",
+    "Score": 5
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0017",
+    "ClientId": "C018",
+    "ProductId": "P005",
+    "EventDateUtc": "2024-12-04T04:00:00Z",
+    "Comment": "Me encanta este producto, excelente calidad. Muy recomendable.",
+    "Score": 3
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0018",
+    "ClientId": "C032",
+    "ProductId": "P005",
+    "EventDateUtc": "2024-11-24T04:00:00Z",
+    "Comment": "Me encanta este producto, excelente calidad. Muy recomendable.",
+    "Score": 3
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0019",
+    "ClientId": "C031",
+    "ProductId": "P016",
+    "EventDateUtc": "2025-08-18T04:00:00Z",
+    "Comment": "Muy satisfecho con la compra, lo recomiendo. Muy recomendable.",
+    "Score": 3
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0020",
+    "ClientId": "C008",
+    "ProductId": "P016",
+    "EventDateUtc": "2025-01-05T04:00:00Z",
+    "Comment": "Entrega correcta, sin comentarios adicionales. OK.",
+    "Score": 1
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0021",
+    "ClientId": "C004",
+    "ProductId": "P019",
+    "EventDateUtc": "2025-04-11T04:00:00Z",
+    "Comment": "Gran relaci\u00F3n calidad-precio. Muy recomendable.",
+    "Score": 1
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0022",
+    "ClientId": "C008",
+    "ProductId": "P008",
+    "EventDateUtc": "2024-11-07T04:00:00Z",
+    "Comment": "No cumple con lo anunciado, insatisfecho. No volver\u00EDa a comprar.",
+    "Score": 5
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0023",
+    "ClientId": "C015",
+    "ProductId": "P020",
+    "EventDateUtc": "2025-01-26T04:00:00Z",
+    "Comment": "Entrega correcta, sin comentarios adicionales. OK.",
+    "Score": 4
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0024",
+    "ClientId": "C038",
+    "ProductId": "P010",
+    "EventDateUtc": "2024-11-26T04:00:00Z",
+    "Comment": "Es lo que esperaba, nada excepcional. OK.",
+    "Score": 5
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0025",
+    "ClientId": "C040",
+    "ProductId": "P002",
+    "EventDateUtc": "2025-05-30T04:00:00Z",
+    "Comment": "Producto recibido, cumple su funci\u00F3n. OK.",
+    "Score": 2
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0026",
+    "ClientId": "C006",
+    "ProductId": "P009",
+    "EventDateUtc": "2024-12-05T04:00:00Z",
+    "Comment": "Muy satisfecho con la compra, lo recomiendo. Muy recomendable.",
+    "Score": 1
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0027",
+    "ClientId": "C001",
+    "ProductId": "P006",
+    "EventDateUtc": "2025-01-16T04:00:00Z",
+    "Comment": "Gran relaci\u00F3n calidad-precio. Muy recomendable.",
+    "Score": 3
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0028",
+    "ClientId": "C015",
+    "ProductId": "P002",
+    "EventDateUtc": "2024-09-19T04:00:00Z",
+    "Comment": "Producto lleg\u00F3 r\u00E1pido y funciona perfecto. Muy recomendable.",
+    "Score": 4
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0029",
+    "ClientId": "C015",
+    "ProductId": "P003",
+    "EventDateUtc": "2024-10-10T04:00:00Z",
+    "Comment": "Satisface lo b\u00E1sico. OK.",
+    "Score": 2
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0030",
+    "ClientId": "C008",
+    "ProductId": "P014",
+    "EventDateUtc": "2025-04-30T04:00:00Z",
+    "Comment": "No funciona como esperaba, decepcionado. No volver\u00EDa a comprar.",
+    "Score": 2
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0031",
+    "ClientId": "C004",
+    "ProductId": "P003",
+    "EventDateUtc": "2024-11-13T04:00:00Z",
+    "Comment": "Producto lleg\u00F3 r\u00E1pido y funciona perfecto. Muy recomendable.",
+    "Score": 5
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0032",
+    "ClientId": "C029",
+    "ProductId": "P010",
+    "EventDateUtc": "2024-09-20T04:00:00Z",
+    "Comment": "Producto lleg\u00F3 r\u00E1pido y funciona perfecto. Muy recomendable.",
+    "Score": 4
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0033",
+    "ClientId": "C033",
+    "ProductId": "P009",
+    "EventDateUtc": "2025-08-03T04:00:00Z",
+    "Comment": "No cumple con lo anunciado, insatisfecho. No volver\u00EDa a comprar.",
+    "Score": 5
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0034",
+    "ClientId": "C028",
+    "ProductId": "P002",
+    "EventDateUtc": "2025-05-08T04:00:00Z",
+    "Comment": "Satisface lo b\u00E1sico. OK.",
+    "Score": 1
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0035",
+    "ClientId": "C015",
+    "ProductId": "P003",
+    "EventDateUtc": "2024-11-17T04:00:00Z",
+    "Comment": "Satisface lo b\u00E1sico. OK.",
+    "Score": 1
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0036",
+    "ClientId": "C037",
+    "ProductId": "P009",
+    "EventDateUtc": "2025-01-16T04:00:00Z",
+    "Comment": "Muy satisfecho con la compra, lo recomiendo. Muy recomendable.",
+    "Score": 5
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0037",
+    "ClientId": "C018",
+    "ProductId": "P015",
+    "EventDateUtc": "2025-02-02T04:00:00Z",
+    "Comment": "Gran relaci\u00F3n calidad-precio. Muy recomendable.",
+    "Score": 4
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0038",
+    "ClientId": "C031",
+    "ProductId": "P003",
+    "EventDateUtc": "2025-04-02T04:00:00Z",
+    "Comment": "Producto lleg\u00F3 r\u00E1pido y funciona perfecto. Muy recomendable.",
+    "Score": 1
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0039",
+    "ClientId": "C022",
+    "ProductId": "P006",
+    "EventDateUtc": "2025-04-19T04:00:00Z",
+    "Comment": "Calidad superior, muy contento. Muy recomendable.",
+    "Score": 4
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0040",
+    "ClientId": "C003",
+    "ProductId": "P018",
+    "EventDateUtc": "2025-05-07T04:00:00Z",
+    "Comment": "Env\u00EDo tard\u00EDo y producto da\u00F1ado. No volver\u00EDa a comprar.",
+    "Score": 3
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0041",
+    "ClientId": "C026",
+    "ProductId": "P004",
+    "EventDateUtc": "2024-10-12T04:00:00Z",
+    "Comment": "Producto recibido, cumple su funci\u00F3n. OK.",
+    "Score": 5
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0042",
+    "ClientId": "C027",
+    "ProductId": "P015",
+    "EventDateUtc": "2025-03-12T04:00:00Z",
+    "Comment": "Gran relaci\u00F3n calidad-precio. Muy recomendable.",
+    "Score": 5
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0043",
+    "ClientId": "C029",
+    "ProductId": "P016",
+    "EventDateUtc": "2025-04-30T04:00:00Z",
+    "Comment": "Informaci\u00F3n suficiente, sin mayor novedad. OK.",
+    "Score": 5
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0044",
+    "ClientId": "C019",
+    "ProductId": "P005",
+    "EventDateUtc": "2025-07-13T04:00:00Z",
+    "Comment": "Calidad superior, muy contento. Muy recomendable.",
+    "Score": 1
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0045",
+    "ClientId": "C016",
+    "ProductId": "P020",
+    "EventDateUtc": "2024-12-05T04:00:00Z",
+    "Comment": "Es lo que esperaba, nada excepcional. OK.",
+    "Score": 1
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0046",
+    "ClientId": "C027",
+    "ProductId": "P018",
+    "EventDateUtc": "2025-01-20T04:00:00Z",
+    "Comment": "Me encanta este producto, excelente calidad. Muy recomendable.",
+    "Score": 1
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0047",
+    "ClientId": "C032",
+    "ProductId": "P005",
+    "EventDateUtc": "2024-12-27T04:00:00Z",
+    "Comment": "Es lo que esperaba, nada excepcional. OK.",
+    "Score": 3
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0048",
+    "ClientId": "C031",
+    "ProductId": "P014",
+    "EventDateUtc": "2025-01-23T04:00:00Z",
+    "Comment": "Informaci\u00F3n suficiente, sin mayor novedad. OK.",
+    "Score": 5
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0049",
+    "ClientId": "C025",
+    "ProductId": "P005",
+    "EventDateUtc": "2024-12-27T04:00:00Z",
+    "Comment": "Gran relaci\u00F3n calidad-precio. Muy recomendable.",
+    "Score": 2
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0050",
+    "ClientId": "C018",
+    "ProductId": "P003",
+    "EventDateUtc": "2025-03-23T04:00:00Z",
+    "Comment": "Entrega correcta, sin comentarios adicionales. OK.",
+    "Score": 5
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0051",
+    "ClientId": "C001",
+    "ProductId": "P009",
+    "EventDateUtc": "2024-11-17T04:00:00Z",
+    "Comment": "Producto lleg\u00F3 r\u00E1pido y funciona perfecto. Muy recomendable.",
+    "Score": 5
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0052",
+    "ClientId": "C010",
+    "ProductId": "P016",
+    "EventDateUtc": "2025-03-21T04:00:00Z",
+    "Comment": "Calidad superior, muy contento. Muy recomendable.",
+    "Score": 3
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0053",
+    "ClientId": "C035",
+    "ProductId": "P018",
+    "EventDateUtc": "2025-06-09T04:00:00Z",
+    "Comment": "Producto lleg\u00F3 r\u00E1pido y funciona perfecto. Muy recomendable.",
+    "Score": 2
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0054",
+    "ClientId": "C025",
+    "ProductId": "P019",
+    "EventDateUtc": "2025-08-22T04:00:00Z",
+    "Comment": "Calidad superior, muy contento. Muy recomendable.",
+    "Score": 3
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0055",
+    "ClientId": "C025",
+    "ProductId": "P016",
+    "EventDateUtc": "2025-01-03T04:00:00Z",
+    "Comment": "Muy satisfecho con la compra, lo recomiendo. Muy recomendable.",
+    "Score": 1
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0056",
+    "ClientId": "C033",
+    "ProductId": "P005",
+    "EventDateUtc": "2025-07-24T04:00:00Z",
+    "Comment": "Es lo que esperaba, nada excepcional. OK.",
+    "Score": 4
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0057",
+    "ClientId": "C034",
+    "ProductId": "P004",
+    "EventDateUtc": "2025-07-02T04:00:00Z",
+    "Comment": "Producto recibido, cumple su funci\u00F3n. OK.",
+    "Score": 4
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0058",
+    "ClientId": "C005",
+    "ProductId": "P005",
+    "EventDateUtc": "2025-03-24T04:00:00Z",
+    "Comment": "Env\u00EDo tard\u00EDo y producto da\u00F1ado. No volver\u00EDa a comprar.",
+    "Score": 5
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0059",
+    "ClientId": "C006",
+    "ProductId": "P013",
+    "EventDateUtc": "2025-03-03T04:00:00Z",
+    "Comment": "Satisface lo b\u00E1sico. OK.",
+    "Score": 3
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0060",
+    "ClientId": "C035",
+    "ProductId": "P016",
+    "EventDateUtc": "2025-05-16T04:00:00Z",
+    "Comment": "Me encanta este producto, excelente calidad. Muy recomendable.",
+    "Score": 3
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0061",
+    "ClientId": "C006",
+    "ProductId": "P008",
+    "EventDateUtc": "2024-10-24T04:00:00Z",
+    "Comment": "Me encanta este producto, excelente calidad. Muy recomendable.",
+    "Score": 1
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0062",
+    "ClientId": "C011",
+    "ProductId": "P015",
+    "EventDateUtc": "2025-08-21T04:00:00Z",
+    "Comment": "Muy mala calidad, se rompi\u00F3 r\u00E1pido. No volver\u00EDa a comprar.",
+    "Score": 3
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0063",
+    "ClientId": "C019",
+    "ProductId": "P002",
+    "EventDateUtc": "2025-07-01T04:00:00Z",
+    "Comment": "Calidad superior, muy contento. Muy recomendable.",
+    "Score": 2
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0064",
+    "ClientId": "C027",
+    "ProductId": "P017",
+    "EventDateUtc": "2025-06-18T04:00:00Z",
+    "Comment": "No funciona como esperaba, decepcionado. No volver\u00EDa a comprar.",
+    "Score": 2
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0065",
+    "ClientId": "C040",
+    "ProductId": "P003",
+    "EventDateUtc": "2024-09-29T04:00:00Z",
+    "Comment": "Satisface lo b\u00E1sico. OK.",
+    "Score": 2
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0066",
+    "ClientId": "C038",
+    "ProductId": "P016",
+    "EventDateUtc": "2024-10-22T04:00:00Z",
+    "Comment": "Calidad superior, muy contento. Muy recomendable.",
+    "Score": 3
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0067",
+    "ClientId": "C017",
+    "ProductId": "P015",
+    "EventDateUtc": "2025-04-19T04:00:00Z",
+    "Comment": "No cumple con lo anunciado, insatisfecho. No volver\u00EDa a comprar.",
+    "Score": 5
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0068",
+    "ClientId": "C005",
+    "ProductId": "P006",
+    "EventDateUtc": "2024-11-17T04:00:00Z",
+    "Comment": "Producto lleg\u00F3 r\u00E1pido y funciona perfecto. Muy recomendable.",
+    "Score": 3
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0069",
+    "ClientId": "C017",
+    "ProductId": "P014",
+    "EventDateUtc": "2025-06-04T04:00:00Z",
+    "Comment": "Env\u00EDo tard\u00EDo y producto da\u00F1ado. No volver\u00EDa a comprar.",
+    "Score": 4
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0070",
+    "ClientId": "C007",
+    "ProductId": "P016",
+    "EventDateUtc": "2025-03-14T04:00:00Z",
+    "Comment": "Gran relaci\u00F3n calidad-precio. Muy recomendable.",
+    "Score": 5
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0071",
+    "ClientId": "C019",
+    "ProductId": "P010",
+    "EventDateUtc": "2025-04-26T04:00:00Z",
+    "Comment": "Calidad superior, muy contento. Muy recomendable.",
+    "Score": 1
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0072",
+    "ClientId": "C004",
+    "ProductId": "P019",
+    "EventDateUtc": "2025-04-20T04:00:00Z",
+    "Comment": "Entrega correcta, sin comentarios adicionales. OK.",
+    "Score": 2
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0073",
+    "ClientId": "C023",
+    "ProductId": "P020",
+    "EventDateUtc": "2024-10-31T04:00:00Z",
+    "Comment": "Muy satisfecho con la compra, lo recomiendo. Muy recomendable.",
+    "Score": 3
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0074",
+    "ClientId": "C007",
+    "ProductId": "P005",
+    "EventDateUtc": "2025-04-08T04:00:00Z",
+    "Comment": "Producto recibido, cumple su funci\u00F3n. OK.",
+    "Score": 4
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0075",
+    "ClientId": "C038",
+    "ProductId": "P002",
+    "EventDateUtc": "2025-07-29T04:00:00Z",
+    "Comment": "Muy satisfecho con la compra, lo recomiendo. Muy recomendable.",
+    "Score": 3
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0076",
+    "ClientId": "C027",
+    "ProductId": "P011",
+    "EventDateUtc": "2024-12-11T04:00:00Z",
+    "Comment": "Muy satisfecho con la compra, lo recomiendo. Muy recomendable.",
+    "Score": 3
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0077",
+    "ClientId": "C033",
+    "ProductId": "P017",
+    "EventDateUtc": "2025-05-05T04:00:00Z",
+    "Comment": "Informaci\u00F3n suficiente, sin mayor novedad. OK.",
+    "Score": 4
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0078",
+    "ClientId": "C022",
+    "ProductId": "P010",
+    "EventDateUtc": "2025-08-06T04:00:00Z",
+    "Comment": "Entrega correcta, sin comentarios adicionales. OK.",
+    "Score": 2
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0079",
+    "ClientId": "C026",
+    "ProductId": "P008",
+    "EventDateUtc": "2025-03-10T04:00:00Z",
+    "Comment": "Satisface lo b\u00E1sico. OK.",
+    "Score": 1
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0080",
+    "ClientId": "C001",
+    "ProductId": "P013",
+    "EventDateUtc": "2025-01-24T04:00:00Z",
+    "Comment": "Me encanta este producto, excelente calidad. Muy recomendable.",
+    "Score": 3
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0081",
+    "ClientId": "C038",
+    "ProductId": "P009",
+    "EventDateUtc": "2025-07-20T04:00:00Z",
+    "Comment": "Producto lleg\u00F3 r\u00E1pido y funciona perfecto. Muy recomendable.",
+    "Score": 2
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0082",
+    "ClientId": "C002",
+    "ProductId": "P016",
+    "EventDateUtc": "2025-03-30T04:00:00Z",
+    "Comment": "P\u00E9sima atenci\u00F3n al cliente. No volver\u00EDa a comprar.",
+    "Score": 5
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0083",
+    "ClientId": "C005",
+    "ProductId": "P008",
+    "EventDateUtc": "2024-09-20T04:00:00Z",
+    "Comment": "No cumple con lo anunciado, insatisfecho. No volver\u00EDa a comprar.",
+    "Score": 3
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0084",
+    "ClientId": "C008",
+    "ProductId": "P014",
+    "EventDateUtc": "2025-04-11T04:00:00Z",
+    "Comment": "Me encanta este producto, excelente calidad. Muy recomendable.",
+    "Score": 4
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0085",
+    "ClientId": "C007",
+    "ProductId": "P004",
+    "EventDateUtc": "2025-07-06T04:00:00Z",
+    "Comment": "Gran relaci\u00F3n calidad-precio. Muy recomendable.",
+    "Score": 4
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0086",
+    "ClientId": "C024",
+    "ProductId": "P015",
+    "EventDateUtc": "2025-02-11T04:00:00Z",
+    "Comment": "P\u00E9sima atenci\u00F3n al cliente. No volver\u00EDa a comprar.",
+    "Score": 5
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0087",
+    "ClientId": "C027",
+    "ProductId": "P005",
+    "EventDateUtc": "2024-11-02T04:00:00Z",
+    "Comment": "No cumple con lo anunciado, insatisfecho. No volver\u00EDa a comprar.",
+    "Score": 4
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0088",
+    "ClientId": "C003",
+    "ProductId": "P009",
+    "EventDateUtc": "2025-01-29T04:00:00Z",
+    "Comment": "No funciona como esperaba, decepcionado. No volver\u00EDa a comprar.",
+    "Score": 4
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0089",
+    "ClientId": "C024",
+    "ProductId": "P008",
+    "EventDateUtc": "2024-12-09T04:00:00Z",
+    "Comment": "Producto lleg\u00F3 r\u00E1pido y funciona perfecto. Muy recomendable.",
+    "Score": 3
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0090",
+    "ClientId": "C026",
+    "ProductId": "P002",
+    "EventDateUtc": "2025-01-24T04:00:00Z",
+    "Comment": "Me encanta este producto, excelente calidad. Muy recomendable.",
+    "Score": 1
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0091",
+    "ClientId": "C039",
+    "ProductId": "P007",
+    "EventDateUtc": "2025-03-27T04:00:00Z",
+    "Comment": "Producto recibido, cumple su funci\u00F3n. OK.",
+    "Score": 2
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0092",
+    "ClientId": "C037",
+    "ProductId": "P005",
+    "EventDateUtc": "2025-05-30T04:00:00Z",
+    "Comment": "Gran relaci\u00F3n calidad-precio. Muy recomendable.",
+    "Score": 5
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0093",
+    "ClientId": "C015",
+    "ProductId": "P007",
+    "EventDateUtc": "2024-11-12T04:00:00Z",
+    "Comment": "Muy satisfecho con la compra, lo recomiendo. Muy recomendable.",
+    "Score": 1
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0094",
+    "ClientId": "C010",
+    "ProductId": "P009",
+    "EventDateUtc": "2025-05-08T04:00:00Z",
+    "Comment": "Satisface lo b\u00E1sico. OK.",
+    "Score": 2
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0095",
+    "ClientId": "C002",
+    "ProductId": "P004",
+    "EventDateUtc": "2025-05-15T04:00:00Z",
+    "Comment": "Producto lleg\u00F3 r\u00E1pido y funciona perfecto. Muy recomendable.",
+    "Score": 5
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0096",
+    "ClientId": "C002",
+    "ProductId": "P011",
+    "EventDateUtc": "2025-07-11T04:00:00Z",
+    "Comment": "Me encanta este producto, excelente calidad. Muy recomendable.",
+    "Score": 4
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0097",
+    "ClientId": "C008",
+    "ProductId": "P017",
+    "EventDateUtc": "2025-01-27T04:00:00Z",
+    "Comment": "Entrega correcta, sin comentarios adicionales. OK.",
+    "Score": 3
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0098",
+    "ClientId": "C038",
+    "ProductId": "P017",
+    "EventDateUtc": "2025-05-23T04:00:00Z",
+    "Comment": "Gran relaci\u00F3n calidad-precio. Muy recomendable.",
+    "Score": 5
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0099",
+    "ClientId": "C034",
+    "ProductId": "P002",
+    "EventDateUtc": "2025-08-13T04:00:00Z",
+    "Comment": "Me encanta este producto, excelente calidad. Muy recomendable.",
+    "Score": 4
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0100",
+    "ClientId": "C028",
+    "ProductId": "P013",
+    "EventDateUtc": "2024-09-14T04:00:00Z",
+    "Comment": "No cumple con lo anunciado, insatisfecho. No volver\u00EDa a comprar.",
+    "Score": 4
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0101",
+    "ClientId": "C006",
+    "ProductId": "P003",
+    "EventDateUtc": "2025-08-11T04:00:00Z",
+    "Comment": "Muy satisfecho con la compra, lo recomiendo. Muy recomendable.",
+    "Score": 2
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0102",
+    "ClientId": "C040",
+    "ProductId": "P009",
+    "EventDateUtc": "2024-09-14T04:00:00Z",
+    "Comment": "P\u00E9sima atenci\u00F3n al cliente. No volver\u00EDa a comprar.",
+    "Score": 3
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0103",
+    "ClientId": "C039",
+    "ProductId": "P013",
+    "EventDateUtc": "2024-12-29T04:00:00Z",
+    "Comment": "No cumple con lo anunciado, insatisfecho. No volver\u00EDa a comprar.",
+    "Score": 5
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0104",
+    "ClientId": "C007",
+    "ProductId": "P014",
+    "EventDateUtc": "2024-10-13T04:00:00Z",
+    "Comment": "Producto recibido, cumple su funci\u00F3n. OK.",
+    "Score": 5
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0105",
+    "ClientId": "C028",
+    "ProductId": "P007",
+    "EventDateUtc": "2025-02-14T04:00:00Z",
+    "Comment": "No funciona como esperaba, decepcionado. No volver\u00EDa a comprar.",
+    "Score": 3
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0106",
+    "ClientId": "C026",
+    "ProductId": "P015",
+    "EventDateUtc": "2025-04-06T04:00:00Z",
+    "Comment": "Me encanta este producto, excelente calidad. Muy recomendable.",
+    "Score": 4
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0107",
+    "ClientId": "C017",
+    "ProductId": "P011",
+    "EventDateUtc": "2024-09-27T04:00:00Z",
+    "Comment": "Muy satisfecho con la compra, lo recomiendo. Muy recomendable.",
+    "Score": 4
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0108",
+    "ClientId": "C006",
+    "ProductId": "P003",
+    "EventDateUtc": "2025-02-04T04:00:00Z",
+    "Comment": "Producto recibido, cumple su funci\u00F3n. OK.",
+    "Score": 1
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0109",
+    "ClientId": "C009",
+    "ProductId": "P012",
+    "EventDateUtc": "2024-11-30T04:00:00Z",
+    "Comment": "P\u00E9sima atenci\u00F3n al cliente. No volver\u00EDa a comprar.",
+    "Score": 5
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0110",
+    "ClientId": "C008",
+    "ProductId": "P011",
+    "EventDateUtc": "2025-08-18T04:00:00Z",
+    "Comment": "Calidad superior, muy contento. Muy recomendable.",
+    "Score": 3
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0111",
+    "ClientId": "C020",
+    "ProductId": "P020",
+    "EventDateUtc": "2024-12-28T04:00:00Z",
+    "Comment": "Gran relaci\u00F3n calidad-precio. Muy recomendable.",
+    "Score": 2
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0112",
+    "ClientId": "C031",
+    "ProductId": "P005",
+    "EventDateUtc": "2025-03-18T04:00:00Z",
+    "Comment": "Me encanta este producto, excelente calidad. Muy recomendable.",
+    "Score": 5
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0113",
+    "ClientId": "C008",
+    "ProductId": "P012",
+    "EventDateUtc": "2025-05-21T04:00:00Z",
+    "Comment": "Satisface lo b\u00E1sico. OK.",
+    "Score": 4
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0114",
+    "ClientId": "C040",
+    "ProductId": "P018",
+    "EventDateUtc": "2025-08-31T04:00:00Z",
+    "Comment": "P\u00E9sima atenci\u00F3n al cliente. No volver\u00EDa a comprar.",
+    "Score": 5
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0115",
+    "ClientId": "C002",
+    "ProductId": "P009",
+    "EventDateUtc": "2025-03-24T04:00:00Z",
+    "Comment": "Producto lleg\u00F3 r\u00E1pido y funciona perfecto. Muy recomendable.",
+    "Score": 3
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0116",
+    "ClientId": "C012",
+    "ProductId": "P001",
+    "EventDateUtc": "2024-10-12T04:00:00Z",
+    "Comment": "Satisface lo b\u00E1sico. OK.",
+    "Score": 4
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0117",
+    "ClientId": "C010",
+    "ProductId": "P003",
+    "EventDateUtc": "2025-07-29T04:00:00Z",
+    "Comment": "Producto recibido, cumple su funci\u00F3n. OK.",
+    "Score": 5
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0118",
+    "ClientId": "C025",
+    "ProductId": "P007",
+    "EventDateUtc": "2025-06-25T04:00:00Z",
+    "Comment": "Producto lleg\u00F3 r\u00E1pido y funciona perfecto. Muy recomendable.",
+    "Score": 3
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0119",
+    "ClientId": "C021",
+    "ProductId": "P010",
+    "EventDateUtc": "2024-11-12T04:00:00Z",
+    "Comment": "Satisface lo b\u00E1sico. OK.",
+    "Score": 1
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0120",
+    "ClientId": "C010",
+    "ProductId": "P002",
+    "EventDateUtc": "2025-08-19T04:00:00Z",
+    "Comment": "Gran relaci\u00F3n calidad-precio. Muy recomendable.",
+    "Score": 1
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0121",
+    "ClientId": "C029",
+    "ProductId": "P009",
+    "EventDateUtc": "2024-11-07T04:00:00Z",
+    "Comment": "No cumple con lo anunciado, insatisfecho. No volver\u00EDa a comprar.",
+    "Score": 4
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0122",
+    "ClientId": "C018",
+    "ProductId": "P014",
+    "EventDateUtc": "2025-07-17T04:00:00Z",
+    "Comment": "Gran relaci\u00F3n calidad-precio. Muy recomendable.",
+    "Score": 3
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0123",
+    "ClientId": "C008",
+    "ProductId": "P014",
+    "EventDateUtc": "2025-01-07T04:00:00Z",
+    "Comment": "Gran relaci\u00F3n calidad-precio. Muy recomendable.",
+    "Score": 5
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0124",
+    "ClientId": "C003",
+    "ProductId": "P010",
+    "EventDateUtc": "2025-08-16T04:00:00Z",
+    "Comment": "Gran relaci\u00F3n calidad-precio. Muy recomendable.",
+    "Score": 1
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0125",
+    "ClientId": "C020",
+    "ProductId": "P007",
+    "EventDateUtc": "2025-05-06T04:00:00Z",
+    "Comment": "Informaci\u00F3n suficiente, sin mayor novedad. OK.",
+    "Score": 3
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0126",
+    "ClientId": "C008",
+    "ProductId": "P011",
+    "EventDateUtc": "2025-06-16T04:00:00Z",
+    "Comment": "Calidad superior, muy contento. Muy recomendable.",
+    "Score": 2
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0127",
+    "ClientId": "C035",
+    "ProductId": "P013",
+    "EventDateUtc": "2024-12-01T04:00:00Z",
+    "Comment": "Satisface lo b\u00E1sico. OK.",
+    "Score": 3
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0128",
+    "ClientId": "C026",
+    "ProductId": "P003",
+    "EventDateUtc": "2025-02-02T04:00:00Z",
+    "Comment": "Producto recibido, cumple su funci\u00F3n. OK.",
+    "Score": 1
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0129",
+    "ClientId": "C005",
+    "ProductId": "P015",
+    "EventDateUtc": "2025-02-06T04:00:00Z",
+    "Comment": "Satisface lo b\u00E1sico. OK.",
+    "Score": 5
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0130",
+    "ClientId": "C027",
+    "ProductId": "P013",
+    "EventDateUtc": "2025-09-03T04:00:00Z",
+    "Comment": "Calidad superior, muy contento. Muy recomendable.",
+    "Score": 3
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0131",
+    "ClientId": "C040",
+    "ProductId": "P006",
+    "EventDateUtc": "2025-07-30T04:00:00Z",
+    "Comment": "Env\u00EDo tard\u00EDo y producto da\u00F1ado. No volver\u00EDa a comprar.",
+    "Score": 4
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0132",
+    "ClientId": "C016",
+    "ProductId": "P004",
+    "EventDateUtc": "2024-12-19T04:00:00Z",
+    "Comment": "Calidad superior, muy contento. Muy recomendable.",
+    "Score": 1
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0133",
+    "ClientId": "C020",
+    "ProductId": "P013",
+    "EventDateUtc": "2025-03-27T04:00:00Z",
+    "Comment": "Informaci\u00F3n suficiente, sin mayor novedad. OK.",
+    "Score": 2
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0134",
+    "ClientId": "C033",
+    "ProductId": "P003",
+    "EventDateUtc": "2024-12-26T04:00:00Z",
+    "Comment": "P\u00E9sima atenci\u00F3n al cliente. No volver\u00EDa a comprar.",
+    "Score": 2
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0135",
+    "ClientId": "C023",
+    "ProductId": "P012",
+    "EventDateUtc": "2025-05-16T04:00:00Z",
+    "Comment": "Informaci\u00F3n suficiente, sin mayor novedad. OK.",
+    "Score": 1
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0136",
+    "ClientId": "C017",
+    "ProductId": "P005",
+    "EventDateUtc": "2025-06-27T04:00:00Z",
+    "Comment": "Gran relaci\u00F3n calidad-precio. Muy recomendable.",
+    "Score": 1
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0137",
+    "ClientId": "C032",
+    "ProductId": "P006",
+    "EventDateUtc": "2024-11-21T04:00:00Z",
+    "Comment": "P\u00E9sima atenci\u00F3n al cliente. No volver\u00EDa a comprar.",
+    "Score": 4
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0138",
+    "ClientId": "C040",
+    "ProductId": "P019",
+    "EventDateUtc": "2025-06-28T04:00:00Z",
+    "Comment": "Producto lleg\u00F3 r\u00E1pido y funciona perfecto. Muy recomendable.",
+    "Score": 4
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0139",
+    "ClientId": "C031",
+    "ProductId": "P003",
+    "EventDateUtc": "2025-04-26T04:00:00Z",
+    "Comment": "Producto lleg\u00F3 r\u00E1pido y funciona perfecto. Muy recomendable.",
+    "Score": 5
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0140",
+    "ClientId": "C023",
+    "ProductId": "P002",
+    "EventDateUtc": "2025-01-20T04:00:00Z",
+    "Comment": "Env\u00EDo tard\u00EDo y producto da\u00F1ado. No volver\u00EDa a comprar.",
+    "Score": 4
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0141",
+    "ClientId": "C004",
+    "ProductId": "P002",
+    "EventDateUtc": "2025-08-05T04:00:00Z",
+    "Comment": "Producto lleg\u00F3 r\u00E1pido y funciona perfecto. Muy recomendable.",
+    "Score": 1
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0142",
+    "ClientId": "C039",
+    "ProductId": "P020",
+    "EventDateUtc": "2024-11-20T04:00:00Z",
+    "Comment": "No cumple con lo anunciado, insatisfecho. No volver\u00EDa a comprar.",
+    "Score": 5
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0143",
+    "ClientId": "C029",
+    "ProductId": "P002",
+    "EventDateUtc": "2024-10-15T04:00:00Z",
+    "Comment": "Satisface lo b\u00E1sico. OK.",
+    "Score": 2
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0144",
+    "ClientId": "C039",
+    "ProductId": "P011",
+    "EventDateUtc": "2025-08-13T04:00:00Z",
+    "Comment": "No funciona como esperaba, decepcionado. No volver\u00EDa a comprar.",
+    "Score": 4
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0145",
+    "ClientId": "C022",
+    "ProductId": "P004",
+    "EventDateUtc": "2024-12-29T04:00:00Z",
+    "Comment": "Producto recibido, cumple su funci\u00F3n. OK.",
+    "Score": 2
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0146",
+    "ClientId": "C016",
+    "ProductId": "P002",
+    "EventDateUtc": "2024-12-19T04:00:00Z",
+    "Comment": "Entrega correcta, sin comentarios adicionales. OK.",
+    "Score": 5
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0147",
+    "ClientId": "C011",
+    "ProductId": "P020",
+    "EventDateUtc": "2025-02-27T04:00:00Z",
+    "Comment": "Producto lleg\u00F3 r\u00E1pido y funciona perfecto. Muy recomendable.",
+    "Score": 4
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0148",
+    "ClientId": "C039",
+    "ProductId": "P011",
+    "EventDateUtc": "2025-08-11T04:00:00Z",
+    "Comment": "Producto lleg\u00F3 r\u00E1pido y funciona perfecto. Muy recomendable.",
+    "Score": 3
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0149",
+    "ClientId": "C036",
+    "ProductId": "P004",
+    "EventDateUtc": "2025-05-07T04:00:00Z",
+    "Comment": "Env\u00EDo tard\u00EDo y producto da\u00F1ado. No volver\u00EDa a comprar.",
+    "Score": 5
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0150",
+    "ClientId": "C022",
+    "ProductId": "P005",
+    "EventDateUtc": "2025-03-18T04:00:00Z",
+    "Comment": "Muy satisfecho con la compra, lo recomiendo. Muy recomendable.",
+    "Score": 3
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0151",
+    "ClientId": "C009",
+    "ProductId": "P013",
+    "EventDateUtc": "2025-04-08T04:00:00Z",
+    "Comment": "Muy mala calidad, se rompi\u00F3 r\u00E1pido. No volver\u00EDa a comprar.",
+    "Score": 5
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0152",
+    "ClientId": "C022",
+    "ProductId": "P013",
+    "EventDateUtc": "2025-07-28T04:00:00Z",
+    "Comment": "Satisface lo b\u00E1sico. OK.",
+    "Score": 4
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0153",
+    "ClientId": "C024",
+    "ProductId": "P017",
+    "EventDateUtc": "2025-06-13T04:00:00Z",
+    "Comment": "Producto lleg\u00F3 r\u00E1pido y funciona perfecto. Muy recomendable.",
+    "Score": 2
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0154",
+    "ClientId": "C032",
+    "ProductId": "P011",
+    "EventDateUtc": "2025-06-26T04:00:00Z",
+    "Comment": "Muy satisfecho con la compra, lo recomiendo. Muy recomendable.",
+    "Score": 1
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0155",
+    "ClientId": "C007",
+    "ProductId": "P010",
+    "EventDateUtc": "2024-12-18T04:00:00Z",
+    "Comment": "P\u00E9sima atenci\u00F3n al cliente. No volver\u00EDa a comprar.",
+    "Score": 1
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0156",
+    "ClientId": "C040",
+    "ProductId": "P011",
+    "EventDateUtc": "2025-06-27T04:00:00Z",
+    "Comment": "Calidad superior, muy contento. Muy recomendable.",
+    "Score": 2
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0157",
+    "ClientId": "C040",
+    "ProductId": "P006",
+    "EventDateUtc": "2025-02-01T04:00:00Z",
+    "Comment": "Informaci\u00F3n suficiente, sin mayor novedad. OK.",
+    "Score": 1
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0158",
+    "ClientId": "C024",
+    "ProductId": "P014",
+    "EventDateUtc": "2025-01-29T04:00:00Z",
+    "Comment": "No funciona como esperaba, decepcionado. No volver\u00EDa a comprar.",
+    "Score": 5
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0159",
+    "ClientId": "C029",
+    "ProductId": "P010",
+    "EventDateUtc": "2025-04-08T04:00:00Z",
+    "Comment": "Muy satisfecho con la compra, lo recomiendo. Muy recomendable.",
+    "Score": 4
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0160",
+    "ClientId": "C024",
+    "ProductId": "P007",
+    "EventDateUtc": "2025-01-31T04:00:00Z",
+    "Comment": "P\u00E9sima atenci\u00F3n al cliente. No volver\u00EDa a comprar.",
+    "Score": 4
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0161",
+    "ClientId": "C025",
+    "ProductId": "P010",
+    "EventDateUtc": "2025-06-23T04:00:00Z",
+    "Comment": "No cumple con lo anunciado, insatisfecho. No volver\u00EDa a comprar.",
+    "Score": 2
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0162",
+    "ClientId": "C009",
+    "ProductId": "P020",
+    "EventDateUtc": "2024-10-20T04:00:00Z",
+    "Comment": "Producto recibido, cumple su funci\u00F3n. OK.",
+    "Score": 4
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0163",
+    "ClientId": "C036",
+    "ProductId": "P012",
+    "EventDateUtc": "2025-07-12T04:00:00Z",
+    "Comment": "Satisface lo b\u00E1sico. OK.",
+    "Score": 3
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0164",
+    "ClientId": "C011",
+    "ProductId": "P003",
+    "EventDateUtc": "2025-06-30T04:00:00Z",
+    "Comment": "Gran relaci\u00F3n calidad-precio. Muy recomendable.",
+    "Score": 4
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0165",
+    "ClientId": "C015",
+    "ProductId": "P003",
+    "EventDateUtc": "2025-08-31T04:00:00Z",
+    "Comment": "Es lo que esperaba, nada excepcional. OK.",
+    "Score": 4
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0166",
+    "ClientId": "C026",
+    "ProductId": "P002",
+    "EventDateUtc": "2025-02-28T04:00:00Z",
+    "Comment": "No funciona como esperaba, decepcionado. No volver\u00EDa a comprar.",
+    "Score": 1
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0167",
+    "ClientId": "C015",
+    "ProductId": "P012",
+    "EventDateUtc": "2024-09-13T04:00:00Z",
+    "Comment": "Me encanta este producto, excelente calidad. Muy recomendable.",
+    "Score": 3
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0168",
+    "ClientId": "C009",
+    "ProductId": "P005",
+    "EventDateUtc": "2024-09-22T04:00:00Z",
+    "Comment": "Calidad superior, muy contento. Muy recomendable.",
+    "Score": 2
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0169",
+    "ClientId": "C029",
+    "ProductId": "P016",
+    "EventDateUtc": "2025-09-04T04:00:00Z",
+    "Comment": "Muy mala calidad, se rompi\u00F3 r\u00E1pido. No volver\u00EDa a comprar.",
+    "Score": 3
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0170",
+    "ClientId": "C010",
+    "ProductId": "P007",
+    "EventDateUtc": "2024-12-17T04:00:00Z",
+    "Comment": "P\u00E9sima atenci\u00F3n al cliente. No volver\u00EDa a comprar.",
+    "Score": 4
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0171",
+    "ClientId": "C019",
+    "ProductId": "P004",
+    "EventDateUtc": "2025-08-20T04:00:00Z",
+    "Comment": "Me encanta este producto, excelente calidad. Muy recomendable.",
+    "Score": 2
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0172",
+    "ClientId": "C040",
+    "ProductId": "P014",
+    "EventDateUtc": "2025-01-01T04:00:00Z",
+    "Comment": "Muy mala calidad, se rompi\u00F3 r\u00E1pido. No volver\u00EDa a comprar.",
+    "Score": 5
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0173",
+    "ClientId": "C002",
+    "ProductId": "P018",
+    "EventDateUtc": "2025-05-13T04:00:00Z",
+    "Comment": "P\u00E9sima atenci\u00F3n al cliente. No volver\u00EDa a comprar.",
+    "Score": 2
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0174",
+    "ClientId": "C028",
+    "ProductId": "P010",
+    "EventDateUtc": "2025-05-13T04:00:00Z",
+    "Comment": "Producto lleg\u00F3 r\u00E1pido y funciona perfecto. Muy recomendable.",
+    "Score": 5
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0175",
+    "ClientId": "C012",
+    "ProductId": "P014",
+    "EventDateUtc": "2024-12-19T04:00:00Z",
+    "Comment": "Muy mala calidad, se rompi\u00F3 r\u00E1pido. No volver\u00EDa a comprar.",
+    "Score": 3
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0176",
+    "ClientId": "C034",
+    "ProductId": "P003",
+    "EventDateUtc": "2024-12-04T04:00:00Z",
+    "Comment": "P\u00E9sima atenci\u00F3n al cliente. No volver\u00EDa a comprar.",
+    "Score": 1
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0177",
+    "ClientId": "C031",
+    "ProductId": "P013",
+    "EventDateUtc": "2025-03-06T04:00:00Z",
+    "Comment": "Calidad superior, muy contento. Muy recomendable.",
+    "Score": 3
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0178",
+    "ClientId": "C023",
+    "ProductId": "P001",
+    "EventDateUtc": "2025-05-13T04:00:00Z",
+    "Comment": "Es lo que esperaba, nada excepcional. OK.",
+    "Score": 1
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0179",
+    "ClientId": "C022",
+    "ProductId": "P019",
+    "EventDateUtc": "2024-12-08T04:00:00Z",
+    "Comment": "Producto lleg\u00F3 r\u00E1pido y funciona perfecto. Muy recomendable.",
+    "Score": 3
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0180",
+    "ClientId": "C030",
+    "ProductId": "P006",
+    "EventDateUtc": "2024-10-25T04:00:00Z",
+    "Comment": "Entrega correcta, sin comentarios adicionales. OK.",
+    "Score": 2
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0181",
+    "ClientId": "C005",
+    "ProductId": "P005",
+    "EventDateUtc": "2025-08-26T04:00:00Z",
+    "Comment": "Entrega correcta, sin comentarios adicionales. OK.",
+    "Score": 3
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0182",
+    "ClientId": "C003",
+    "ProductId": "P007",
+    "EventDateUtc": "2025-04-05T04:00:00Z",
+    "Comment": "Producto recibido, cumple su funci\u00F3n. OK.",
+    "Score": 3
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0183",
+    "ClientId": "C026",
+    "ProductId": "P017",
+    "EventDateUtc": "2025-01-14T04:00:00Z",
+    "Comment": "Satisface lo b\u00E1sico. OK.",
+    "Score": 3
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0184",
+    "ClientId": "C013",
+    "ProductId": "P002",
+    "EventDateUtc": "2024-10-13T04:00:00Z",
+    "Comment": "Me encanta este producto, excelente calidad. Muy recomendable.",
+    "Score": 3
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0185",
+    "ClientId": "C008",
+    "ProductId": "P009",
+    "EventDateUtc": "2025-02-21T04:00:00Z",
+    "Comment": "Entrega correcta, sin comentarios adicionales. OK.",
+    "Score": 4
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0186",
+    "ClientId": "C022",
+    "ProductId": "P013",
+    "EventDateUtc": "2024-09-24T04:00:00Z",
+    "Comment": "Entrega correcta, sin comentarios adicionales. OK.",
+    "Score": 4
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0187",
+    "ClientId": "C034",
+    "ProductId": "P012",
+    "EventDateUtc": "2025-02-08T04:00:00Z",
+    "Comment": "Me encanta este producto, excelente calidad. Muy recomendable.",
+    "Score": 1
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0188",
+    "ClientId": "C039",
+    "ProductId": "P014",
+    "EventDateUtc": "2024-12-08T04:00:00Z",
+    "Comment": "Informaci\u00F3n suficiente, sin mayor novedad. OK.",
+    "Score": 3
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0189",
+    "ClientId": "C007",
+    "ProductId": "P011",
+    "EventDateUtc": "2025-04-10T04:00:00Z",
+    "Comment": "Producto lleg\u00F3 r\u00E1pido y funciona perfecto. Muy recomendable.",
+    "Score": 4
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0190",
+    "ClientId": "C028",
+    "ProductId": "P020",
+    "EventDateUtc": "2025-03-18T04:00:00Z",
+    "Comment": "Calidad superior, muy contento. Muy recomendable.",
+    "Score": 4
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0191",
+    "ClientId": "C023",
+    "ProductId": "P002",
+    "EventDateUtc": "2025-04-26T04:00:00Z",
+    "Comment": "No cumple con lo anunciado, insatisfecho. No volver\u00EDa a comprar.",
+    "Score": 1
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0192",
+    "ClientId": "C026",
+    "ProductId": "P003",
+    "EventDateUtc": "2025-08-29T04:00:00Z",
+    "Comment": "Muy satisfecho con la compra, lo recomiendo. Muy recomendable.",
+    "Score": 2
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0193",
+    "ClientId": "C029",
+    "ProductId": "P020",
+    "EventDateUtc": "2025-05-16T04:00:00Z",
+    "Comment": "Me encanta este producto, excelente calidad. Muy recomendable.",
+    "Score": 3
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0194",
+    "ClientId": "C025",
+    "ProductId": "P012",
+    "EventDateUtc": "2024-11-08T04:00:00Z",
+    "Comment": "Producto recibido, cumple su funci\u00F3n. OK.",
+    "Score": 2
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0195",
+    "ClientId": "C024",
+    "ProductId": "P015",
+    "EventDateUtc": "2024-11-24T04:00:00Z",
+    "Comment": "Me encanta este producto, excelente calidad. Muy recomendable.",
+    "Score": 2
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0196",
+    "ClientId": "C024",
+    "ProductId": "P017",
+    "EventDateUtc": "2025-05-09T04:00:00Z",
+    "Comment": "Producto lleg\u00F3 r\u00E1pido y funciona perfecto. Muy recomendable.",
+    "Score": 1
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0197",
+    "ClientId": "C012",
+    "ProductId": "P001",
+    "EventDateUtc": "2024-11-30T04:00:00Z",
+    "Comment": "No cumple con lo anunciado, insatisfecho. No volver\u00EDa a comprar.",
+    "Score": 1
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0198",
+    "ClientId": "C017",
+    "ProductId": "P009",
+    "EventDateUtc": "2024-11-04T04:00:00Z",
+    "Comment": "Informaci\u00F3n suficiente, sin mayor novedad. OK.",
+    "Score": 3
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0199",
+    "ClientId": "C013",
+    "ProductId": "P016",
+    "EventDateUtc": "2025-01-25T04:00:00Z",
+    "Comment": "Me encanta este producto, excelente calidad. Muy recomendable.",
+    "Score": 2
+  },
+  {
+    "SourceType": "DATABASE",
+    "SourceName": "RelationalReviews",
+    "ExternalId": "W0200",
+    "ClientId": "C006",
+    "ProductId": "P015",
+    "EventDateUtc": "2024-10-07T04:00:00Z",
+    "Comment": "Es lo que esperaba, nada excepcional. OK.",
+    "Score": 3
+  }
+]
