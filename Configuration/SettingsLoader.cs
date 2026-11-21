@@ -63,6 +63,35 @@ public static class SettingsLoader
         return new AppSettings(connectionString, root.Etl);
     }
 
+    /// <summary>
+    /// Aplica overrides de entorno a las fuentes del worker. Una variable definida tiene
+    /// prioridad sobre appsettings.json, de modo que ninguna credencial quede en el repositorio.
+    /// </summary>
+    public static void ApplyEnvironmentOverrides(WorkerSourceOptions options)
+    {
+        Apply("ETL_SURVEYS_CSV_PATH", value => options.SurveysCsvPath = value);
+        Apply("ETL_REVIEWS_CONNECTION_STRING", value => options.ReviewsConnectionString = value);
+        Apply("ETL_REVIEWS_QUERY", value => options.ReviewsQuery = value);
+        Apply("ETL_COMMENTS_API_URL", value => options.CommentsApiBaseUrl = value);
+        Apply("ETL_COMMENTS_API_PATH", value => options.CommentsApiPath = value);
+        Apply("ETL_COMMENTS_API_KEY", value => options.CommentsApiKey = value);
+        Apply("ETL_STAGING_DIRECTORY", value => options.StagingDirectory = value);
+        ApplyInt("ETL_INTERVAL_MINUTES", value => options.IntervalMinutes = value);
+        ApplyInt("ETL_MAX_CONCURRENCY", value => options.MaxConcurrency = value);
+    }
+
+    private static void Apply(string name, Action<string> setter)
+    {
+        var value = Environment.GetEnvironmentVariable(name);
+        if (!string.IsNullOrWhiteSpace(value)) setter(value);
+    }
+
+    private static void ApplyInt(string name, Action<int> setter)
+    {
+        var value = Environment.GetEnvironmentVariable(name);
+        if (int.TryParse(value, out var parsed)) setter(parsed);
+    }
+
     /// <summary>Resuelve una carpeta de salida (logs) relativa al ejecutable.</summary>
     public static string ResolveOutputDirectory(string configured)
     {
