@@ -1,0 +1,105 @@
+<svg viewBox="0 0 1180 760" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif" xmlns:c2pa="http://c2pa.org/manifest">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#374151"/>
+    </marker>
+  </defs>
+  <rect width="1180" height="760" fill="#ffffff"/>
+  <text x="590" y="36" text-anchor="middle" font-size="22" font-weight="700" fill="#111827">Arquitectura - Proceso de Extraccion (E de ETL)</text>
+  <text x="590" y="58" text-anchor="middle" font-size="13" fill="#6b7280">Sistema de Analisis de Opiniones de Clientes</text>
+
+  <!-- Fuentes de datos -->
+  <rect x="30" y="100" width="280" height="200" rx="10" fill="#eff6ff" stroke="#93c5fd" stroke-width="1.5"/>
+  <text x="170" y="124" text-anchor="middle" font-size="14" font-weight="700" fill="#1e3a8a">Fuentes de datos</text>
+
+  <rect x="50" y="140" width="240" height="46" rx="6" fill="#ffffff" stroke="#60a5fa"/>
+  <text x="170" y="159" text-anchor="middle" font-size="12" font-weight="600" fill="#1e3a8a">CSV</text>
+  <text x="170" y="174" text-anchor="middle" font-size="10" fill="#374151">surveys_part1.csv (encuestas)</text>
+
+  <rect x="50" y="196" width="240" height="46" rx="6" fill="#ffffff" stroke="#60a5fa"/>
+  <text x="170" y="215" text-anchor="middle" font-size="12" font-weight="600" fill="#1e3a8a">Base de datos relacional</text>
+  <text x="170" y="230" text-anchor="middle" font-size="10" fill="#374151">MySQL SistemaOpiniones.ResenaWeb</text>
+
+  <rect x="50" y="252" width="240" height="46" rx="6" fill="#ffffff" stroke="#60a5fa"/>
+  <text x="170" y="271" text-anchor="middle" font-size="12" font-weight="600" fill="#1e3a8a">API REST</text>
+  <text x="170" y="286" text-anchor="middle" font-size="10" fill="#374151">GET /comments (comentarios sociales)</text>
+
+  <!-- ETL Worker Service -->
+  <rect x="360" y="90" width="460" height="330" rx="10" fill="#f0fdf4" stroke="#86efac" stroke-width="1.5"/>
+  <text x="590" y="114" text-anchor="middle" font-size="14" font-weight="700" fill="#14532d">ETL Worker Service (.NET 8 - BackgroundService)</text>
+
+  <rect x="380" y="130" width="420" height="30" rx="6" fill="#dcfce7" stroke="#4ade80"/>
+  <text x="590" y="150" text-anchor="middle" font-size="11" fill="#14532d">appsettings.json + variables de entorno (credenciales fuera del repo)</text>
+
+  <rect x="380" y="172" width="130" height="56" rx="6" fill="#ffffff" stroke="#22c55e"/>
+  <text x="445" y="194" text-anchor="middle" font-size="11" font-weight="600" fill="#14532d">CsvExtractor</text>
+  <text x="445" y="210" text-anchor="middle" font-size="9" fill="#374151">CsvHelper</text>
+
+  <rect x="525" y="172" width="135" height="56" rx="6" fill="#ffffff" stroke="#22c55e"/>
+  <text x="592" y="194" text-anchor="middle" font-size="11" font-weight="600" fill="#14532d">DatabaseExtractor</text>
+  <text x="592" y="210" text-anchor="middle" font-size="9" fill="#374151">ADO.NET / MySqlConnector</text>
+
+  <rect x="675" y="172" width="125" height="56" rx="6" fill="#ffffff" stroke="#22c55e"/>
+  <text x="737" y="194" text-anchor="middle" font-size="11" font-weight="600" fill="#14532d">ApiExtractor</text>
+  <text x="737" y="210" text-anchor="middle" font-size="9" fill="#374151">IHttpClientFactory</text>
+
+  <text x="590" y="250" text-anchor="middle" font-size="10" fill="#15803d" font-style="italic">implementan IExtractor · se ejecutan en paralelo con Task.WhenAll + SemaphoreSlim</text>
+
+  <rect x="430" y="266" width="320" height="38" rx="6" fill="#dcfce7" stroke="#4ade80"/>
+  <text x="590" y="289" text-anchor="middle" font-size="11" font-weight="600" fill="#14532d">DataLoader (JsonStagingLoader)</text>
+
+  <rect x="430" y="316" width="320" height="38" rx="6" fill="#dcfce7" stroke="#4ade80"/>
+  <text x="590" y="339" text-anchor="middle" font-size="11" font-weight="600" fill="#14532d">LoggerService (ILogger + Stopwatch)</text>
+
+  <text x="590" y="372" text-anchor="middle" font-size="9.5" fill="#166534">Rendimiento: async/paralelismo · Escalabilidad: IExtractor + config · Seguridad: env vars</text>
+  <text x="590" y="388" text-anchor="middle" font-size="9.5" fill="#166534">Mantenibilidad: Domain / Infrastructure / Worker / Configuration separados</text>
+  <text x="590" y="404" text-anchor="middle" font-size="9.5" fill="#166534">(logica por capas; aun en un unico proyecto/ensamblado)</text>
+
+  <!-- Staging -->
+  <rect x="870" y="150" width="280" height="80" rx="10" fill="#fef9c3" stroke="#eab308" stroke-width="1.5"/>
+  <text x="1010" y="178" text-anchor="middle" font-size="13" font-weight="700" fill="#713f12">Staging</text>
+  <text x="1010" y="198" text-anchor="middle" font-size="10" fill="#713f12">Archivos JSON crudos por fuente</text>
+  <text x="1010" y="213" text-anchor="middle" font-size="10" fill="#713f12">(equivalente MySQL de un TVP: lote a procedimiento)</text>
+
+  <!-- BD analitica -->
+  <rect x="870" y="280" width="280" height="90" rx="10" fill="#ede9fe" stroke="#a78bfa" stroke-width="1.5"/>
+  <text x="1010" y="308" text-anchor="middle" font-size="13" font-weight="700" fill="#4c1d95">Base de datos analitica</text>
+  <text x="1010" y="328" text-anchor="middle" font-size="10" fill="#4c1d95">SistemaOpinionesDW (constelacion de hechos)</text>
+  <text x="1010" y="345" text-anchor="middle" font-size="9.5" fill="#4c1d95" font-style="italic">Transform + Load - etapa posterior</text>
+
+  <!-- Dashboard -->
+  <rect x="870" y="410" width="280" height="80" rx="10" fill="#fee2e2" stroke="#fca5a5" stroke-width="1.5"/>
+  <text x="1010" y="438" text-anchor="middle" font-size="13" font-weight="700" fill="#7f1d1d">Modulo de visualizacion</text>
+  <text x="1010" y="458" text-anchor="middle" font-size="10" fill="#7f1d1d">Dashboard / reportes sobre las vistas</text>
+  <text x="1010" y="473" text-anchor="middle" font-size="9.5" fill="#7f1d1d" font-style="italic">no implementado en esta practica</text>
+
+  <!-- Flechas principales -->
+  <line x1="310" y1="163" x2="378" y2="188" stroke="#374151" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <line x1="310" y1="219" x2="523" y2="200" stroke="#374151" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <line x1="310" y1="275" x2="673" y2="200" stroke="#374151" stroke-width="1.6" marker-end="url(#arrow)"/>
+
+  <line x1="590" y1="228" x2="590" y2="264" stroke="#374151" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <line x1="590" y1="304" x2="590" y2="314" stroke="#374151" stroke-width="1.6" marker-end="url(#arrow)"/>
+
+  <line x1="750" y1="285" x2="868" y2="200" stroke="#374151" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <line x1="1010" y1="230" x2="1010" y2="278" stroke="#374151" stroke-width="1.6" stroke-dasharray="5,4" marker-end="url(#arrow)"/>
+  <text x="1030" y="258" font-size="9" fill="#6b7280">(etapa futura)</text>
+  <line x1="1010" y1="370" x2="1010" y2="408" stroke="#374151" stroke-width="1.6" stroke-dasharray="5,4" marker-end="url(#arrow)"/>
+  <text x="1030" y="393" font-size="9" fill="#6b7280">(etapa futura)</text>
+
+  <!-- Leyenda de calidad -->
+  <rect x="30" y="330" width="280" height="120" rx="10" fill="#f9fafb" stroke="#d1d5db"/>
+  <text x="170" y="352" text-anchor="middle" font-size="12" font-weight="700" fill="#111827">Atributos de calidad</text>
+  <text x="46" y="372" font-size="10" fill="#374151">• Rendimiento: extraccion asincrona y en paralelo</text>
+  <text x="46" y="389" font-size="10" fill="#374151">• Escalabilidad: nueva fuente = nueva clase IExtractor</text>
+  <text x="46" y="406" font-size="10" fill="#374151">• Seguridad: credenciales solo por env vars</text>
+  <text x="46" y="423" font-size="10" fill="#374151">• Mantenibilidad: capas Domain/Infra/Worker/Config</text>
+  <text x="46" y="440" font-size="10" fill="#374151">• Trazabilidad: ILogger + Stopwatch por fuente y ciclo</text>
+
+  <rect x="30" y="470" width="280" height="80" rx="10" fill="#f9fafb" stroke="#d1d5db"/>
+  <text x="170" y="492" text-anchor="middle" font-size="12" font-weight="700" fill="#111827">Equivalentes MySQL</text>
+  <text x="46" y="512" font-size="10" fill="#374151">TVP (SQL Server) &#8594; parametro JSON + procedimiento</text>
+  <text x="46" y="529" font-size="10" fill="#374151">BULK INSERT (SQL Server) &#8594; LOAD DATA / MySqlBulkCopy</text>
+
+  <text x="590" y="590" text-anchor="middle" font-size="10.5" fill="#6b7280">Alcance de este proyecto: extraccion (E) + staging. Carga al DW y dashboard quedan fuera de esta practica.</text>
+<metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTo5NWI3ZGRkMy0yMWFmLTQ1NGMtYjkwZi1kNjdkYWJlMzhlZWIAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaAEZUqsOptnJxNAJ9Q+Lh3UAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDoyNzY2MzEwZi04NDE4LTRhYzMtOGI3Yi00YTJkZTIwZDViYjFscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNonXPGQGeOcTUREd+UlVNbPQAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggupjOH+hcBs4idsBZfLM5LyyCsgSjcVvT6BS0a4O1pKWkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaFbhUCXJ9Oz4hvljyX/UwJ8AAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIO0e0K04TqOd09NQHE027SuHP2wD6TQTyIgawcyh+28vZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GSEiZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjk1YjdkZGQzLTIxYWYtNDU0Yy1iOTBmLWQ2N2RhYmUzOGVlYi9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjQ3NTk2ZjgyLThmYTctNGRkYS1hMDQwLTFmM2IyMTFhOTZiZHJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCC6mM4f6FwGziJ2wFl8szkvLIKyBKNxW9PoFLRrg7WkpaJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFgg0XPMbswv7S8R5o0fSc3uMYsWVO09SCXsFLwtKG2V3/iiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggzdNUe8xm8ES7nDu0+cxO+80b7n7bMflhltlHmMB02hd0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQAk9sASMNxCkC6IGhP/fyRSvICFh26j9dLON5TDPNd4g4m/l2E0KL2Wz89xDtuMyrRwIR8T6GoC0e/CQFztUa+U=</c2pa:manifest></metadata></svg>
