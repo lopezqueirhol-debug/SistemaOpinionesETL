@@ -1,6 +1,6 @@
 # ETL – Sistema de Análisis de Opiniones de Clientes (proceso de extracción)
 
-**Worker Service en .NET 8** que extrae opiniones desde tres fuentes (CSV, base de datos relacional y API REST)
+**Worker Service en .NET 10** que extrae opiniones desde tres fuentes (CSV, base de datos relacional y API REST)
 y las deja en archivos JSON de *staging* para la etapa posterior de carga al data warehouse.
 
 ## 1. Arquitectura implementada
